@@ -1,0 +1,35 @@
+project:
+  type: website
+  resources:
+    - "data/*.csv"
+    - "data/*.txt"
+    - CNAME
+
+website:
+  title: "SCORE Module Repository"
+  page-footer: "Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - by-statsds-topic.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/scorenetworkorg
+      - icon: linkedin
+        href: https://www.linkedin.com/company/scorenetworkorg/
+  sidebar:
+    contents: auto
+    collapse-level: 1
+  repo-url: https://github.com/SCOREnetworkorg/module-repository
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme:
+      - cosmo
+      - score.scss
+    toc: true
+
+execute:
+  freeze: auto
