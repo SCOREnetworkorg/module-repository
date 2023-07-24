@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html",
+    "href": "triathlons/ironman-triathlete-performance.html",
+    "title": "Ironman Triathlete Performance",
+    "section": "",
+    "text": "The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes. For this activity, we will specifically focus on times from finishers in the years 2018 and 2019."
+  },
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html#motivation",
+    "href": "triathlons/ironman-triathlete-performance.html#motivation",
+    "title": "Ironman Triathlete Performance",
+    "section": "",
+    "text": "The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes. For this activity, we will specifically focus on times from finishers in the years 2018 and 2019."
+  },
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html#module",
+    "href": "triathlons/ironman-triathlete-performance.html#module",
+    "title": "Ironman Triathlete Performance",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/ironman_triathlon/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Module Repository",
+    "section": "",
+    "text": "The SCORE Network Module Repository enables you to search for modules by either sport (along the left), or you can browse by statistics and data science topic.\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
+  },
+  {
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Modules By Topic",
+    "section": "",
+    "text": "Ironman Triathlete Performance\n\n\n\n\n\n\n\nScatterplots\n\n\nCorrelation\n\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\n\n  \n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\n\n\n\n\nExponential distribution\n\n\nPoisson process\n\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n  \n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\n\n\n\n\nlinear regression\n\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n  \n\n\n\n\nStolen Bases\n\n\n\n\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n  \n\n\n\n\nUnbreakable Records in Baseball\n\n\n\n\n\n\n\nBernoulli distribution\n\n\nBinomial distribution\n\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "baseball/stolen-bases.html",
+    "href": "baseball/stolen-bases.html",
+    "title": "Stolen Bases",
+    "section": "",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts."
+  },
+  {
+    "objectID": "baseball/stolen-bases.html#motivation",
+    "href": "baseball/stolen-bases.html#motivation",
+    "title": "Stolen Bases",
+    "section": "",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts."
+  },
+  {
+    "objectID": "baseball/stolen-bases.html#module",
+    "href": "baseball/stolen-bases.html#module",
+    "title": "Stolen Bases",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/stolen-bases-module/"
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html",
+    "href": "baseball/unbreakable-records.html",
+    "title": "Unbreakable Records in Baseball",
+    "section": "",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers."
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html#motivation",
+    "href": "baseball/unbreakable-records.html#motivation",
+    "title": "Unbreakable Records in Baseball",
+    "section": "",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers."
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html#module",
+    "href": "baseball/unbreakable-records.html#module",
+    "title": "Unbreakable Records in Baseball",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/"
+  },
+  {
+    "objectID": "hockey/nhl-shooting-percentage-ventura.html",
+    "href": "hockey/nhl-shooting-percentage-ventura.html",
+    "title": "Predicting NHL Shooting Percentages",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/NHLShots/"
+  },
+  {
+    "objectID": "hockey/nhl-shooting-percentage-ventura.html#module",
+    "href": "hockey/nhl-shooting-percentage-ventura.html#module",
+    "title": "Predicting NHL Shooting Percentages",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/NHLShots/"
+  },
+  {
+    "objectID": "marathons/marathon-records.html",
+    "href": "marathons/marathon-records.html",
+    "title": "Marathon Record-Setting Over Time",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/"
+  },
+  {
+    "objectID": "marathons/marathon-records.html#module",
+    "href": "marathons/marathon-records.html#module",
+    "title": "Marathon Record-Setting Over Time",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/"
+  }
+]
