@@ -1,9 +1,7 @@
 project:
   type: website
   resources:
-    - "data/*.csv"
-    - "data/*.txt"
-    - CNAME
+    - "module_resources"
 
 website:
   title: "SCORE Module Repository"
