@@ -2,6 +2,9 @@ project:
   type: website
   resources:
     - "module_resources"
+  render: 
+   - "*.qmd"
+   - "!module_resources/*/*.qmd"
 
 website:
   title: "SCORE Module Repository"
