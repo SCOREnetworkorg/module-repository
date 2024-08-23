@@ -14,6 +14,7 @@ You can also access _preprint_ modules from various SCORE Network affiliates bel
 
 + [Baylor University + Azusa Pacific University](https://kgfitzgerald.github.io/baylor_apu_score/)
 
++ [West Point](https://nick3703.github.io/WP_SCORE/)
 
 _The development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)._
 

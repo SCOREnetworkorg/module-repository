@@ -9,3 +9,5 @@ This page links to preprint repositories maintained by members of the [SCORE Net
 + [St. Lawrence University](https://iramler.github.io/slu_score_preprints/)
 
 + [Baylor University + Azusa Pacific University](https://kgfitzgerald.github.io/baylor_apu_score/)
+
++ [West Point](https://nick3703.github.io/WP_SCORE/)
