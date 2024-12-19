@@ -4,7 +4,7 @@ This is the [SCORE Network](https://www.cmu.edu/dietrich/statistics-datascience/
 Module Repository which enables you to search for modules by either sport or by statistics and data science topic.
 
 This website is built using [Quarto](https://quarto.org/). Recent RStudio
-versions can automatically render and preview Quarto filess. If you have Quarto
+versions can automatically render and preview Quarto files. If you have Quarto
 installed, you can also preview the website by running this command in the
 repository:
 
