@@ -91,9 +91,9 @@ Lol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). <https://www.met
 
 ### Materials
 
-[Class handout](../module_resources/league-of-legends-buffing-nerfing/LoL_Worksheet.docx)
+[Class handout](LoL_Worksheet.docx)
 
-[Class handout - with solutions](../module_resources/league-of-legends-buffing-nerfing/LoL_Worksheet_Key.docx)
+[Class handout - with solutions](LoL_Worksheet_Key.docx)
 
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 In conclusion, the analysis of Win Rates histograms in League of Legends has provided valuable insights into champion balance and performance. One notable finding from this worksheet is the identification of Sion as a low outlier in the Win Rates for the 12.22 patch. However, in the subsequent 12.23 patch, Sion's Win Rate improved, and was no longer an outlier. Sion was given a Buff in [patch 12.23](https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-23-notes/){target="_blank"}, resulting in an enhanced performance and a more balanced Win Rate. However, patch 12.23 resulted in two new outliers with low win rates.

@@ -1,10 +1,10 @@
 project:
   type: website
-  resources:
-    - "module_resources"
   render: 
-   - "*.qmd"
-   - "!module_resources/*/*.qmd"
+    - "index.qmd"
+    - "*/*/index.qmd"
+    - "preprints.qmd"
+    - "by-statsds-topic.qmd"
 
 website:
   title: "SCORE Module Repository"

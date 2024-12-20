@@ -61,7 +61,7 @@ To successfully complete this worksheet, students should have prior knowledge of
 
 The data set has 64 rows with 17 columns. Each row represents a Canadian female who has participated in the 2022 Lake Placid Ironman. Note that this data set includes more variables than what are needed to complete the activity. Students are welcome to further explore the data using these additional variables.
 
-Download data: [ironman_lake_placid_female_2022_canadian.csv](../module_resources/ironman-lakeplacid-mlr/ironman_lake_placid_female_2022_canadian.csv)
+Download data: [ironman_lake_placid_female_2022_canadian.csv](ironman_lake_placid_female_2022_canadian.csv)
 
 <details>
 
@@ -91,11 +91,11 @@ Download data: [ironman_lake_placid_female_2022_canadian.csv](../module_resource
 
 ### Materials
 
-[Class handout - requires technology](../module_resources/ironman-lakeplacid-mlr/Regression_Inference_MLR_Tech.docx)
+[Class handout - requires technology](Regression_Inference_MLR_Tech.docx)
 
-[Class handout - no technology required](../module_resources/ironman-lakeplacid-mlr/Regression_Inference_MLR_NoTech.docx)
+[Class handout - no technology required](Regression_Inference_MLR_NoTech.docx)
 
-[Class handout - with solutions](../module_resources/ironman-lakeplacid-mlr/Regression_Inference_MLR_Key.docx)
+[Class handout - with solutions](Regression_Inference_MLR_Key.docx)
 
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 In conclusion, the Triathlon Multiple Linear Regression worksheet has provided valuable insights into the predictors of run times in the Lake Placid 2022 Ironman Canadian Finishers dataset. Initially, both Swim Time and Bike Time demonstrated significance as individual predictors, supported by hypothesis tests and confidence intervals. The hypothesis test for the slope term of Bike Time yielded a p-value of 0, indicating its significance. Additionally, the 95% confidence interval for the slope term of Swim Time excluded 0, further affirming its significance.

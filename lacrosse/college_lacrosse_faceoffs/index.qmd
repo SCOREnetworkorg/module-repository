@@ -61,7 +61,7 @@ Note that because the activity only uses results from one team, students do not 
 
 The data set where the activities statistics come from contains 72 rows and 22 columns. Each row represents the season results for a lacrosse team at the NCAA Division 1 level from the 2022-2023 season.
 
-Download data: [lax_2022_2023.csv](../module_resources/college_lacrosse_faceoffs/lax_2022_2023.csv)
+Download data: [lax_2022_2023.csv](lax_2022_2023.csv)
 
 <details>
 
@@ -172,9 +172,9 @@ write_csv(x = lax_2022_2023, file = "lax_2022_2023.csv")
 
 ### Materials
 
-[Class handout](../module_resources/college_lacrosse_faceoffs/single_prop_wksht.docx)
+[Class handout](single_prop_wksht.docx)
 
-[Class handout - with solutions](../module_resources/college_lacrosse_faceoffs/single_prop_wksht_key.docx)
+[Class handout - with solutions](single_prop_wksht_key.docx)
 
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 In this insightful exploration of NCAA Division I Lacrosse faceoff percentages, we have embarked on a statistical journey to evaluate a specific team's performance in comparison to league-wide statistics. Through the application of one sample proportion hypothesis testing, we gained valuable insights into the team's faceoff win percentage, unveiling strong evidence that their performance exceeded what we would expect by random chance alone. As we consider the broader implications of faceoffs in Division I Lacrosse, it becomes evident that faceoff wins play a pivotal role in team rankings and outcomes. The fact that Duke, the second-best team in the country, exhibited a faceoff win percentage above the league average highlights the significance of excelling in this aspect of the game. Winning faceoffs likely translates to higher goal-scoring opportunities, ultimately leading to more successful game outcomes.
