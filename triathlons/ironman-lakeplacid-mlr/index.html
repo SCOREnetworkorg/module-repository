@@ -6,10 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Andrew Lee and Fr Gabriel Costa">
-<meta name="dcterms.date" content="2023-07-23">
+<meta name="author" content="A.J. Dykstra">
+<meta name="author" content="Ivan Ramler">
+<meta name="dcterms.date" content="2024-02-05">
+<meta name="description" content="Using Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.">
 
-<title>Unbreakable Records in Baseball – SCORE Module Repository</title>
+<title>Ironman Triathlon (Canadian Females) - Multiple Linear Regression – SCORE Module Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +27,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-61fd3c3d2ad90e04fa2d326cf5dcc777.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-61fd3c3d2ad90e04fa2d326cf5dcc777.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,7 +110,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
   </div>
@@ -119,15 +121,15 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page"> 
+    <a class="nav-link active" href="../../by-statsds-topic.html" aria-current="page"> 
 <span class="menu-text">Modules By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../preprints.html"> 
+    <a class="nav-link" href="../../preprints.html"> 
 <span class="menu-text">Preprint Access</span></a>
   </li>  
   <li class="nav-item">
@@ -161,7 +163,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../baseball/stolen-bases.html">Baseball</a></li><li class="breadcrumb-item"><a href="../baseball/unbreakable-records.html">Unbreakable Records in Baseball</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../triathlons/ironman-lakeplacid-mlr/index.html">Triathlons</a></li><li class="breadcrumb-item"><a href="../../triathlons/ironman-lakeplacid-mlr/index.html">Ironman Triathlon (Canadian Females) - Multiple Linear Regression</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -175,34 +177,34 @@ cookieconsent.run({
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modules By Topic</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../preprints.html" class="sidebar-item-text sidebar-link">
+  <a href="../../preprints.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preprint Access</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Baseball</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../baseball/stolen-bases.html" class="sidebar-item-text sidebar-link">
+  <a href="../../baseball/stolen-bases/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stolen Bases</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../baseball/unbreakable-records.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../baseball/unbreakable-records/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Unbreakable Records in Baseball</span></a>
   </div>
 </li>
@@ -219,7 +221,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../esports/league-of-legends-buffing-nerfing.html" class="sidebar-item-text sidebar-link">
+  <a href="../../esports/league-of-legends-buffing-nerfing/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">League of Legends - Buffing and Nerfing</span></a>
   </div>
 </li>
@@ -236,7 +238,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../hockey/nhl-shooting-percentage-ventura.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hockey/nhl-shooting-percentage-ventura/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Predicting NHL Shooting Percentages</span></a>
   </div>
 </li>
@@ -253,13 +255,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lacrosse/college_lacrosse_faceoffs.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lacrosse/college_lacrosse_faceoffs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lacrosse Faceoff Proportions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lacrosse/lacrosse_pll_vs_nll.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lacrosse/lacrosse_pll_vs_nll/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lacrosse PLL vs.&nbsp;NLL</span></a>
   </div>
 </li>
@@ -276,13 +278,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../marathons/boston-marathon-finish_times-2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../../marathons/boston-marathon-finish_times-2023/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023 Boston Marathon - Variability in Finish Times</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../marathons/marathon-records.html" class="sidebar-item-text sidebar-link">
+  <a href="../../marathons/marathon-records/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Marathon Record-Setting Over Time</span></a>
   </div>
 </li>
@@ -299,7 +301,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../motor_sports/nascar_regression_transformation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../motor_sports/nascar_regression_transformation/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NASCAR Transformation Module</span></a>
   </div>
 </li>
@@ -307,22 +309,22 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">Triathlons</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../triathlons/ironman-lakeplacid-mlr.html" class="sidebar-item-text sidebar-link">
+  <a href="../../triathlons/ironman-lakeplacid-mlr/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ironman Triathlon (Canadian Females) - Multiple Linear Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../triathlons/ironman-triathlete-performance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../triathlons/ironman-triathlete-performance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ironman Triathlete Performance</span></a>
   </div>
 </li>
@@ -338,39 +340,59 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#module" id="toc-module" class="nav-link" data-scroll-target="#module">Module</a></li>
+  <li><a href="#welcome-video" id="toc-welcome-video" class="nav-link active" data-scroll-target="#welcome-video">Welcome video</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/baseball/unbreakable-records.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/triathlons/ironman-lakeplacid-mlr/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../baseball/stolen-bases.html">Baseball</a></li><li class="breadcrumb-item"><a href="../baseball/unbreakable-records.html">Unbreakable Records in Baseball</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../triathlons/ironman-lakeplacid-mlr/index.html">Triathlons</a></li><li class="breadcrumb-item"><a href="../../triathlons/ironman-lakeplacid-mlr/index.html">Ironman Triathlon (Canadian Females) - Multiple Linear Regression</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Unbreakable Records in Baseball</h1>
+<h1 class="title">Ironman Triathlon (Canadian Females) - Multiple Linear Regression</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Bernoulli distribution</div>
-    <div class="quarto-category">Binomial distribution</div>
-    <div class="quarto-category">Chi-Square Test</div>
+    <div class="quarto-category">Linear regression</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Using Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.
+  </div>
+</div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">A.J. Dykstra <a href="mailto:adykstra@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ivan Ramler </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Andrew Lee and Fr Gabriel Costa </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 23, 2023</p>
+      <p class="date">February 5, 2024</p>
     </div>
   </div>
   
@@ -382,13 +404,193 @@ cookieconsent.run({
 </header>
 
 
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.</p>
+<section id="welcome-video" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-video">Welcome video</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zYG2qdJRolM?si=xXNOvqT4BNY9hw1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </section>
-<section id="module" class="level2">
-<h2 class="anchored" data-anchor-id="module">Module</h2>
-<p><a href="https://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/">https://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/</a></p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>An <a href="https://www.ironman.com/" target="_blank">Ironman triathlon</a> is one of the most grueling endurance events in the world, consisting of three sequential races: a 2.4-mile (3.86 km) swim, a 112-mile (180.25 km) bike ride, and a marathon 26.2-mile (42.20 km) run. The event tests the physical and mental limits of athletes, requiring months or even years of dedicated training. Originating in 1978 in Hawaii, the Ironman triathlon has become a global phenomenon, symbolizing the ultimate challenge in long-distance triathlon competitions.</p>
+<p>The Triathlon Multiple Linear Regression module focuses on analyzing the relationships and predictive capabilities of multiple variables in the context of triathlon performance. Specifically, we will explore the prediction of run times (the last stage) using swim times and bike times as predictors. By employing simple regression models, checking conditions with residuals plots, and conducting hypothesis tests and confidence intervals, we aim to identify significant predictors and understand their contextual implications. The dataset used for this analysis comprises the 2022 Canadian finishers of the Lake Placid Ironman.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Activity Length">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Activity Length
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This activity would be suitable for an long in-class example (of approximately 30 - 60 minutes) or out-of-class assignment.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Learning Objectives
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Understand the concept of multiple linear regression and its application in analyzing sports data.</li>
+<li>Recognize the importance of checking assumptions, such as assessing residuals vs.&nbsp;fits plots, for validating the regression models.</li>
+<li>Gain insights into the significance of predictors through hypothesis tests and confidence intervals.</li>
+<li>Comprehend the interpretation and contextual implications of the findings from multiple linear regression analyses in the triathlon setting.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Methods
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To successfully complete this worksheet, students should have prior knowledge of the following statistical concepts:</p>
+<ol type="1">
+<li><p>Familiarity with simple linear regression, including interpretation of slopes, intercepts, and residuals.</p></li>
+<li><p>Understanding of hypothesis testing and confidence intervals, particularly in the context of regression analysis.</p></li>
+<li><p>Knowledge of residual analysis, including the interpretation of residual plots.</p></li>
+<li><p>Basic understanding of the triathlon sport and its components (swimming, biking, and running) to better grasp the contextual implications of the statistical analyses.</p></li>
+</ol>
+<p><strong>Technology requirement:</strong></p>
+<ul>
+<li><p>The “no tech” version of the activity uses Minitab to display the output and requires only simple hand calculations (for predictions and residuals).</p></li>
+<li><p>The provided “tech required” handout assumes that students can use technology (such as Minitab) to perform a multiple linear regression analysis.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>The data set has 64 rows with 17 columns. Each row represents a Canadian female who has participated in the 2022 Lake Placid Ironman. Note that this data set includes more variables than what are needed to complete the activity. Students are welcome to further explore the data using these additional variables.</p>
+<p>Download data: <a href="ironman_lake_placid_female_2022_canadian.csv">ironman_lake_placid_female_2022_canadian.csv</a></p>
+<details>
+<summary>
+<b>Variable Descriptions</b>
+</summary>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 82%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bib</td>
+<td>registration number of each runner used for identification</td>
+</tr>
+<tr class="even">
+<td>Name</td>
+<td>The participant’s name</td>
+</tr>
+<tr class="odd">
+<td>Country</td>
+<td>What country the participant is from</td>
+</tr>
+<tr class="even">
+<td>Gender</td>
+<td>The participant’s gender</td>
+</tr>
+<tr class="odd">
+<td>Division</td>
+<td>The age range or membership a runner is</td>
+</tr>
+<tr class="even">
+<td>Division.Rank</td>
+<td>Within the divisions, the place each runner has obtained over all races</td>
+</tr>
+<tr class="odd">
+<td>Overall.Time</td>
+<td>The total time it took to complete the Ironman in minutes</td>
+</tr>
+<tr class="even">
+<td>Overall.Rank</td>
+<td>The runner’s finishing place for that particular triathlon</td>
+</tr>
+<tr class="odd">
+<td>Swim.Time</td>
+<td>The time in minutes it took to complete the swimming portion</td>
+</tr>
+<tr class="even">
+<td>Swim.Rank</td>
+<td>The place the runner finished for the swim portion</td>
+</tr>
+<tr class="odd">
+<td>Bike.Time</td>
+<td>The time in minutes it took to complete the biking portion</td>
+</tr>
+<tr class="even">
+<td>Bike.Rank</td>
+<td>The place the runner finished for the bike portion</td>
+</tr>
+<tr class="odd">
+<td>Run.Time</td>
+<td>The time in minutes it took to complete the running portion</td>
+</tr>
+<tr class="even">
+<td>Run.Rank</td>
+<td>The place the runner finished for the running portion</td>
+</tr>
+<tr class="odd">
+<td>Finish.Status</td>
+<td>States whether someone completed the Ironman successfully</td>
+</tr>
+<tr class="even">
+<td>Location</td>
+<td>Where the Ironman takes place</td>
+</tr>
+<tr class="odd">
+<td>Year</td>
+<td>They year when the mentioned participant ran</td>
+</tr>
+</tbody>
+</table>
+</details>
+</section>
+<section id="materials" class="level3">
+<h3 class="anchored" data-anchor-id="materials">Materials</h3>
+<p><a href="Regression_Inference_MLR_Tech.docx">Class handout - requires technology</a></p>
+<p><a href="Regression_Inference_MLR_NoTech.docx">Class handout - no technology required</a></p>
+<p><a href="Regression_Inference_MLR_Key.docx">Class handout - with solutions</a></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Conclusion
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In conclusion, the Triathlon Multiple Linear Regression worksheet has provided valuable insights into the predictors of run times in the Lake Placid 2022 Ironman Canadian Finishers dataset. Initially, both Swim Time and Bike Time demonstrated significance as individual predictors, supported by hypothesis tests and confidence intervals. The hypothesis test for the slope term of Bike Time yielded a p-value of 0, indicating its significance. Additionally, the 95% confidence interval for the slope term of Swim Time excluded 0, further affirming its significance.</p>
+<p>However, when both Swim Times and Bike Times were included as predictors in the multiple linear regression model, we observed a change in significance. Swim Times were no longer a significant predictor. This finding suggests that when considering both predictors simultaneously, the predictive power of Swim Times in estimating run times diminishes. These findings emphasize the importance of evaluating multiple predictors in regression analysis and understanding how their inclusion can impact the significance and interpretation of individual predictors.</p>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -819,7 +1021,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/baseball/unbreakable-records.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/triathlons/ironman-lakeplacid-mlr/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

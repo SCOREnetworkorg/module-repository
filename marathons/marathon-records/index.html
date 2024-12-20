@@ -6,13 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Alyssa Bigness">
-<meta name="author" content="Ivan Ramler">
-<meta name="author" content="Jack Fay">
-<meta name="dcterms.date" content="2024-02-05">
-<meta name="description" content="Using NASCAR driver rating data to explore a series of transformations to improve linearity in regression.">
+<meta name="author" content="Nicholas Clark, Rodney Sturdivant, and Kate Sanborn">
+<meta name="dcterms.date" content="2023-07-23">
+<meta name="description" content="Determining whether the setting of world records in the marathon is historically a Poisson process.">
 
-<title>NASCAR Transformation Module – SCORE Module Repository</title>
+<title>Marathon Record-Setting Over Time – SCORE Module Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-61fd3c3d2ad90e04fa2d326cf5dcc777.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-61fd3c3d2ad90e04fa2d326cf5dcc777.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +109,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
   </div>
@@ -122,15 +120,15 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page"> 
+    <a class="nav-link active" href="../../by-statsds-topic.html" aria-current="page"> 
 <span class="menu-text">Modules By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../preprints.html"> 
+    <a class="nav-link" href="../../preprints.html"> 
 <span class="menu-text">Preprint Access</span></a>
   </li>  
   <li class="nav-item">
@@ -164,7 +162,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../motor_sports/nascar_regression_transformation.html">Motor Sports</a></li><li class="breadcrumb-item"><a href="../motor_sports/nascar_regression_transformation.html">NASCAR Transformation Module</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../marathons/boston-marathon-finish_times-2023/index.html">Marathons</a></li><li class="breadcrumb-item"><a href="../../marathons/marathon-records/index.html">Marathon Record-Setting Over Time</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -178,13 +176,13 @@ cookieconsent.run({
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modules By Topic</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../preprints.html" class="sidebar-item-text sidebar-link">
+  <a href="../../preprints.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preprint Access</span></a>
   </div>
 </li>
@@ -199,13 +197,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../baseball/stolen-bases.html" class="sidebar-item-text sidebar-link">
+  <a href="../../baseball/stolen-bases/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stolen Bases</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../baseball/unbreakable-records.html" class="sidebar-item-text sidebar-link">
+  <a href="../../baseball/unbreakable-records/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Unbreakable Records in Baseball</span></a>
   </div>
 </li>
@@ -222,7 +220,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../esports/league-of-legends-buffing-nerfing.html" class="sidebar-item-text sidebar-link">
+  <a href="../../esports/league-of-legends-buffing-nerfing/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">League of Legends - Buffing and Nerfing</span></a>
   </div>
 </li>
@@ -239,7 +237,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../hockey/nhl-shooting-percentage-ventura.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hockey/nhl-shooting-percentage-ventura/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Predicting NHL Shooting Percentages</span></a>
   </div>
 </li>
@@ -256,13 +254,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lacrosse/college_lacrosse_faceoffs.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lacrosse/college_lacrosse_faceoffs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lacrosse Faceoff Proportions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lacrosse/lacrosse_pll_vs_nll.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lacrosse/lacrosse_pll_vs_nll/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lacrosse PLL vs.&nbsp;NLL</span></a>
   </div>
 </li>
@@ -270,22 +268,22 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">Marathons</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../marathons/boston-marathon-finish_times-2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../../marathons/boston-marathon-finish_times-2023/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023 Boston Marathon - Variability in Finish Times</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../marathons/marathon-records.html" class="sidebar-item-text sidebar-link">
+  <a href="../../marathons/marathon-records/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Marathon Record-Setting Over Time</span></a>
   </div>
 </li>
@@ -293,16 +291,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
  <span class="menu-text">Motor Sports</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../motor_sports/nascar_regression_transformation.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../motor_sports/nascar_regression_transformation/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NASCAR Transformation Module</span></a>
   </div>
 </li>
@@ -319,13 +317,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../triathlons/ironman-lakeplacid-mlr.html" class="sidebar-item-text sidebar-link">
+  <a href="../../triathlons/ironman-lakeplacid-mlr/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ironman Triathlon (Canadian Females) - Multiple Linear Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../triathlons/ironman-triathlete-performance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../triathlons/ironman-triathlete-performance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ironman Triathlete Performance</span></a>
   </div>
 </li>
@@ -341,68 +339,42 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#module" id="toc-module" class="nav-link active" data-scroll-target="#module">Module</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/motor_sports/nascar_regression_transformation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/marathons/marathon-records/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../motor_sports/nascar_regression_transformation.html">Motor Sports</a></li><li class="breadcrumb-item"><a href="../motor_sports/nascar_regression_transformation.html">NASCAR Transformation Module</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../marathons/boston-marathon-finish_times-2023/index.html">Marathons</a></li><li class="breadcrumb-item"><a href="../../marathons/marathon-records/index.html">Marathon Record-Setting Over Time</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">NASCAR Transformation Module</h1>
+<h1 class="title">Marathon Record-Setting Over Time</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Linear regression</div>
-    <div class="quarto-category">Transformations</div>
-    <div class="quarto-category">Polynomial regression</div>
+    <div class="quarto-category">Exponential distribution</div>
+    <div class="quarto-category">Poisson process</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Using NASCAR driver rating data to explore a series of transformations to improve linearity in regression.
+    Determining whether the setting of world records in the marathon is historically a Poisson process.
   </div>
 </div>
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Alyssa Bigness </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            St.&nbsp;Lawrence University
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Ivan Ramler <a href="mailto:iramler@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            St.&nbsp;Lawrence University
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Jack Fay </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            St.&nbsp;Lawrence University
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nicholas Clark, Rodney Sturdivant, and Kate Sanborn </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 5, 2024</p>
+      <p class="date">July 23, 2023</p>
     </div>
   </div>
   
@@ -414,219 +386,9 @@ cookieconsent.run({
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.nascar.com/gallery/best-gifs-from-2021-all-star-race-weekend/"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2021/06/14/9-crossover-18.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" target="_blank" alt="Stock cars used in NASCAR"></a></p>
-</figure>
-</div>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>In <a href="https://www.nascar.com/" target="_blank">NASCAR</a>, driver rating is a metric used to evaluate the performance of drivers in races. It provides a comprehensive assessment of a driver’s overall competitiveness, efficiency, and consistency during a race. The driver rating is based on several key performance factors and is designed to offer a more objective view of a driver’s abilities. For this activity, you will be exploring the relationship between average position a driver finishes per lap over a season and their corresponding driver rating. Using data transformations techniques and polynomial regression to create different variations of linear models, you will enhance the capabilities of your models to make them more effective and accurate.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="More about NASCAR">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-More about NASCAR
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>NASCAR, the National Association for Stock Car Auto Racing, is a preeminent motorsports organization in the United States, distinguished by its <a href="https://youtu.be/Ql20qF0zbGI?si=QywxJFaaJgP2URui&amp;t=791" target="_blank">high-speed competitions</a> and fervent fanbase. Established in 1948 by Bill France Sr., NASCAR has evolved into a leading racing series that encompasses three national divisions: the NASCAR Cup Series, the Xfinity Series, and the Truck Series. The Cup Series is the most prestigious, showcasing the elite drivers and teams as they compete in events that span a variety of track types, typically oval in shape, and <a href="https://en.wikipedia.org/wiki/List_of_NASCAR_tracks" target="_blank">ranging from short tracks (0.24 miles) to expansive superspeedways (over 3 miles)</a>.</p>
-<p>The races take place on diverse tracks across the nation, including renowned venues such as Daytona International Speedway and Talladega Superspeedway, where vehicles frequently exceed speeds of 200 miles per hour. NASCAR races serve as a complex interplay of driver skill, team strategy, and vehicle performance. Key metrics such as lap times, pit stop efficiency, and vehicle dynamics offer insights into the determinants of success in the sport. This not only enhances the understanding of race outcomes but also contributes to the development of strategies that optimize performance.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="How NASCAR uses data">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-How NASCAR uses data
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The video linked below is a panel discussion from the <a href="https://www.sloansportsconference.com/conference/2023-conference" target="_blank">2023 Sloan Sports Analytics Conference</a> entitled <a href="https://www.sloansportsconference.com/event/start-your-engines-how-data-is-fueling-nascars-strategy-to-engage-an-evolving-customer-base" target="_blank">Start Your Engines: How Data is Fueling NASCAR’s Strategy to Engage an Evolving Customer Base</a>.</p>
-<p>Although the panel discussion is not directly related to this module, <a href="https://www.sloansportsconference.com/people/justin-marks" target="_blank">Justin Marks</a> discusses how data is used in NASCAR during the 26:53 to 30:44 minute interval.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Mmwp6t6eBQ?si=vpZ3a6sW7EtXZadj&amp;start=1613" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Activity Length">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Activity Length
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>This activity would be suitable for an in-class activity lasting approximately one class period or as an out-of-class assignment.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Learning Objectives
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>By the end of this activity, students will have reinforced the following skills:</p>
-<ul>
-<li>Assessing the effectiveness of simple linear regression models</li>
-<li>Checking regression model assumptions</li>
-<li>Using log transformations to improve linear regression model fit</li>
-<li>Applying polynomial regression to model curved relationships</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Methods
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>For this activity, students will need to use software to create scatterplots and plots of residual vs fitted values of models they will create. They will also need to create polynomial models and mutate the data by applying mathematic functions to columns.</p>
-<p>It is assumed that students are already exposed to these concepts as the activity is intended to reinforce the skills instead of introduce them.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="data" class="level3">
-<h3 class="anchored" data-anchor-id="data">Data</h3>
-<p>The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables.</p>
-<p>Download data: <a href="../module_resources/nascar_regression_transformation/nascar_driver_statistics.csv">nascar_driver_statistics.csv</a></p>
-<details>
-<summary>
-<b>Variable Descriptions</b>
-</summary>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 90%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Variable</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wins</td>
-<td>The sum of the driver’s victories</td>
-</tr>
-<tr class="even">
-<td>AvgStart</td>
-<td>The sum of the driver’s starting positions divided by the number of races</td>
-</tr>
-<tr class="odd">
-<td>AvgMidRace</td>
-<td>The sum of the driver’s mid race positions divided by the number of races</td>
-</tr>
-<tr class="even">
-<td>AvgFinish</td>
-<td>The sum of the driver’s finishing positions divided by the number of races</td>
-</tr>
-<tr class="odd">
-<td>AvgPos</td>
-<td>The sum of the driver’s position each lap divided by the number of laps</td>
-</tr>
-<tr class="even">
-<td>PassDiff</td>
-<td>The sum of green flag passes minus green times passed</td>
-</tr>
-<tr class="odd">
-<td>GreenFlagPasses</td>
-<td>Number of green flag passes performed by the driver</td>
-</tr>
-<tr class="even">
-<td>GreenFlagPassed</td>
-<td>Number of times driver is passed during green flag</td>
-</tr>
-<tr class="odd">
-<td>QualityPasses</td>
-<td>Number of passes in the top 15 while under green flag conditions by driver</td>
-</tr>
-<tr class="even">
-<td>PercentQualityPasses</td>
-<td>The sum of quality passes divided by green flag passes</td>
-</tr>
-<tr class="odd">
-<td>NumFastestLaps</td>
-<td>Number of where the driver had the fastest speed on the lap</td>
-</tr>
-<tr class="even">
-<td>LapsInTop15</td>
-<td>Number of laps completed while running in a top 15 position</td>
-</tr>
-<tr class="odd">
-<td>PercentLapsInTop15</td>
-<td>The sum of the laps run in the top 15 divided by total laps completed</td>
-</tr>
-<tr class="even">
-<td>LapsLed</td>
-<td>The sum of the laps led in a race</td>
-</tr>
-<tr class="odd">
-<td>PercentLapsLed</td>
-<td>The sum of the laps led in the race</td>
-</tr>
-<tr class="even">
-<td>TotalLaps</td>
-<td>The sum of the laps completed by a driver that year</td>
-</tr>
-<tr class="odd">
-<td>DriverRating</td>
-<td>Formula combining wins, finish, top15-finish, average running position while on lead lap, average speed under green, fastest lap, led most laps, and lead lap finish with a maximum rating of 150 points</td>
-</tr>
-</tbody>
-</table>
-</details>
-</section>
-<section id="materials" class="level3">
-<h3 class="anchored" data-anchor-id="materials">Materials</h3>
-<p><a href="../module_resources/nascar_regression_transformation/transformation_tech_wksht.docx">Class handout</a></p>
-<p><a href="../module_resources/nascar_regression_transformation/transformation_wksht_key.docx">Class handout - with solutions: MS Word</a></p>
-<p><a href="../module_resources/nascar_regression_transformation/transformation_wksht_key.qmd">Class handout - with solutions: Quarto</a></p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Conclusion
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>In conclusion, the Transforming NASCAR Driver Data worksheet offers valuable insights into the relationship between average position and driver rating in NASCAR. Through the transformation of the average position variable, the worksheet enables students to enhance linearity in their models, thereby improving the accuracy of their predictions and analysis. The identification of curvature in the variable relationship also allows for the model using quadratic regression to be highly effective. The model can be conceptually compared to the model using a square root transformation to capture the same curve. Assessing the effectiveness of each model, students can critically evaluate the different approaches and determine the most suitable model for the data. This exercise equips students with essential data transformation and modeling skills, empowering them to make informed decisions and gain a deeper understanding of the factors influencing a driver’s performance.</p>
-</div>
-</div>
-</div>
+<section id="module" class="level2">
+<h2 class="anchored" data-anchor-id="module">Module</h2>
+<p><a href="https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/">https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/</a></p>
 
 
 </section>
@@ -1057,7 +819,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/motor_sports/nascar_regression_transformation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/edit/main/marathons/marathon-records/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
