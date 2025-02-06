@@ -51,4 +51,4 @@ This module is interactive and can be accessed [here]( https://github.com/zbinne
 
 Zachary O. Binney, PhD MPH and Heyi Yang
 
-Emory University
+Oxford College of Emory University
