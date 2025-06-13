@@ -22,10 +22,11 @@ categories:
   - summary statistics
 ---
 
-
 ### Welcome video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5ZeK3RCg-_A?si=x44sYGRRe64oidU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ZeK3RCg-_A?si=x44sYGRRe64oidU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 
 ### Introduction
 
@@ -72,7 +73,7 @@ Download data: [LOL_patch_12.23.csv](https://raw.githubusercontent.com/SCOREnetw
 <summary><b>Variable Descriptions</b></summary>
 
 | Variable | Description                                                     |
-|----------|-----------------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | Name     | name of the champion                                            |
 | Role     | role of the champion in a game                                  |
 | KDA      | Average kills, deaths and assists associated with each champion |
@@ -101,9 +102,10 @@ In conclusion, the analysis of Win Rates histograms in League of Legends has pro
 The continued presence of outliers highlights the importance of continuous monitoring and adjustments by game developers to ensure fair and competitive gameplay.
 :::
 
+### How to Cite
 
-<!--
-### Authors
+If you use this module in your work, please cite it as follows:
 
-Created by George Charalambous (St. Lawrence University), [Ivan Ramler (St. Lawrence University)](mailto:iramler@stlawu.edu), A.J. Dykstra (St. Lawrence University)
--->
+Ramler, I., Charalambous, G., & Dykstra, A. J. (2025, April 30). League of Legends. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/8R3YG>
+
+You can include this citation directly in your references or bibliography.

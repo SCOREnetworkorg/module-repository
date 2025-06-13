@@ -26,6 +26,18 @@ This module introduces students to Logistic Regression, Feature Engineering, and
 
 This module is available on the ISLE platform [Expected Goals in Soccer Module](https://isle.stat.cmu.edu/SCORE/Soccer_Expected_Goals_CKim/)
 
+
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Kim, C., & Lee, A. (2025, May 19). Soccer - Expected Goals. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/953BP>
+
+You can include this citation directly in your references or bibliography.
+
+
+
 <!-- ### Introduction -->
 
 <!-- #### The NBA Draft -->
