@@ -108,3 +108,13 @@ We provide editable qmd files along with their solutions.
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 This dataprep worksheet helps students familiarize themselves with the use of basic dplyr tools to structure data in a way that is easier to analyze. In doing so, it enables to students to draw conclusions about different patterns in rowing as an Olympic sport when it comes to medaling.
 :::
+
+
+### How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Smith, A., Lock, R., & Ramler, I. (2025, June 12). Olympic Rowing - Data Wrangling. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/XRYTQ>
+
+You can include this citation directly in your references or bibliography.
+

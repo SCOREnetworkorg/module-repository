@@ -1,5 +1,13 @@
 ---
 title: "Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface"
+author:
+  - name: Zachary O. Binney
+    affiliation:
+      - id: emory
+        name: Oxford College of Emory University
+  - name: Heyi Yang
+    affiliation:
+      - ref: emory
 format: html
 date: January 22, 2025
 description: Using tennis to teach ANOVA and linear regression with categorical variables
@@ -47,8 +55,18 @@ A worksheet for students to follow is available  [here](https://github.com/nick3
 This module is interactive and can be accessed [here]( https://github.com/zbinney/SCORE_Tennis_Linear_Regression_ANOVA)
 
 
-### Authors
+## Authors
 
 Zachary O. Binney, PhD MPH and Heyi Yang
 
 Oxford College of Emory University
+
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Binney, Z., & Yang, H. (2025, January 22). Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/UA9XP>
+
+You can include this citation directly in your references or bibliography.
+

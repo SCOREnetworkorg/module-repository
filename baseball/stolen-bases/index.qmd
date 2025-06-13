@@ -13,3 +13,12 @@ This lesson introduces students to the concept of normality tests (Shapiro-Wilks
 ## Module
 
 [https://isle.stat.cmu.edu/SCORE/stolen-bases-module/](https://isle.stat.cmu.edu/SCORE/stolen-bases-module/)
+
+# How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Lee, A., & Hurtubise, J. (2024, December 4). SCORE Network. Stolen Bases. <https://doi.org/10.17605/OSF.IO/TYHN5>
+
+You can include this citation directly in your references or bibliography.
+

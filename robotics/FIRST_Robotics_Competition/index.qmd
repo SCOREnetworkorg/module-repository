@@ -1,5 +1,10 @@
 ---
 title: "FIRST Robotics Competition - Winning Chances"
+author:
+  - name: Jake Tan
+    affiliation:
+      - id: whs
+        name: Wissahickon High School
 format: html
 date: March 5, 2024
 description: Evaluating the predicted winning probabilities against the actual outcomes.
@@ -19,7 +24,6 @@ One of the key features of FRC is that robot/team competes not individually, but
 Detailed algorithm of the EPA model can be found at here (https://www.statbotics.io/blog/epa). Briefly, the EPA model builds upon the Elo rating system which is a “well-known method for ranking chess players, and has been adapted to many other domains.” It produces predicted probabilities of winning for the alliance based on the past performances of each team in the alliance, as well as teams in the opposition alliance. As such, there is a desire/need to assess how good the EPA model prediction is.
 
 Brier score originated with weather forecast research. It was designed to evaluate the predicted probabilities against the actual outcomes and is straight forward to calculate. While it is not widely used outside specific use cases, it is one of many approaches for the important step of evaluating models based on their predictions. Since the EPA model provides the predicted winning probabilities, Brier score is useful for evaluating its performance by comparing its predicted winning probabilities to the actual FRC outcomes.
-
 
 ::: {.callout-note collapse="true" title="Learning Objectives" appearance="minimal"}
 By the end of this activity, you will be able to:
@@ -45,14 +49,14 @@ Below is a description of the variables:
 
 <summary><b>Variable Descriptions</b></summary>
 
-| Variable     | Description                                                                |
-|---------------------|---------------------------------------------------|
-| year         | the year/season of the FRC event                                           |
-| event        | unique identifier for each FRC event                                       |
-| playoff      | "t" for playoff match; "f" for qualifying match                            |
-| comp_level   | "qm" for qualifying match; "sf" for semifinals match; "f" for finals match |
-| winner       | winning alliance ("red" or "blue") of the match                            |
-| epa_win_prob | predicted winning probability for the Red Alliance by EPA model            |
+| Variable | Description |
+|------------------------------------|------------------------------------|
+| year | the year/season of the FRC event |
+| event | unique identifier for each FRC event |
+| playoff | "t" for playoff match; "f" for qualifying match |
+| comp_level | "qm" for qualifying match; "sf" for semifinals match; "f" for finals match |
+| winner | winning alliance ("red" or "blue") of the match |
+| epa_win_prob | predicted winning probability for the Red Alliance by EPA model |
 
 </details>
 
@@ -79,11 +83,9 @@ datatable(dt2023hop)
 
 ### Brier Score
 
-For match $i$, let $f_i$ denote the probability forecast. In our case, it is the predicted winning probability for the Red Alliance by EPA model, i.e., the variable *epa_win_prob*. Let $o_i$ denote the match outcome: $o_i=1$ when the Red alliance won and $o_i=0$ when the Blue alliance won. The Brier score for match $i$ is calculated as $(f_i - o_i)^2$. For example, suppose it is predicted that the Red alliance will win with 80% probability, i.e.,  $f_i=0.8$, if the actual outcome is that the Red alliance won, the Brier score is $(0.8-1)^2=0.04$. If the actual outcome is that the Blue alliance won, the Brier score is $(0.8-0)^2=0.64$.
+For match $i$, let $f_i$ denote the probability forecast. In our case, it is the predicted winning probability for the Red Alliance by EPA model, i.e., the variable *epa_win_prob*. Let $o_i$ denote the match outcome: $o_i=1$ when the Red alliance won and $o_i=0$ when the Blue alliance won. The Brier score for match $i$ is calculated as $(f_i - o_i)^2$. For example, suppose it is predicted that the Red alliance will win with 80% probability, i.e., $f_i=0.8$, if the actual outcome is that the Red alliance won, the Brier score is $(0.8-1)^2=0.04$. If the actual outcome is that the Blue alliance won, the Brier score is $(0.8-0)^2=0.64$.
 
-Brier score is a quantity bounded by $0$ and $1$. Brier score of $0$ means correctly predicting the outcome with 100% certainty. 50:50 random guess would give a Brier score of $0.25$. The overall Brier score for all the matches during a competition event or season is simply the average of individual match scores:
-$$\frac{1}{N} \sum_{i=1}^N (f_i - o_i)^2$$
-The following table shows the calculation for each match.
+Brier score is a quantity bounded by $0$ and $1$. Brier score of $0$ means correctly predicting the outcome with 100% certainty. 50:50 random guess would give a Brier score of $0.25$. The overall Brier score for all the matches during a competition event or season is simply the average of individual match scores: $$\frac{1}{N} \sum_{i=1}^N (f_i - o_i)^2$$ The following table shows the calculation for each match.
 
 ```{r}
 #| echo: false
@@ -165,7 +167,7 @@ Below are the Brier scores from 2002 to 2023.
 knitr::kable(FRC)
 ```
 
-It is interesting to note that the predictive ability of the EPA model has improved for the past 20 years. Since the model has not changed, I believe the improvement comes from established teams becoming more consistent and predictable. Meanwhile, the pool of newer, less experienced teams has stayed healthy. 
+It is interesting to note that the predictive ability of the EPA model has improved for the past 20 years. Since the model has not changed, I believe the improvement comes from established teams becoming more consistent and predictable. Meanwhile, the pool of newer, less experienced teams has stayed healthy.
 
 ```{r}
 plot(FRC$year, FRC$Brier)
@@ -180,3 +182,11 @@ The EPA model has been getting better at predicting FRC match outcome.
 ### Author
 
 Created by [Jake Tan (Wissahickon High School)](https://www.jakeatan.com/). Jake is a subsystem leader at [FRC Team 341, Miss Daisy](https://www.team341.com/). Team 341 competed at FRC World Championship in the Turing Division in 2022 and Hopper Division in 2023.
+
+### How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Tan, J. (2025, January 15). FIRST Robotics Module. "The SCORE Network," <https://doi.org/10.17605/OSF.IO/BRG8Z>
+
+You can include this citation directly in your references or bibliography.

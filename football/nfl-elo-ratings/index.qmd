@@ -48,3 +48,12 @@ The module has sections indicating which portions are challenging exercises, and
 
 [View instructor solutions](solutions.qmd)
 
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Yurko, R. (2025, March 11). Introduction to ELO Ratings. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/DHUQ2>
+
+You can include this citation directly in your references or bibliography.
+

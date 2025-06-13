@@ -790,3 +790,12 @@ The topics covered in this module are just the beginning of time series analysis
 
 # References
 -   Hyndman, R.J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice (3rd ed.)*. OTexts: Melbourne, Australia. [Online](https://otexts.com/fpp3/)
+
+# How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Lieb, J. (2025, January 21). MLB Injuries - Introductory Time Series Analysis. "The SCORE Network," <https://doi.org/10.17605/OSF.IO/MQGYT>
+
+You can include this citation directly in your references or bibliography.
+

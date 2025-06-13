@@ -16,3 +16,12 @@ The motivation for this data analysis is to explore the relationships between sw
 ## Module
 
 [https://isle.stat.cmu.edu/SCORE/ironman_triathlon/](https://isle.stat.cmu.edu/SCORE/ironman_triathlon/)
+
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Schuckers, M., Abell, M., Dykstra, A., Weaver, S., Ramler, I., & Lock, R. (2024, December 3). Ironman Triathalon. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/VN4FA>
+
+You can include this citation directly in your references or bibliography.
