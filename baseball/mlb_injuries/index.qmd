@@ -42,11 +42,14 @@ callout-icon: false
 -   The data for the `tj_surgeries_mlb_milb.csv` file was derived from data accumulated by [@MLBPlayerAnalys](https://docs.google.com/spreadsheets/d/1gQujXQQGOVNaiuwSN680Hq-FDVsCwvN-3AazykOBON0/edit?gid=0#gid=0) over many years. The original data lists any reported Tommy John surgery for a player now playing in the MLB or MiLB. This data was aggregated by year to produce the data used in this module.
 :::
 
+<!--
 # Welcome video
 
 <iframe width="560" height="315" src title="placeholder">
 
 </iframe>
+
+-->
 
 # Introduction
 
