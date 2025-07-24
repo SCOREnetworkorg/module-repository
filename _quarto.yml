@@ -43,7 +43,7 @@ website:
     contents: auto
     collapse-level: 1
   repo-url: https://github.com/SCOREnetworkorg/module-repository
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
 
 format:
   html:
