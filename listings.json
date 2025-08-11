@@ -7,6 +7,8 @@
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
       "/soccer/expected_goals/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html",
       "/tennis/Teaching_ANOVA_Through_Aces/index.html",
       "/baseball/mlb_injuries/index.html",
       "/football/nfl-elo-ratings/index.html",
@@ -69,23 +71,9 @@
     ]
   },
   {
-    "listing": "/football/index.html",
+    "listing": "/games/index.html",
     "items": [
-      "/football/nfl-elo-ratings/index.html"
-    ]
-  },
-  {
-    "listing": "/esports/index.html",
-    "items": [
-      "/esports/league-of-legends-buffing-nerfing/index.html"
-    ]
-  },
-  {
-    "listing": "/baseball/index.html",
-    "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/games/BlackJack/index.html"
     ]
   },
   {
@@ -96,6 +84,8 @@
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
       "/soccer/expected_goals/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html",
       "/tennis/Teaching_ANOVA_Through_Aces/index.html",
       "/baseball/mlb_injuries/index.html",
       "/football/nfl-elo-ratings/index.html",
@@ -114,9 +104,30 @@
     ]
   },
   {
-    "listing": "/games/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/games/BlackJack/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
+    ]
+  },
+  {
+    "listing": "/esports/index.html",
+    "items": [
+      "/esports/league-of-legends-buffing-nerfing/index.html"
+    ]
+  },
+  {
+    "listing": "/football/index.html",
+    "items": [
+      "/football/nfl-elo-ratings/index.html"
+    ]
+  },
+  {
+    "listing": "/golf/index.html",
+    "items": [
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html"
     ]
   },
   {

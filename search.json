@@ -4,7 +4,7 @@
     "href": "by-statsds-topic.html",
     "title": "📊 Modules by Statistics and Data Science Topic",
     "section": "",
-    "text": "MMA Inter-rater Reliability Data Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Data Wrangling\n\n\n\ndplyr\n\nfiltering\n\ngrouping and summarizing\n\nmutating\n\n\n\nArranging data to analyze the total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Robin Lock, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Summary Statistics\n\n\n\ndistribution and skewness\n\noutlier detection\n\nsummary statistics\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Ivan Ramler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Goals in Soccer\n\n\n\nLogistic Regression\n\nFeature Engineering\n\nUnder Sampling\n\n\n\nAn Introduction to Expected Goals Using Soccer\n\n\n\n\n\nMay 19, 2025\n\n\nColman Kim, Andrew Lee\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface\n\n\n\nANOVA\n\nTennis\n\n\n\nUsing tennis to teach ANOVA and linear regression with categorical variables\n\n\n\n\n\nJan 22, 2025\n\n\nZachary O. Binney, Heyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon - Variability in Finish Times\n\n\n\nhistograms\n\nsummary statistics\n\nbimodal data\n\n\n\nDescribing finish time for runners in the 2023 Boston Marathon\n\n\n\n\n\nMay 13, 2024\n\n\nIvan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nFIRST Robotics Competition - Winning Chances\n\n\n\nBrier score\n\nprediction assessment\n\n\n\nEvaluating the predicted winning probabilities against the actual outcomes.\n\n\n\n\n\nMar 5, 2024\n\n\nJake Tan\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse Faceoff Proportions\n\n\n\nHypothesis testing\n\nSingle proportion\n\n\n\nUsing data from NCAA Div I lacrosse teams to explore the importance of winning faceoffs\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Fay, Ivan Ramler, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\nDifference in two means\n\n\n\nComparing scoring rates between indoor and outdoor profesional lacrosse leagues.\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Cowan, Ivan Ramler, A.J. Dykstra, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Transformation Module\n\n\n\nLinear regression\n\nTransformations\n\nPolynomial regression\n\n\n\nUsing NASCAR driver rating data to explore a series of transformations to improve linearity in regression.\n\n\n\n\n\nFeb 5, 2024\n\n\nAlyssa Bigness, Ivan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlon (Canadian Females) - Multiple Linear Regression\n\n\n\nLinear regression\n\n\n\nUsing Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.\n\n\n\n\n\nFeb 5, 2024\n\n\nA.J. Dykstra, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\nlinear regression\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n\n\n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\nExponential distribution\n\nPoisson process\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlete Performance\n\n\n\nScatterplots\n\nCorrelation\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\nNo matching items",
+    "text": "MMA Inter-rater Reliability Data Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Data Wrangling\n\n\n\ndplyr\n\nfiltering\n\ngrouping and summarizing\n\nmutating\n\n\n\nArranging data to analyze the total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Robin Lock, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Summary Statistics\n\n\n\ndistribution and skewness\n\noutlier detection\n\nsummary statistics\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Ivan Ramler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Goals in Soccer\n\n\n\nLogistic Regression\n\nFeature Engineering\n\nUnder Sampling\n\n\n\nAn Introduction to Expected Goals Using Soccer\n\n\n\n\n\nMay 19, 2025\n\n\nColman Kim, Andrew Lee\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals (No R)\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface\n\n\n\nANOVA\n\nTennis\n\n\n\nUsing tennis to teach ANOVA and linear regression with categorical variables\n\n\n\n\n\nJan 22, 2025\n\n\nZachary O. Binney, Heyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon - Variability in Finish Times\n\n\n\nhistograms\n\nsummary statistics\n\nbimodal data\n\n\n\nDescribing finish time for runners in the 2023 Boston Marathon\n\n\n\n\n\nMay 13, 2024\n\n\nIvan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nFIRST Robotics Competition - Winning Chances\n\n\n\nBrier score\n\nprediction assessment\n\n\n\nEvaluating the predicted winning probabilities against the actual outcomes.\n\n\n\n\n\nMar 5, 2024\n\n\nJake Tan\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse Faceoff Proportions\n\n\n\nHypothesis testing\n\nSingle proportion\n\n\n\nUsing data from NCAA Div I lacrosse teams to explore the importance of winning faceoffs\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Fay, Ivan Ramler, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\nDifference in two means\n\n\n\nComparing scoring rates between indoor and outdoor profesional lacrosse leagues.\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Cowan, Ivan Ramler, A.J. Dykstra, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Transformation Module\n\n\n\nLinear regression\n\nTransformations\n\nPolynomial regression\n\n\n\nUsing NASCAR driver rating data to explore a series of transformations to improve linearity in regression.\n\n\n\n\n\nFeb 5, 2024\n\n\nAlyssa Bigness, Ivan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlon (Canadian Females) - Multiple Linear Regression\n\n\n\nLinear regression\n\n\n\nUsing Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.\n\n\n\n\n\nFeb 5, 2024\n\n\nA.J. Dykstra, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\nlinear regression\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n\n\n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\nExponential distribution\n\nPoisson process\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlete Performance\n\n\n\nScatterplots\n\nCorrelation\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "📊 Modules by Statistics and Data Science Topic"
@@ -160,132 +160,255 @@
     ]
   },
   {
-    "objectID": "games/BlackJack/index.html",
-    "href": "games/BlackJack/index.html",
-    "title": "BlackJack Logistic Regression",
+    "objectID": "golf/pga_masters/index.html",
+    "href": "golf/pga_masters/index.html",
+    "title": "PGA - Scoring Average Confidence Intervals",
     "section": "",
-    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\nThis module is available on the ISLE platform BlackJack Module\n\n\nIf you use this module in your work, please cite it as follows:\nTran, A. and Clark, N. (2025, July 25). Blackjack Logistic Regression. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/M4WV7\nYou can include this citation directly in your references or bibliography.",
+    "text": "Facilitation notes\n\n\n\n\n\n\nThis module would be suitable for an in-class lab or take-home assignment in an introductory statistics course.\nIt assumes a basic familiarity with the RStudio Environment and R programming language.\nStudents should be provided with the following data file (.csv) and Quarto document (.qmd) to produce visualizations and write up their answers to each exercise. Their final deliverable is to turn in an .html document produced by “Rendering” the .qmd.\n\nData\nStudent Quarto template\n\nThe data for this module is derived largely from the ESPN website. However, the tours were manually added to the data based on the what they played on in 2023 at the time of the Masters.",
     "crumbs": [
       "Home",
-      "Games",
-      "BlackJack Logistic Regression"
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
     ]
   },
   {
-    "objectID": "games/BlackJack/index.html#module",
-    "href": "games/BlackJack/index.html#module",
-    "title": "BlackJack Logistic Regression",
-    "section": "",
-    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\nThis module is available on the ISLE platform BlackJack Module\n\n\nIf you use this module in your work, please cite it as follows:\nTran, A. and Clark, N. (2025, July 25). Blackjack Logistic Regression. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/M4WV7\nYou can include this citation directly in your references or bibliography.",
+    "objectID": "golf/pga_masters/index.html#terms-to-know",
+    "href": "golf/pga_masters/index.html#terms-to-know",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "Terms to know",
+    "text": "Terms to know\nBefore proceeding with the analysis, let’s make sure we know some important golf terminology that will help us master this module.\n\nGolf Terminology\n\nPar in golf is the amount of strokes that a good golfer is expected to take to get the ball in the hole.\n\nEach hole in golf has its own par. There are par 3 holes, par 4 holes, and par 5 holes.\nThere are 18 holes on a golf course and the pars of each of these holes sums to par for the course, also known the course par.\n\nA round in golf is when a golfer plays the full set of 18 holes on the course.\n\nIn most professional golf tournaments, all golfers play 2 rounds, the best golfers are selected and those golfers play 2 more rounds for a total of 4 rounds.\n\n\n\n\n\n\n\n\nTypes of Golf Tours\n\n\n\n\nIn golf there are a few tours, better thought of as leagues, that golfers regularly compete in\n\nThe PGA Tour, or “Professional Golf Association Tour”, has long been considered the preeminant golfing tour, hosting most tournaments and containing the most skilled members.\nThe LIV Golf tour is a Saudi-backed alternative to the PGA Tour that began playing tournaments in 2022. LIV is the Roman numeral for 54 and is related to the fact that LIV tournaments only allow 54 players and only play 54 holes, compared to the normal PGA Tour 72 holes.\nThe PGA Tour Champions is a branch off of the PGA tour for players 50 or older. It used to be called the “Senior PGA Tour” until 2003, when it began being called the Champions tour\nAn amateur is a golfer who is not yet a professional. They are not allowed to win money in professional golf tournaments. Most amateurs are college golfers.\n\n\n\n\n\n\nPGA vs. LIV\nClick here to read about LIV golf’s founding and its continued impact on the PGA tour.",
     "crumbs": [
       "Home",
-      "Games",
-      "BlackJack Logistic Regression"
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
     ]
   },
   {
-    "objectID": "football/index.html",
-    "href": "football/index.html",
-    "title": "Football",
-    "section": "",
-    "text": "These modules use football data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
+    "objectID": "golf/pga_masters/index.html#variable-descriptions",
+    "href": "golf/pga_masters/index.html#variable-descriptions",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "Variable descriptions",
+    "text": "Variable descriptions\nThe masters_2023 data you’ll be analyzing in this module provides scores for each round by each golfer in the 2023 Masters. The data includes the names of golfers, the round, their scores, and their tour.\n\n\nVariable Descriptions\n\n\n\n\nVariable\nDescription\n\n\n\n\nplayer\nGolfer’s name\n\n\nround\nRound of the tournament\n\n\nscore\nScore for the 18-hole course\n\n\ntour\nThe tour the player generally competes on",
     "crumbs": [
       "Home",
-      "Football"
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
     ]
   },
   {
-    "objectID": "esports/index.html",
-    "href": "esports/index.html",
-    "title": "Esports",
-    "section": "",
-    "text": "These modules use esports data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\nNo matching items",
+    "objectID": "golf/pga_masters/index.html#t-interval-for-single-means",
+    "href": "golf/pga_masters/index.html#t-interval-for-single-means",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "t-interval for single means",
+    "text": "t-interval for single means\nA t-distribution is used for calculating a single mean confidence interval if the sample size is small (rule of thumb: less than 30) and the population standard deviation is unknown.\nThe formula for calculating a CI using this method is shown below: \\[CI = \\bar{X} \\pm t_{\\alpha/2, df} \\times \\frac{S}{\\sqrt{n}}\\]\n\n\nClick here to learn more about the t-distribution and play around with t-distribution graphs.\nWhere \\(\\bar{X}\\) is the sample mean,\n\\(t_{\\alpha/2, df}\\) is the critical value for the t-distribution with \\(df = n-1\\),\n\\(S\\) is the sample standard deviation,\nand \\(n\\) is the sample size.\n\n\nNOTE: The t-distribution changes based on the degrees of freedom, approaching the normal distribution as the degrees of freedom increase.\nThe critical value for the t-distribution is determined by the confidence level and the degrees of freedom. This is calculated by finding the value of \\(t_{\\alpha/2, df}\\) such that the area under the t-distribution curve (with that specific degrees of freedom) between \\(-t_{\\alpha/2, df}\\) and \\(t_{\\alpha/2, df}\\) is equal to the confidence level.\n\n\n\n\n\n\n\n\n\n\n\nNOTE: Using R to calculate the critical value for the t-distribution saves time and adds accuracy compared to using a t-table.\nR can easily calculate the critical value for the t-distribution using the qt() function.\nThe qt() function takes two arguments: the first is the confidence level, and the second is the degrees of freedom. The example below shows how to calculate the t-value for a 95% confidence level with 10 degrees of freedom.\nNote that the 95% confidence interval has \\(\\alpha = .05\\) and \\(\\alpha / 2 =  .025\\) so we need to use qt(.975, df= 10) or qt(.025, df = 10) to find the critical values.\n\nqt(0.975, df = 10)\n\n[1] 2.228139\n\n\n\n\n\n\n\n\nExample: t-distribution confidence intervals\n\n\n\n\n\nWe would like to make a 90% confidence interval for the true mean of scoring for Jon Rahm at the Masters. We can pull his scores and put them in a vector with following code. We will also set the sample size (n) to the amount of observations in the sample.\n\njon_rahm &lt;- masters_2023 |&gt; \n  filter(player == \"Jon Rahm\") |&gt; \n  pull(score)\n\nn &lt;- length(jon_rahm)\n\nWe start by calculating the the sample mean (\\(\\bar{x}\\)).\n\nx_bar &lt;- mean(jon_rahm)\n\nNext we calculate the sample standard deviation (\\(s\\)).\n\ns &lt;- sd(jon_rahm)\n\nOur next step is to find the critical value for a 90% confidence interval with 3 degrees of freedom (\\(t_{\\alpha/2, df}\\)). We’ll use the qt function from R to do this. Note that we use .95 as the first argument because alpha is .1 and half of our error should be in each end.\n\ncv &lt;- qt(.95, 3)\n\nLastly we will use the confidence interval formula to find the bounds of our 90% confidence interval.\n\nlower_confidence_boundary &lt;- x_bar - cv * (s/n)\nupper_confidence_boundary &lt;- x_bar + cv * (s/n)\npaste0(\"90% confidence interval: (\", lower_confidence_boundary, \", \", upper_confidence_boundary, \")\")\n\n[1] \"90% confidence interval: (67.078486801804, 70.921513198196)\"\n\n\nFinally we can interpret the confidence interval and say that we are 95% confident that the true mean of Jon Rahm’s scores at Augusta National is between 67.1 and 70.9.\n\n\n\n\n\n\n\n\n\nExercise 2: t-distribution confidence intervals\n\n\n\n\nRun the code below to create the proper subset of the data for this exercise and calculate the sample mean and sample standard deviation.\n\namateurs_round1 &lt;- masters_2023 |&gt; \n  filter(round == 1, tour == \"Amateur\")\nx_bar &lt;- amateurs_round1 |&gt; \n  summarise(mean(score)) |&gt; \n  pull()\nstd_dev &lt;- amateurs_round1 |&gt; \n  summarize(sd(score)) |&gt; \n  pull()\nn &lt;- nrow(amateurs_round1)\nt_cv &lt;- qt(0.95, df = n - 1)\n\nUse the formula for creating a confidence interval using the t-distribution to calculate the upper and lower limits of a confidence interval for the true mean of amateur scoring using the amateurs in the first round as our sample. Use a 90% confidence interval (\\(\\alpha = .1\\)).\n\nWhat is the lower bound of the confidence interval?\nWhat is the upper bound of the confidence interval?\nWhat is the interpretation of this confidence interval?\n\n\n\nRepeat this process with a 99% confidence interval (\\(\\alpha = .01\\)).\n\nWhat is the new lower bound of the confidence interval?\nWhat is the new upper bound of the confidence interval?\nIs this 99% confidence interval larger, smaller, or the same as 90% confidence interval?\nWhen thinking about your anwer to f, what do you think could explain this?\n\n\n\nTIP: Values and objects can be stored in variables in R. For example, x &lt;- 5 stores the value 5 in the variable x.\nTIP: The pipe operator is a powerful tool in R that allows you to chain functions together. It is denoted by |&gt; and is used to pass the output of one function to the input of another function.\nTIP: The pull() function is used to extract a single column from a data frame as a vector.\nTIP: The nrow() function is used to calculate the number of rows in a data frame.\n\nTIP: When interpreting a confidence interval do not say “there is a 90% chance that the true mean is between the lower and upper bounds”. Instead, say “we are 90% confident that the true mean is between the lower and upper bounds”.\n\nTIP: Only the t_cv variable needs to be changed to recompute with the new confidence interval. Use qt(0.995, df = n - 1) to calculate the critical value for the new 99% confidence interval.",
     "crumbs": [
       "Home",
-      "Esports"
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
     ]
   },
   {
-    "objectID": "baseball/stolen-bases/index.html",
-    "href": "baseball/stolen-bases/index.html",
-    "title": "Stolen Bases",
+    "objectID": "golf/pga_masters/index.html#z-interval-for-single-means",
+    "href": "golf/pga_masters/index.html#z-interval-for-single-means",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "z-interval for single means",
+    "text": "z-interval for single means\nA standard normal distribution (also known as a z-distribution) is used to calculate the confidence interval for a single mean if the sample size is large enough (greater than 30) or the population standard deviation is known. The first case is common as oftentimes samples are greater than 30. The second case is rare because it is uncommon to know the population standard deviation but not the population mean.\nThe formula for the confidence interval for a single mean using the z-distribution is very similar to that of the t-distribution\n\n\nClick here for more information about the standard normal distribution.\n\\(CI = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}\\)\nWhere \\(\\bar{X}\\) is once again the sample mean, \\(Z_{\\alpha/2}\\) is the critical value for the standard normal distribution at the specified confidence level, \\({\\sigma}\\) is the population standard deviation, and \\(n\\) is the sample size.\nThe reasoning behind why we can use the standard normal distribution when the sample is greater than 30 even if the population standard deviation is unknown is found in the Central Limit Theorem, which says that as the sample size increases, the sampling distribution of the sample mean approaches a normal distribution. This means that when the sample size is greater than 30 we can use the sample standard deviation to estimate the population standard deviation and create a confidence interval as seen below\n\\(CI = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{S}{\\sqrt{n}}\\)\nOnce again the critical value for the z-distribution is the value of \\(Z_{\\alpha/2}\\) such that the area under the standard normal distribution curve between \\(-Z_{\\alpha/2}\\) and \\(Z_{\\alpha/2}\\) is equal to the confidence level.\nR can compute the z-value for you using the qnorm() function. The qnorm() function takes in the probability and returns the z-value that corresponds to that probability. For example, qnorm(.975) will return the z-value that corresponds to the 97.5th percentile of the standard normal distribution. No degrees of freedom are needed.\nThe code below calculates the critical values for the z-distribution for a 95% confidence interval.\n(Note that .975 is used for a 95% confidence interval because \\(\\alpha = .05\\) and since the confidence interval is two sided we need half of the error each side so \\(\\alpha / 2  = .025\\), which means we want to use qnorm(.975) or qnorm(.025))\n\nqnorm(.975)\n\n[1] 1.959964\n\nqnorm(.025)\n\n[1] -1.959964\n\n\n\n\n\n\n\n\nExample: z-distribution confidence intervals\n\n\n\n\n\nWe would like to make a 98% confidence interval for the true mean of scoring for PGA Tour golfers based off of a sample from the third round. This sample can be created with the following code.\n\npga_round3_scores &lt;- masters_2023 |&gt; \n  filter(tour == \"PGA\", round == 3) |&gt; \n  pull(score)\n\nWe can check the size of our sample with the following code.\n\npga_round3_n &lt;- length(pga_round3_scores)\npga_round3_n\n\n[1] 39\n\n\nThat’s 39 observations we have in our sample, which means we can use the z-distribution.\nWe start by calculating the the sample mean (\\(\\bar{x}\\)). R can do this very easily as seen below\n\npga_round3_mean &lt;- mean(pga_round3_scores)\n\nNext we calculate the sample standard deviation (\\(s\\)), which is our estimate for \\(\\sigma\\). Once again, R can do this quickly.\n\npga_round3_sd &lt;- sd(pga_round3_scores)\n\nOur next step is to find the critical value for a 98% confidence interval for a z-distribution (\\(Z_{\\alpha/2}\\)). We can use qnorm to do this.\n\nz_cv &lt;- qnorm(.99)\n\nLastly we will use the confidence interval formula to find the bounds for our 98% confidence interval. \\[\nCI = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{s}{\\sqrt{n}}\n\\]\n\nlower_confidence_boundary &lt;- pga_round3_mean - z_cv * pga_round3_sd /\n  sqrt(pga_round3_n)\nupper_confidence_boundary &lt;- pga_round3_mean + z_cv * pga_round3_sd /\n  sqrt(pga_round3_n)\npaste0(\"98% confidence interval: (\", lower_confidence_boundary,\n       \", \", upper_confidence_boundary, \")\")\n\n[1] \"98% confidence interval: (72.1152269671053, 73.9360550841767)\"\n\n\nFinally we can interpret the confidence interval and say that we are 98% confident that the true mean of PGA Tour golfers’ scores at the 2023 masters is between 72.1 and 73.9.\n\n\n\n\n\n\n\n\n\nExercise 3: z-distribution confidence intervals\n\n\n\nRun the code below to create the proper subset of the data for this exercise and calculate the sample mean, sample standard deviation, and critical value for the z-distribution.\n\npga_round1 &lt;- masters_2023 |&gt; \n  filter(round == 1, tour == \"PGA\")\nx_bar &lt;- pga_round1 |&gt; \n  summarise(mean(score)) |&gt; \n  pull()\nsigma &lt;- pga_round1 |&gt; \n  summarise(sd(score)) |&gt; \n  pull()\nz_cv &lt;- qnorm(.975)\n\nUse the formula for creating a confidence interval using the standard normal distribution to calculate the upper and lower limits of a confidence interval for the true mean of PGA professional scoring at Augusta using the PGA pros in the first round as our sample. Use a 95% confidence interval (\\(\\alpha = .05\\)).\n\nWhy can we use the standard normal distribution to calculate this confidence interval?\nWhat is the confidence interval for the true mean of scoring for PGA professionals at Augusta National?\nWhat is the interpretation of this confidence interval?",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters/index.html#r-for-single-mean-confidence-intervals",
+    "href": "golf/pga_masters/index.html#r-for-single-mean-confidence-intervals",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "R for Single Mean Confidence Intervals",
+    "text": "R for Single Mean Confidence Intervals\nR functions can help to speed up the process of finding these confidence intervals and will also help us with testing hypotheses later. The t.test function from the stats package makes a confidence interval for the t-distribution and the z.test function from the BSDA package does the same for the standard normal distribution.\nRun the code below to view what type of arguments these functions take, what they output, and the see some example uses\n\n?t.test\n?z.test\n\nThese functions return more than just a confidence interval. If we want to see just the confidence interval $conf.int should be used. Run the example below to see how this is done.\n\n# t-test example\nseniors_round1 &lt;- masters_2023 |&gt; \n  filter(round == 1, tour == \"Senior\")\n\nt.test(seniors_round1$score, conf.level = .95)$conf.int\n\n[1] 72.39194 79.03663\nattr(,\"conf.level\")\n[1] 0.95\n\n# z-test example\npga_round2 &lt;- masters_2023 |&gt; \n  filter(round == 2, tour == \"PGA\")\n\n## Note that the Z test require the standard deviation to be passed in as an argument `sigma.x`\nz.test(pga_round2$score,\n       sigma.x = sd(pga_round2$score),\n       conf.level = .95)$conf.int\n\n[1] 72.24391 73.71973\nattr(,\"conf.level\")\n[1] 0.95\n\n\n\n\nTIP: The $ operator is used to access a specific element of a list. In this case, the conf.int element of the list returned by the t.test and z.test functions. It can also be used to access elements of data frames and other objects in R. The line of code seniors_round1$score is used to access the score column of the seniors_round1 data frame.\n\nTIP: Notice that the z.test function requires the standard deviation to be passed in as an argument sigma.x. Use the sd() function to calculate the standard deviation of the sample and use it as an estimate the population standard deviation.\n\n\n\n\n\n\n\nExercise 4: R for confidence intervals\n\n\n\n\nUse the t.test function to find the confidence interval for amateur scoring using the amateur_round1 sample from earlier in the lesson. What is the confidence interval?\n\n\n\nUse the z.test function to find the confidence interval for PGA professional scoring using the pga_round1 sample from earlier in the lesson. What is the confidence interval?\nAre these confidence intervals the same as what you calculated manually earlier? If no, why might that be?\n\n\n\n\nTIP If you didn’t create the amateur_round1 sample earlier run the code below\n\namateur_round1 &lt;- masters_2023 |&gt; \n  filter(round == 1, tour == \"Amateur\")\n\nTIP If you didn’t create the pga_round1 sample earlier run the code below\n\npga_round1 &lt;- masters_2023 |&gt; \n  filter(round == 1, tour == \"PGA\")",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters/index.html#test-statistics",
+    "href": "golf/pga_masters/index.html#test-statistics",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "Test Statistics",
+    "text": "Test Statistics\nLike confidence intervals, we have two different tests for hypothesis testing for the population mean. Remember that if the population standard deviation is unknown and the sample size is less than 30, we use the t-distribution. If the population standard deviation is known or the sample size is greater than 30, we use the standard normal distribution.\nEach of these distributions have their own tests, the t-test and the z-test. This means that we have different test statistics to calculate depending on the situation.\n\nt-test\nThe t-test statistic is calculated using the formula:\n\\[t = \\frac{\\bar{x} - \\mu_0}{\\frac{s}{\\sqrt{n}}}\\]\nwhere \\(\\bar{x}\\) is the sample mean, \\(\\mu_0\\) is the hypothesized population mean, \\(s\\) is the sample standard deviation, and \\(n\\) is the sample size.\n\n\nz-test\nThe z-test statistic is calculated using the formula:\n\\[z = \\frac{\\bar{x} - \\mu_0}{\\frac{\\sigma}{\\sqrt{n}}}\\]\nwhere \\(\\bar{x}\\) is the sample mean, \\(\\mu_0\\) is the hypothesized population mean, \\(\\sigma\\) is the population standard deviation, and \\(n\\) is the sample size.\nOnce again, if the sample size is over 30 and the population standard deviation is unknown, we use the sample standard deviation to approximate the population standard deviation.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters/index.html#to-reject-or-fail-to-reject",
+    "href": "golf/pga_masters/index.html#to-reject-or-fail-to-reject",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "To Reject or Fail to Reject",
+    "text": "To Reject or Fail to Reject\nThere are two ways to make a decision about the null hypothesis.\nMethod 1: Critical values, along with test statistics, can be used to determine if the hypothesized population mean is within the confidence interval for the true mean.\nA critical value is a value that separates the rejection region from the non-rejection region. The rejection region is the area where the null hypothesis is rejected. The non-rejection region is the area where the null hypothesis is not rejected. The critical value is determined by the significance level (\\(\\alpha\\)) and the degrees of freedom (if it is a t-test). The critical value is compared to the test statistic to determine if the null hypothesis should be rejected. If the test statistic is within the non-rejection region, the null hypothesis is not rejected. If the test statistic is within the rejection region, the null hypothesis is rejected and the alternative hypothesis is accepted.\nBelow is an example of using critical values and a test-statistic for a z-test with a 95% confidence level (two-sided). The critical value is 1.96. This means that if the test statistic is greater than 1.96 or less than -1.96, the null hypothesis is rejected. The blue represents the non-rejection region and the red the rejection region. Since the test statistic for this hypothetical example is 1.1 (less than 1.96 and greater than -1.96), we fail to reject the null hypothesis.\n\n\n\n\n\n\n\n\n\nThis method corresponds directly to the related confidence intervals produced for the sample data.\nIf the hypothesized population mean is within the confidence interval, we fail to reject the null hypothesis. If the hypothesized population mean is not within the confidence interval, the null hypothesis is rejected and the alternative hypothesis is accepted.\n\n\nNote: We can say that there is significant evidence to accept the alternative hypothesis if the null hypothesis is rejected. However, it should never be said that we accept the null hypothesis. We can only fail to reject it.\nMethod 2: The second method is to use a p-value. The p-value is the probability of observing a test statistic as extreme as the one calculated from the sample data given that the null hypothesis is true. The p-value is compared to the significance level (\\(\\alpha\\)) to determine if the null hypothesis should be rejected. If the p-value is less than \\(\\alpha\\), the null hypothesis is rejected. If the p-value is greater than \\(\\alpha\\), the null hypothesis is not rejected.\n\n\nNOTE: Our alternative hypothesis determines whether we are looking for the probability that the test statistic is greater than or less than the observed value.\n\nFor a two-sided test, the p-value is the probability that the test statistic is greater than the observed value or less than the negative of the observed value. Find the area in one of the tails and double it.\nFor a left-tailed test (\\(H_a: \\mu &lt; \\mu_0\\)), the p-value is the probability that the test statistic is less than the observed value.\nFor a right-tailed test (\\(H_a: \\mu &gt; \\mu_0\\)), the p-value is the probability that the test statistic is greater than the observed value.\n\nFirst let’s visualize what a p-value is telling us.\n\n\n\n\n\n\n\n\n\nNow let’s see how we can calculate p-value for our example using R. We have a hypothetical z-test statistic of 1.1 and alpha of .05 for a two-tailed test. We want to find the probability of getting a test statistic less than -1.1 or greater than 1.1. In R the pnorm function calculates the probability that a test statistic is less than a given value. Since we know that the z-distribution is symmetrical we can simply multiply the probability that the test statistic is less than -1.1 by 2 to get our p-value.\n\np_value &lt;- pnorm(-1.1) * 2\np_value\n\n[1] 0.2713321\n\n\nSince the p-value is greater than our alpha value of .05 we fail to reject the null hypothesis.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters/index.html#hypothesis-testing-in-r",
+    "href": "golf/pga_masters/index.html#hypothesis-testing-in-r",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "Hypothesis testing in R",
+    "text": "Hypothesis testing in R\nThankfully R can help us with this as well. The t.test function and the z.test function can both perform hypothesis tests, without having to do each step manually.\nThe code below tests if the true mean is not equal to 50 given that the example_vector is our sample. The confidence level is set to 95%.\n\nexample_vector &lt;- seq(10, 100, by = 10)\nt.test(example_vector, mu = 50, alternative = \"two.sided\", conf.level = .95)\n\n\n    One Sample t-test\n\ndata:  example_vector\nt = 0.52223, df = 9, p-value = 0.6141\nalternative hypothesis: true mean is not equal to 50\n95 percent confidence interval:\n 33.34149 76.65851\nsample estimates:\nmean of x \n       55 \n\n\nAs can be seen in the output of the code above, the p-value is 0.61, which is much greater than the significance level of 0.05. The test-statistic is 0.522 which is within the non-rejection region since critical values for this test would be -2.26 and 2.26. Therefore, we fail to reject the null hypothesis.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters/index.html#hypothesizing-par-as-the-population-mean",
+    "href": "golf/pga_masters/index.html#hypothesizing-par-as-the-population-mean",
+    "title": "PGA - Scoring Average Confidence Intervals",
+    "section": "Hypothesizing Par as the Population Mean",
+    "text": "Hypothesizing Par as the Population Mean\n\n\nAugusta National is breathtakingly beautiful, but if golfers get distracted by the scenic views, tall pines, bunkers, water, and azaleas may catch their balls.\n\n\n\nAugusta Hole 13\n\n\nImage Source: Your Golf Travel, CC 4.0\nIn golf par is considered to be the number of strokes a good golfer is expected to take. The par for the course at Augusta National is 72. It is known that Augusta National is a tougher than usual course but we would like to test if that is the case for different groups.\nOur null hypothesis will generally be that the mean of the group is equal to 72.\n\n\n\n\n\n\nExercise 5: t-test for single mean hypothesis testing\n\n\n\n\nAmateurs, who are not yet professional golfers, are generally expected to score higher than professionals. We would like to test if the mean of amateur scoring is above par at Augusta National\n\nWhat is the null hypothesis for this test?\nWhat is the alternative hypothesis for this test?\nUse the t.test function to test if the mean of amateur scoring is greater than 72 using the amateur_round1 sample from earlier in the lesson. What is the p-value?\nBased on the p-value, is there statistically significant evidence that the mean of amateur scoring is greater than 72?\n\n\n\n\nAmateurs generally struggle in the Masters, but in 2023 Sam Bennett, a Texas A&M student, made the cut and finished 16th. However, due to his amateur status, he was not eligible to win money and missed out on $261,000.\n\n\n\n\n\n\nExercise 6: z-test for single mean hypothesis testing\n\n\n\nPGA professionals would generally average somewhere around par. We would like to test if the mean of PGA professional scoring is not equal to 72 at Augusta National.\n\nWhat is the null hypothesis for this test?\nWhat is the alternative hypothesis for this test?\n\n\n\nUse the z.test function to test if the mean of PGA professional scoring is not equal to 72 using the pga_round1 sample from earlier in the lesson. What is the p-value?\nBased on the confidence interval, is there statistically significant evidence that the mean of PGA professional scoring is not equal to 72?\nExplain your answer to part d.\n\n\n\n\nTIP Use the $score column from the pga_round1 sample as the first argument in the z.test function\nTIP Remember that the z.test function requires the population standard deviation as the second argument. Use the sd function to calculate the standard deviation of the pga_round1 sample.\n\nsd(pga_round1$score)",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "games/index.html",
+    "href": "games/index.html",
+    "title": "Games",
     "section": "",
-    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
+    "text": "These modules use games data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Games"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html",
+    "href": "football/nfl-elo-ratings/index.html",
+    "title": "Introduction to Elo ratings",
+    "section": "",
+    "text": "Elo ratings are one of the most popular approaches for estimating player/team strength across a variety of sports. You can find a number of different sports examples maintained by sportswriter Neil Paine, as well as older versions that were featured in the popular website FiveThirtyEight. These dynamic ratings are adjusted for opponent strength and can be used for historical comparisons, such as who is the greatest tennis player of all time?, and for predicting outcomes. In this module you will learn the basics of Elo ratings in the context of measuring NFL team strength, walking through steps to implement and assess Elo ratings from scratch in R.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html#motivation",
+    "href": "football/nfl-elo-ratings/index.html#motivation",
+    "title": "Introduction to Elo ratings",
+    "section": "",
+    "text": "Elo ratings are one of the most popular approaches for estimating player/team strength across a variety of sports. You can find a number of different sports examples maintained by sportswriter Neil Paine, as well as older versions that were featured in the popular website FiveThirtyEight. These dynamic ratings are adjusted for opponent strength and can be used for historical comparisons, such as who is the greatest tennis player of all time?, and for predicting outcomes. In this module you will learn the basics of Elo ratings in the context of measuring NFL team strength, walking through steps to implement and assess Elo ratings from scratch in R.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html#learning-objectives",
+    "href": "football/nfl-elo-ratings/index.html#learning-objectives",
+    "title": "Introduction to Elo ratings",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this module, you will be able to:\n\nCompute the expected outcome or predicted probability based on player/team ratings.\nUpdate ratings following the observed outcome of a match/game.\nImplement the complete Elo ratings framework in R for a full NFL season.\nAssess Elo rating predictions using Brier scores.\nTune the update factor and other settings to yield more optimal predictions.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html#data",
+    "href": "football/nfl-elo-ratings/index.html#data",
+    "title": "Introduction to Elo ratings",
+    "section": "Data",
+    "text": "Data\nThe dataset and description are available at the SCORE Network Data Repository.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html#module-materials",
+    "href": "football/nfl-elo-ratings/index.html#module-materials",
+    "title": "Introduction to Elo ratings",
+    "section": "Module Materials",
+    "text": "Module Materials\n\n\n\n\n\n\nPrerequisites\n\n\n\nPrior to working on through this module, students are expected to know the following:\n\nFamiliar with R with the ability to read and write functions.\nSome exposure to predicting outcomes with probabilities.\n\nThe module has sections indicating which portions are challenging exercises, and is designed to take an undergraduate student roughly 1-3 hours to complete (and 3-4 hours with the challenge exercise).\n\n\nStudent assignment qmd file\nView instructor solutions",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "football/nfl-elo-ratings/index.html#how-to-cite",
+    "href": "football/nfl-elo-ratings/index.html#how-to-cite",
+    "title": "Introduction to Elo ratings",
+    "section": "How to Cite",
+    "text": "How to Cite\nIf you use this module in your work, please cite it as follows:\nYurko, R. (2025, March 11). Introduction to ELO Ratings. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/DHUQ2\nYou can include this citation directly in your references or bibliography.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "Introduction to Elo ratings"
+    ]
+  },
+  {
+    "objectID": "esports/league-of-legends-buffing-nerfing/index.html",
+    "href": "esports/league-of-legends-buffing-nerfing/index.html",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "Welcome video\n\n\n\n\nIntroduction\nLeague of Legends (LoL) is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. In this game, players assume the role of a “champion” with unique abilities and engage in intense battles against a team of other players or computer-controlled champions. Riot Games continually collects data to evaluate the impact of each champion, adjusting and fine-tuning various aspects to ensure fair and competitive gameplay. With regular updates (patches) occurring every two weeks, champions can become either extremely efficient and strong or in need of adjustments to enhance their abilities. Maintaining overall game balance is crucial, and developers employ strategies known as “nerfing” and “buffing” to achieve this balance. “Nerfing” refers to reducing the power or effectiveness of a champion or item, while “buffing” involves increasing its power or effectiveness.\nIn this worksheet, we will analyze and describe histograms of Win Rates for different champions in LoL. The Win Rate, a key metric in the game, represents the percentage of games won by a champion out of the total games played. Understanding the distribution of Win Rates and identifying potential outliers can provide valuable insights into champion balance and performance, informing strategic decision-making in LoL gameplay.\n\n\n\n\n\n\nLearning Objectives\n\n\n\n\n\nBy the end of this activity, you will be able to:\n\nUnderstand the concept of histograms and their relevance in statistical analysis.\nAnalyze and describe histograms to gain insights into the distribution of Win Rates in League of Legends. In particular, being able to describe the center, shape, and spread of a distribution based on the displayed graph.\nIdentify potential outliers in a numerical variable using numerical methods such as the “1.5 IQR Rule” or z-scores.\nInterpret the implications of outliers in terms of champion balance and performance.\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n\n\n\nTechnology requirement: The activity handout provides histograms and summary statistics so that no statistical software is required. However, the activity could be modified to ask students to produce that information from the raw dataset and/or extend the activity to investigate other variables available in the data.\n\nHistograms: Familiarity with histograms as a graphical representation of the distribution of a continuous variable, such as Win Rates, is crucial. You should understand how to interpret histograms, including the concepts of bins, frequencies, and the shape, center, and spread of distributions.\nOutliers: Knowledge of outliers, which are data points that deviate significantly from the overall pattern, is important.\nFamiliarity with basic statistical analysis techniques, such as measures of central tendency (mean, median) and measures of dispersion (standard deviation, range), will aid in interpreting and analyzing the histograms. These techniques can provide insights into the overall characteristics and variability of the Win Rates.\nKnowledge of outlier detection methods (such as the 1.5 IQR Rule and/or z-scores) is fundamental to the activity.\n\n\n\n\n\n\nData\nA data frame for 162 champions of the following 7 variables. Each row represents a Champion that you can choose when playing League of Legends during patches 12.22 and 12.23. Note that the activity provided in this module does not use all of the variables provided. Instead they are provided for further analyses at the discretion of the user.\nAvailable on the SCORE Data Repository\nDownload data: LOL_patch_12.22.csv\nDownload data: LOL_patch_12.23.csv\n\n\nVariable Descriptions\n\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nName\nname of the champion\n\n\nRole\nrole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nwin rates of each champion\n\n\nPickRate\npick rates of each champion\n\n\nRolePerc\npercentage of time playing as a role\n\n\nBanPerc\nban percentages associated with each champion\n\n\n\n\n\nData Source\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master\n\n\n\nMaterials\nClass handout\nClass handout - with solutions\n\n\n\n\n\n\nConclusion\n\n\n\n\n\nIn conclusion, the analysis of Win Rates histograms in League of Legends has provided valuable insights into champion balance and performance. One notable finding from this worksheet is the identification of Sion as a low outlier in the Win Rates for the 12.22 patch. However, in the subsequent 12.23 patch, Sion’s Win Rate improved, and was no longer an outlier. Sion was given a Buff in patch 12.23, resulting in an enhanced performance and a more balanced Win Rate. However, patch 12.23 resulted in two new outliers with low win rates.\nThe continued presence of outliers highlights the importance of continuous monitoring and adjustments by game developers to ensure fair and competitive gameplay.\n\n\n\n\n\nHow to Cite\nIf you use this module in your work, please cite it as follows:\nRamler, I., Charalambous, G., & Dykstra, A. J. (2025, April 30). League of Legends. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/8R3YG\nYou can include this citation directly in your references or bibliography.",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "baseball/unbreakable-records/index.html",
+    "href": "baseball/unbreakable-records/index.html",
+    "title": "Unbreakable Records in Baseball",
+    "section": "",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
     "crumbs": [
       "Home",
       "Baseball",
-      "Stolen Bases"
+      "Unbreakable Records in Baseball"
     ]
   },
   {
-    "objectID": "baseball/stolen-bases/index.html#motivation",
-    "href": "baseball/stolen-bases/index.html#motivation",
-    "title": "Stolen Bases",
+    "objectID": "baseball/unbreakable-records/index.html#motivation",
+    "href": "baseball/unbreakable-records/index.html#motivation",
+    "title": "Unbreakable Records in Baseball",
     "section": "",
-    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
     "crumbs": [
       "Home",
       "Baseball",
-      "Stolen Bases"
+      "Unbreakable Records in Baseball"
     ]
   },
   {
-    "objectID": "baseball/stolen-bases/index.html#module",
-    "href": "baseball/stolen-bases/index.html#module",
-    "title": "Stolen Bases",
+    "objectID": "baseball/unbreakable-records/index.html#module",
+    "href": "baseball/unbreakable-records/index.html#module",
+    "title": "Unbreakable Records in Baseball",
     "section": "Module",
-    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/stolen-bases-module/",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/",
     "crumbs": [
       "Home",
       "Baseball",
-      "Stolen Bases"
+      "Unbreakable Records in Baseball"
     ]
-  },
-  {
-    "objectID": "baseball/index.html",
-    "href": "baseball/index.html",
-    "title": "Baseball",
-    "section": "",
-    "text": "These modules use baseball data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Baseball"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCORE Module Repository",
-    "section": "",
-    "text": "The SCORE Network Module Repository enables you to search for modules by either sport or by statistics and data science topic. The modules listed in this repository have completed the required SCORE Network pedagogical and industry peer reviews to become a published module."
-  },
-  {
-    "objectID": "index.html#all-modules",
-    "href": "index.html#all-modules",
-    "title": "SCORE Module Repository",
-    "section": "All Modules",
-    "text": "All Modules\n\n\n\n\n\n\nBrowse all modules below. Use the sidebar to filter by sport or visit by statistics and data science topic.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMMA Inter-rater Reliability Data Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Data Wrangling\n\n\n\ndplyr\n\nfiltering\n\ngrouping and summarizing\n\nmutating\n\n\n\nArranging data to analyze the total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Robin Lock, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Summary Statistics\n\n\n\ndistribution and skewness\n\noutlier detection\n\nsummary statistics\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Ivan Ramler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Goals in Soccer\n\n\n\nLogistic Regression\n\nFeature Engineering\n\nUnder Sampling\n\n\n\nAn Introduction to Expected Goals Using Soccer\n\n\n\n\n\nMay 19, 2025\n\n\nColman Kim, Andrew Lee\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface\n\n\n\nANOVA\n\nTennis\n\n\n\nUsing tennis to teach ANOVA and linear regression with categorical variables\n\n\n\n\n\nJan 22, 2025\n\n\nZachary O. Binney, Heyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon - Variability in Finish Times\n\n\n\nhistograms\n\nsummary statistics\n\nbimodal data\n\n\n\nDescribing finish time for runners in the 2023 Boston Marathon\n\n\n\n\n\nMay 13, 2024\n\n\nIvan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nFIRST Robotics Competition - Winning Chances\n\n\n\nBrier score\n\nprediction assessment\n\n\n\nEvaluating the predicted winning probabilities against the actual outcomes.\n\n\n\n\n\nMar 5, 2024\n\n\nJake Tan\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse Faceoff Proportions\n\n\n\nHypothesis testing\n\nSingle proportion\n\n\n\nUsing data from NCAA Div I lacrosse teams to explore the importance of winning faceoffs\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Fay, Ivan Ramler, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\nDifference in two means\n\n\n\nComparing scoring rates between indoor and outdoor profesional lacrosse leagues.\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Cowan, Ivan Ramler, A.J. Dykstra, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Transformation Module\n\n\n\nLinear regression\n\nTransformations\n\nPolynomial regression\n\n\n\nUsing NASCAR driver rating data to explore a series of transformations to improve linearity in regression.\n\n\n\n\n\nFeb 5, 2024\n\n\nAlyssa Bigness, Ivan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlon (Canadian Females) - Multiple Linear Regression\n\n\n\nLinear regression\n\n\n\nUsing Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.\n\n\n\n\n\nFeb 5, 2024\n\n\nA.J. Dykstra, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\nlinear regression\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n\n\n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\nExponential distribution\n\nPoisson process\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlete Performance\n\n\n\nScatterplots\n\nCorrelation\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#contributing-andor-joining-the-score-network",
-    "href": "index.html#contributing-andor-joining-the-score-network",
-    "title": "SCORE Module Repository",
-    "section": "Contributing and/or Joining the SCORE Network",
-    "text": "Contributing and/or Joining the SCORE Network\nInterested in submitting your own module? Click here to find out more information about the SCORE Network module submission process."
-  },
-  {
-    "objectID": "index.html#preprint-servers",
-    "href": "index.html#preprint-servers",
-    "title": "SCORE Module Repository",
-    "section": "Preprint Servers",
-    "text": "Preprint Servers\nYou can also access preprint repositories maintained by members of the SCORE Network. These preprint repositories are created and maintained by faculty and students from the respective institutions. Please note that these materials have not yet completed the required pedagogical and industry peer reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\n\nCarnegie Mellon University\nSt. Lawrence University\nBaylor University + Azusa Pacific University\nWest Point"
-  },
-  {
-    "objectID": "index.html#funding-source",
-    "href": "index.html#funding-source",
-    "title": "SCORE Module Repository",
-    "section": "Funding Source",
-    "text": "Funding Source\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
   },
   {
     "objectID": "baseball/mlb_injuries/index.html",
@@ -396,134 +519,226 @@
     ]
   },
   {
-    "objectID": "baseball/unbreakable-records/index.html",
-    "href": "baseball/unbreakable-records/index.html",
-    "title": "Unbreakable Records in Baseball",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Module Repository",
     "section": "",
-    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
+    "text": "The SCORE Network Module Repository enables you to search for modules by either sport or by statistics and data science topic. The modules listed in this repository have completed the required SCORE Network pedagogical and industry peer reviews to become a published module."
+  },
+  {
+    "objectID": "index.html#all-modules",
+    "href": "index.html#all-modules",
+    "title": "SCORE Module Repository",
+    "section": "All Modules",
+    "text": "All Modules\n\n\n\n\n\n\nBrowse all modules below. Use the sidebar to filter by sport or visit by statistics and data science topic.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMMA Inter-rater Reliability Data Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Data Wrangling\n\n\n\ndplyr\n\nfiltering\n\ngrouping and summarizing\n\nmutating\n\n\n\nArranging data to analyze the total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Robin Lock, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022 - Summary Statistics\n\n\n\ndistribution and skewness\n\noutlier detection\n\nsummary statistics\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2025\n\n\nAbigail Smith, Ivan Ramler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Goals in Soccer\n\n\n\nLogistic Regression\n\nFeature Engineering\n\nUnder Sampling\n\n\n\nAn Introduction to Expected Goals Using Soccer\n\n\n\n\n\nMay 19, 2025\n\n\nColman Kim, Andrew Lee\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals (No R)\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface\n\n\n\nANOVA\n\nTennis\n\n\n\nUsing tennis to teach ANOVA and linear regression with categorical variables\n\n\n\n\n\nJan 22, 2025\n\n\nZachary O. Binney, Heyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon - Variability in Finish Times\n\n\n\nhistograms\n\nsummary statistics\n\nbimodal data\n\n\n\nDescribing finish time for runners in the 2023 Boston Marathon\n\n\n\n\n\nMay 13, 2024\n\n\nIvan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nFIRST Robotics Competition - Winning Chances\n\n\n\nBrier score\n\nprediction assessment\n\n\n\nEvaluating the predicted winning probabilities against the actual outcomes.\n\n\n\n\n\nMar 5, 2024\n\n\nJake Tan\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse Faceoff Proportions\n\n\n\nHypothesis testing\n\nSingle proportion\n\n\n\nUsing data from NCAA Div I lacrosse teams to explore the importance of winning faceoffs\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Fay, Ivan Ramler, A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\nDifference in two means\n\n\n\nComparing scoring rates between indoor and outdoor profesional lacrosse leagues.\n\n\n\n\n\nFeb 5, 2024\n\n\nJack Cowan, Ivan Ramler, A.J. Dykstra, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Transformation Module\n\n\n\nLinear regression\n\nTransformations\n\nPolynomial regression\n\n\n\nUsing NASCAR driver rating data to explore a series of transformations to improve linearity in regression.\n\n\n\n\n\nFeb 5, 2024\n\n\nAlyssa Bigness, Ivan Ramler, Jack Fay\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlon (Canadian Females) - Multiple Linear Regression\n\n\n\nLinear regression\n\n\n\nUsing Lake Placid Ironman triathlon results for female Canadian finishers to predict run times for participants based on both swim and bike times.\n\n\n\n\n\nFeb 5, 2024\n\n\nA.J. Dykstra, Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\nlinear regression\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n\n\n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\nExponential distribution\n\nPoisson process\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlete Performance\n\n\n\nScatterplots\n\nCorrelation\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#contributing-andor-joining-the-score-network",
+    "href": "index.html#contributing-andor-joining-the-score-network",
+    "title": "SCORE Module Repository",
+    "section": "Contributing and/or Joining the SCORE Network",
+    "text": "Contributing and/or Joining the SCORE Network\nInterested in submitting your own module? Click here to find out more information about the SCORE Network module submission process."
+  },
+  {
+    "objectID": "index.html#preprint-servers",
+    "href": "index.html#preprint-servers",
+    "title": "SCORE Module Repository",
+    "section": "Preprint Servers",
+    "text": "Preprint Servers\nYou can also access preprint repositories maintained by members of the SCORE Network. These preprint repositories are created and maintained by faculty and students from the respective institutions. Please note that these materials have not yet completed the required pedagogical and industry peer reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\n\nCarnegie Mellon University\nSt. Lawrence University\nBaylor University + Azusa Pacific University\nWest Point"
+  },
+  {
+    "objectID": "index.html#funding-source",
+    "href": "index.html#funding-source",
+    "title": "SCORE Module Repository",
+    "section": "Funding Source",
+    "text": "Funding Source\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
+  },
+  {
+    "objectID": "baseball/index.html",
+    "href": "baseball/index.html",
+    "title": "Baseball",
+    "section": "",
+    "text": "These modules use baseball data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Injuries - Introductory Time Series Analysis\n\n\n\nTime series plots\n\nTime series decomposition\n\nResidual analysis\n\nSimple forecasting\n\n\n\nExploring MLB injury data through time series analysis and forecasting.\n\n\n\n\n\nNov 26, 2024\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\nBernoulli distribution\n\nBinomial distribution\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "Baseball",
-      "Unbreakable Records in Baseball"
+      "Baseball"
     ]
   },
   {
-    "objectID": "baseball/unbreakable-records/index.html#motivation",
-    "href": "baseball/unbreakable-records/index.html#motivation",
-    "title": "Unbreakable Records in Baseball",
+    "objectID": "baseball/stolen-bases/index.html",
+    "href": "baseball/stolen-bases/index.html",
+    "title": "Stolen Bases",
     "section": "",
-    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
     "crumbs": [
       "Home",
       "Baseball",
-      "Unbreakable Records in Baseball"
+      "Stolen Bases"
     ]
   },
   {
-    "objectID": "baseball/unbreakable-records/index.html#module",
-    "href": "baseball/unbreakable-records/index.html#module",
-    "title": "Unbreakable Records in Baseball",
+    "objectID": "baseball/stolen-bases/index.html#motivation",
+    "href": "baseball/stolen-bases/index.html#motivation",
+    "title": "Stolen Bases",
+    "section": "",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Stolen Bases"
+    ]
+  },
+  {
+    "objectID": "baseball/stolen-bases/index.html#module",
+    "href": "baseball/stolen-bases/index.html#module",
+    "title": "Stolen Bases",
     "section": "Module",
-    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/stolen-bases-module/",
     "crumbs": [
       "Home",
       "Baseball",
-      "Unbreakable Records in Baseball"
+      "Stolen Bases"
     ]
   },
   {
-    "objectID": "esports/league-of-legends-buffing-nerfing/index.html",
-    "href": "esports/league-of-legends-buffing-nerfing/index.html",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "esports/index.html",
+    "href": "esports/index.html",
+    "title": "Esports",
     "section": "",
-    "text": "Welcome video\n\n\n\n\nIntroduction\nLeague of Legends (LoL) is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. In this game, players assume the role of a “champion” with unique abilities and engage in intense battles against a team of other players or computer-controlled champions. Riot Games continually collects data to evaluate the impact of each champion, adjusting and fine-tuning various aspects to ensure fair and competitive gameplay. With regular updates (patches) occurring every two weeks, champions can become either extremely efficient and strong or in need of adjustments to enhance their abilities. Maintaining overall game balance is crucial, and developers employ strategies known as “nerfing” and “buffing” to achieve this balance. “Nerfing” refers to reducing the power or effectiveness of a champion or item, while “buffing” involves increasing its power or effectiveness.\nIn this worksheet, we will analyze and describe histograms of Win Rates for different champions in LoL. The Win Rate, a key metric in the game, represents the percentage of games won by a champion out of the total games played. Understanding the distribution of Win Rates and identifying potential outliers can provide valuable insights into champion balance and performance, informing strategic decision-making in LoL gameplay.\n\n\n\n\n\n\nLearning Objectives\n\n\n\n\n\nBy the end of this activity, you will be able to:\n\nUnderstand the concept of histograms and their relevance in statistical analysis.\nAnalyze and describe histograms to gain insights into the distribution of Win Rates in League of Legends. In particular, being able to describe the center, shape, and spread of a distribution based on the displayed graph.\nIdentify potential outliers in a numerical variable using numerical methods such as the “1.5 IQR Rule” or z-scores.\nInterpret the implications of outliers in terms of champion balance and performance.\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n\n\n\nTechnology requirement: The activity handout provides histograms and summary statistics so that no statistical software is required. However, the activity could be modified to ask students to produce that information from the raw dataset and/or extend the activity to investigate other variables available in the data.\n\nHistograms: Familiarity with histograms as a graphical representation of the distribution of a continuous variable, such as Win Rates, is crucial. You should understand how to interpret histograms, including the concepts of bins, frequencies, and the shape, center, and spread of distributions.\nOutliers: Knowledge of outliers, which are data points that deviate significantly from the overall pattern, is important.\nFamiliarity with basic statistical analysis techniques, such as measures of central tendency (mean, median) and measures of dispersion (standard deviation, range), will aid in interpreting and analyzing the histograms. These techniques can provide insights into the overall characteristics and variability of the Win Rates.\nKnowledge of outlier detection methods (such as the 1.5 IQR Rule and/or z-scores) is fundamental to the activity.\n\n\n\n\n\n\nData\nA data frame for 162 champions of the following 7 variables. Each row represents a Champion that you can choose when playing League of Legends during patches 12.22 and 12.23. Note that the activity provided in this module does not use all of the variables provided. Instead they are provided for further analyses at the discretion of the user.\nAvailable on the SCORE Data Repository\nDownload data: LOL_patch_12.22.csv\nDownload data: LOL_patch_12.23.csv\n\n\nVariable Descriptions\n\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nName\nname of the champion\n\n\nRole\nrole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nwin rates of each champion\n\n\nPickRate\npick rates of each champion\n\n\nRolePerc\npercentage of time playing as a role\n\n\nBanPerc\nban percentages associated with each champion\n\n\n\n\n\nData Source\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master\n\n\n\nMaterials\nClass handout\nClass handout - with solutions\n\n\n\n\n\n\nConclusion\n\n\n\n\n\nIn conclusion, the analysis of Win Rates histograms in League of Legends has provided valuable insights into champion balance and performance. One notable finding from this worksheet is the identification of Sion as a low outlier in the Win Rates for the 12.22 patch. However, in the subsequent 12.23 patch, Sion’s Win Rate improved, and was no longer an outlier. Sion was given a Buff in patch 12.23, resulting in an enhanced performance and a more balanced Win Rate. However, patch 12.23 resulted in two new outliers with low win rates.\nThe continued presence of outliers highlights the importance of continuous monitoring and adjustments by game developers to ensure fair and competitive gameplay.\n\n\n\n\n\nHow to Cite\nIf you use this module in your work, please cite it as follows:\nRamler, I., Charalambous, G., & Dykstra, A. J. (2025, April 30). League of Legends. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/8R3YG\nYou can include this citation directly in your references or bibliography.",
+    "text": "These modules use esports data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\noutliers\n\nsummary statistics\n\n\n\nInvestigating game play statistics for League of Legends champions in two different patches.\n\n\n\n\n\nFeb 21, 2024\n\n\nIvan Ramler, George Charalambous, A.J. Dykstra\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
+      "Esports"
     ]
   },
   {
-    "objectID": "football/nfl-elo-ratings/index.html",
-    "href": "football/nfl-elo-ratings/index.html",
-    "title": "Introduction to Elo ratings",
+    "objectID": "football/index.html",
+    "href": "football/index.html",
+    "title": "Football",
     "section": "",
-    "text": "Elo ratings are one of the most popular approaches for estimating player/team strength across a variety of sports. You can find a number of different sports examples maintained by sportswriter Neil Paine, as well as older versions that were featured in the popular website FiveThirtyEight. These dynamic ratings are adjusted for opponent strength and can be used for historical comparisons, such as who is the greatest tennis player of all time?, and for predicting outcomes. In this module you will learn the basics of Elo ratings in the context of measuring NFL team strength, walking through steps to implement and assess Elo ratings from scratch in R.",
+    "text": "These modules use football data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Elo ratings\n\n\n\nElo ratings\n\nBrier score\n\nprediction\n\n\n\nAn introduction to Elo ratings using NFL game outcomes.\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "Football",
-      "Introduction to Elo ratings"
+      "Football"
     ]
   },
   {
-    "objectID": "football/nfl-elo-ratings/index.html#motivation",
-    "href": "football/nfl-elo-ratings/index.html#motivation",
-    "title": "Introduction to Elo ratings",
+    "objectID": "games/BlackJack/index.html",
+    "href": "games/BlackJack/index.html",
+    "title": "BlackJack Logistic Regression",
     "section": "",
-    "text": "Elo ratings are one of the most popular approaches for estimating player/team strength across a variety of sports. You can find a number of different sports examples maintained by sportswriter Neil Paine, as well as older versions that were featured in the popular website FiveThirtyEight. These dynamic ratings are adjusted for opponent strength and can be used for historical comparisons, such as who is the greatest tennis player of all time?, and for predicting outcomes. In this module you will learn the basics of Elo ratings in the context of measuring NFL team strength, walking through steps to implement and assess Elo ratings from scratch in R.",
+    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\nThis module is available on the ISLE platform BlackJack Module\n\n\nIf you use this module in your work, please cite it as follows:\nTran, A. and Clark, N. (2025, July 25). Blackjack Logistic Regression. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/M4WV7\nYou can include this citation directly in your references or bibliography.",
     "crumbs": [
       "Home",
-      "Football",
-      "Introduction to Elo ratings"
+      "Games",
+      "BlackJack Logistic Regression"
     ]
   },
   {
-    "objectID": "football/nfl-elo-ratings/index.html#learning-objectives",
-    "href": "football/nfl-elo-ratings/index.html#learning-objectives",
-    "title": "Introduction to Elo ratings",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nBy the end of this module, you will be able to:\n\nCompute the expected outcome or predicted probability based on player/team ratings.\nUpdate ratings following the observed outcome of a match/game.\nImplement the complete Elo ratings framework in R for a full NFL season.\nAssess Elo rating predictions using Brier scores.\nTune the update factor and other settings to yield more optimal predictions.",
-    "crumbs": [
-      "Home",
-      "Football",
-      "Introduction to Elo ratings"
-    ]
-  },
-  {
-    "objectID": "football/nfl-elo-ratings/index.html#data",
-    "href": "football/nfl-elo-ratings/index.html#data",
-    "title": "Introduction to Elo ratings",
-    "section": "Data",
-    "text": "Data\nThe dataset and description are available at the SCORE Network Data Repository.",
-    "crumbs": [
-      "Home",
-      "Football",
-      "Introduction to Elo ratings"
-    ]
-  },
-  {
-    "objectID": "football/nfl-elo-ratings/index.html#module-materials",
-    "href": "football/nfl-elo-ratings/index.html#module-materials",
-    "title": "Introduction to Elo ratings",
-    "section": "Module Materials",
-    "text": "Module Materials\n\n\n\n\n\n\nPrerequisites\n\n\n\nPrior to working on through this module, students are expected to know the following:\n\nFamiliar with R with the ability to read and write functions.\nSome exposure to predicting outcomes with probabilities.\n\nThe module has sections indicating which portions are challenging exercises, and is designed to take an undergraduate student roughly 1-3 hours to complete (and 3-4 hours with the challenge exercise).\n\n\nStudent assignment qmd file\nView instructor solutions",
-    "crumbs": [
-      "Home",
-      "Football",
-      "Introduction to Elo ratings"
-    ]
-  },
-  {
-    "objectID": "football/nfl-elo-ratings/index.html#how-to-cite",
-    "href": "football/nfl-elo-ratings/index.html#how-to-cite",
-    "title": "Introduction to Elo ratings",
-    "section": "How to Cite",
-    "text": "How to Cite\nIf you use this module in your work, please cite it as follows:\nYurko, R. (2025, March 11). Introduction to ELO Ratings. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/DHUQ2\nYou can include this citation directly in your references or bibliography.",
-    "crumbs": [
-      "Home",
-      "Football",
-      "Introduction to Elo ratings"
-    ]
-  },
-  {
-    "objectID": "games/index.html",
-    "href": "games/index.html",
-    "title": "Games",
+    "objectID": "games/BlackJack/index.html#module",
+    "href": "games/BlackJack/index.html#module",
+    "title": "BlackJack Logistic Regression",
     "section": "",
-    "text": "These modules use games data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlackJack Logistic Regression\n\n\n\nLogistic Regression\n\nBinary Data\n\n\n\nAn Introduction to Logistic Regression Using BlackJack\n\n\n\n\n\nJul 23, 2025\n\n\nAndrew Tran, Nicholas Clark\n\n\n\n\n\nNo matching items",
+    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\nThis module is available on the ISLE platform BlackJack Module\n\n\nIf you use this module in your work, please cite it as follows:\nTran, A. and Clark, N. (2025, July 25). Blackjack Logistic Regression. “The SCORE Network.” https://doi.org/10.17605/OSF.IO/M4WV7\nYou can include this citation directly in your references or bibliography.",
     "crumbs": [
       "Home",
-      "Games"
+      "Games",
+      "BlackJack Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "golf/index.html",
+    "href": "golf/index.html",
+    "title": "Golf",
+    "section": "",
+    "text": "These modules use golf data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\n\n\n\n\n\n\n\nPGA - Scoring Average Confidence Intervals (No R)\n\n\n\nSingle Mean Confidence Intervals\n\nSingle Mean Hypothesis Testing\n\n\n\nExploring Single Mean Confidence Intervals with Golf Data\n\n\n\n\n\nJan 25, 2025\n\n\nJonathan Lieb\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Golf"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html",
+    "href": "golf/pga_masters_nor/index.html",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "",
+    "text": "Facilitation notes\n\n\n\n\n\n\nThis module would be suitable for an in-class lab or take-home assignment in an introductory statistics course.\nThe data used to create this module and a student answer template can be downloaded from the following links:\n\nData\nStudent answer template\n\nThe data for this module is derived largely from the ESPN website. However, the tours were manually added to the data based on the what they played on in 2023 at the time of the Masters.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#terms-to-know",
+    "href": "golf/pga_masters_nor/index.html#terms-to-know",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "Terms to know",
+    "text": "Terms to know\nBefore proceeding with the analysis, let’s make sure we know some important golf terminology that will help us master this lab.\n\nGolf Terminology\n\nPar in golf is the amount of strokes that a good golfer is expected to take to get the ball in the hole.\n\nEach hole in golf has its own par. There are par 3 holes, par 4 holes, and par 5 holes.\nThere are 18 holes on a golf course and the pars of each of these holes sums to par for the course, also known the course par.\n\nA round in golf is when a golfer plays the full set of 18 holes on the course.\n\nIn most professional golf tournaments, all golfers play 2 rounds, the best golfers are selected and those golfers play 2 more rounds for a total of 4 rounds.\n\n\n\n\n\n\n\n\nTypes of Golf Tours\n\n\n\n\nIn golf there are a few tours, better thought of as leagues, that golfers regularly compete in\n\nThe PGA Tour, or “Professional Golf Association Tour”, has long been considered the preeminant golfing tour, hosting most tournaments and containing the most skilled members.\nThe LIV tour is a Saudi-backed alternative to the PGA that played its first season in 2022. LIV is the Roman numeral for 54 and is related to the fact that LIV tournaments only allow 54 players and only play 54 holes, compared to the normal PGA Tour 72 holes.\nThe PGA Tour Champions is a branch off of the PGA tour for players 50 or older. It used to be called the “Senior PGA Tour” until 2003, when it began being called the Champions tour\nAn amateur is a golfer who is not yet a professional. They are not allowed to win money in professional golf tournaments. Most amateurs are college golfers.\n\n\n\n\n\n\nPGA Tour vs. LIV Golf\nClick here to read about LIV golf’s founding and its continued impact on the PGA tour.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#t-interval-for-single-means",
+    "href": "golf/pga_masters_nor/index.html#t-interval-for-single-means",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "t-interval for single means",
+    "text": "t-interval for single means\nA t-distribution is used for calculating a single mean confidence interval if the sample size is small (rule of thumb: less than 30) and the population standard deviation is unknown.\nThe formula for calculating a CI using this method is shown below: \\[CI = \\bar{x} \\pm t_{\\alpha/2, df} \\times \\frac{s}{\\sqrt{n}}\\]\n\n\nClick here to learn more about the t-distribution and play around with t-distribution graphs.\nWhere \\(\\bar{X}\\) is the sample mean,\n\\(t_{\\alpha/2, df}\\) is the critical value for the t-distribution with \\(df = n-1\\),\n\\(S\\) is the sample standard deviation,\nand \\(n\\) is the sample size.\n\n\nNOTE: The t-distribution changes based on the degrees of freedom, approaching the normal distribution as the degrees of freedom increase.\nThe critical value for the t-distribution is determined by the confidence level and the degrees of freedom. This is calculated by finding the value of \\(t_{\\alpha/2, df}\\) such that the area under the t-distribution curve (with that specific degrees of freedom) between \\(-t_{\\alpha/2, df}\\) and \\(t_{\\alpha/2, df}\\) is equal to the confidence level.\n\n\n\n\n\n\n\n\n\nThese critical values can be found using t-tables like the one below. Some important things to note about this specific t-table. The degrees of freedom for the test are on the left. The row cum. prob at the top shows us the \\(t_{\\alpha}\\) value. The one-tail row shows us the p-value for a one-tailed test and the row two-tail shows us the p-value for a two-tailed test. There is also a helpful row at the bottom called confidence level that shows the associated confidence level for confidence intervals. The values in the table show the t-test statistic values corresponding to the degrees of freedom and \\(t_{alpha}\\).\n\nFor a 95% confidence interval, our Type I error rate is \\(\\alpha = 0.05\\). Since confidence intervals are two-tailed, we split this \\(\\alpha\\) in half, half in the left tail and half in the right tail. This means that we are looking for \\(t_{.025, df}\\) or \\(t_{.975, df}\\).\n\n\n\n\n\n\nExample 1: t-distribution confidence intervals\n\n\n\n\n\nWe would like to make a 90% confidence interval for the true mean of scoring for Jon Rahm at the Masters. His scores were as follows.\n\n\n\n\n\nGolfer\nRound\nScore\n\n\n\n\nJon Rahm\n1\n65\n\n\nJon Rahm\n2\n69\n\n\nJon Rahm\n3\n73\n\n\nJon Rahm\n4\n69\n\n\n\n\n\nWe start by calculating the the sample mean (\\(\\bar{x}\\)).\n\\[\n\\begin{align*}\n\\bar{x} &= \\frac{65 + 69 + 73 + 69}{4} \\\\\n        &= 69\n\\end{align*}\n\\]\nNext we calculate the sample standard deviation (\\(s\\)).\n\\[\n\\begin{align*}\ns &= {\\sqrt {\\frac {\\sum _{i=1}^{n}(x_{i}-{\\overline {x}})^{2}}{n-1}}} \\\\\n  &= {\\sqrt {\\frac{(65 - 69)^2 + (69 - 69)^2 + (73 - 69)^2 + (69 - 69)^2}{4-1}}} \\\\\n  &= {\\sqrt {\\frac{(-4)^2 + 0^2 + 4^2 + 0^2}{3}}} \\\\\n  &\\approx 3.266\n\\end{align*}\n\\]\nOur next step is to find the critical value for a 90% confidence interval with 3 degrees of freedom (\\(t_{\\alpha/2, df}\\). We’ll use the t-table from earlier to find this.\n\nLastly we will use the confidence interval formula to find the bounds of our 90% confidence interval. \\[\n\\begin{align*}\nCI &= \\bar{x} \\pm t_{\\alpha/2, df} \\times \\frac{s}{\\sqrt{n}} \\\\\nCI &= 69 \\pm 2.353 \\times \\frac{3.266}{\\sqrt{4}} \\\\\nCI &= (67.07878, 70.92122)\n\\end{align*}\n\\] Finally we can interpret the confidence interval and say that we are 95% confident that the true mean of Jon Rahm’s scores at Augusta National is between 67.1 and 70.9.\n\n\n\n\n\n\n\n\n\nExercise 1: t-distribution confidence intervals\n\n\n\nThe table below shows summary data for the first round of the 2023 Masters tournament for amateur golfers. The critical value is for a 90% confidence interval with 6 degrees of freedom.\n\n\n\n\n\n\n\n\n\n\n\n\nSample\nSample Mean\nSample Standard Deviation\nSample Size\nCritical Value\n\n\n\n\nAmateurs Round 1\n75\n3.21455\n7\n1.94318\n\n\n\n\n\nUse the formula for creating a confidence interval using the t-distribution to calculate the upper and lower limits of a confidence interval for the true mean of amateur scoring using the amateurs in the first round as our sample. Use a 90% confidence interval (\\(\\alpha = .1\\)).\n\nWhat is the lower bound of the confidence interval?\nWhat is the upper bound of the confidence interval?\nWhat is the interpretation of this confidence interval?\n\n\n\nRepeat this process with a 99% confidence interval (\\(\\alpha = .01\\)).\n\nWhat is the new lower bound of the confidence interval?\nWhat is the new upper bound of the confidence interval?\nIs this 99% confidence interval larger, smaller, or the same as 90% confidence interval?\nWhen thinking about your anwer to f, what do you think could explain this?\n\n\n\nTIP: When interpreting a confidence interval do not say “there is a 90% chance that the true mean is between the lower and upper bounds”. Instead, say “we are 90% confident that the true mean is between the lower and upper bounds”.\n\nTIP: The t-table from earlier in the lesson will need to be used to find the critical value for the t-distribution for a 99% confidence interval with 6 degrees of freedom.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#z-interval-for-single-means",
+    "href": "golf/pga_masters_nor/index.html#z-interval-for-single-means",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "z-interval for single means",
+    "text": "z-interval for single means\nA standard normal distribution (also known as a z-distribution) is used to calculate the confidence interval for a single mean if the sample size is large enough (greater than 30) or the population standard deviation is known. The first case is common as oftentimes samples are greater than 30. The second case is rare because it is uncommon to know the population standard deviation but not the population mean.\nThe formula for the confidence interval for a single mean using the z-distribution is very similar to that of the t-distribution\n\n\nClick here for more information about the standard normal distribution.\n\\(CI = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}\\)\nWhere \\(\\bar{X}\\) is once again the sample mean, \\(Z_{\\alpha/2}\\) is the critical value for the standard normal distribution at the specified confidence level, \\({\\sigma}\\) is the population standard deviation, and \\(n\\) is the sample size.\nThe reasoning behind why we can use the standard normal distribution when the sample is greater than 30 even if the population standard deviation is unknown is found in the Central Limit Theorem, which says that as the sample size increases, the sampling distribution of the sample mean approaches a normal distribution. This means that when the sample size is greater than 30 we can use the sample standard deviation to estimate the population standard deviation and create a confidence interval as seen below\n\\(CI = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{s}{\\sqrt{n}}\\)\nOnce again the critical value for the z-distribution is the value of \\(Z_{\\alpha/2}\\) such that the area under the standard normal distribution curve between \\(-Z_{\\alpha/2}\\) and \\(Z_{\\alpha/2}\\) is equal to the confidence level.\nThe critical values for the z-distribution can be found using a z-table such as the one below. All values in the table are the area under the standard normal curve to the left of the associated z-score. The column on the left shows the associated ones and tenths value for the z-score. The row at the top shows the associated hundredths value for the z-score.\n\n\n\n\n\n\n\nExample 2: z-distribution confidence intervals\n\n\n\n\n\nWe would like to make a 98% confidence interval for the true mean of scoring for PGA Tour golfers based off of a sample from the third round. The sample includes the following scores.\n\n\nRound 3 PGA Tour golfer scores: 73 76 71 75 70 73 71 72 71 74 73 68 74 67 73 73 70 72 74 74 69 73 74 74 72 78 74 76 74 72 77 70 74 77 72 73 74 74 77\n\n\nWhew! That’s 39 observations we have in our sample, which means we can use the z-distribution.\nWe start by calculating the the sample mean (\\(\\bar{x}\\)). This probably has to be done using a calculator or programming tool. For this example our sample mean is approximately 73.03.\nNext we calculate the sample standard deviation (\\(s\\)), which is our estimate for \\(\\sigma\\). Once again, with a sample this size a calculator or computer is probably necessary for computing this. Our sample standard deviation is approximately 2.44.\nOur next step is to find the critical value for a 98% confidence interval for a z-distribution (\\(Z_{\\alpha/2}\\)). We will use the z-table from earlier. Since we want alpha equal to .2, our area to the right should be .1 and we look for the value on the table of .99.\n\nNote that this value is not exact. The value is slightly less than 2.33 but .9901 is closer to .99 than .9898, so we went with 2.33.\nLastly we will use the confidence interval formula to find the bounds for our 98% confidence interval. \\[\n\\begin{align*}\nCI &= \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{s}{\\sqrt{n}} \\\\\nCI &= 73.03 \\pm 2.33 \\times \\frac{2.44}{\\sqrt{39}} \\\\\nCI &= (72.12, 73.94)\n\\end{align*}\n\\] Finally we can interpret the confidence interval and say that we are 98% confident that the true mean of PGA Tour golfers’ scores at the 2023 Masters is between 72.12 and 73.94.\n\n\n\n\n\n\n\n\n\nExercise 2: z-distribution confidence intervals\n\n\n\nThe table below shows summary data for the first round of the 2023 Masters Tournament for PGA professional golfers. The critical value is for a 95% confidence interval.\n\n\n\n\n\n\n\n\n\n\n\n\nSample\nSample Mean\nStandard Deviation Estimate\nSample Size\nCritical Value\n\n\n\n\nPGA Round 1\n71.54545\n3.023477\n55\n1.959964\n\n\n\n\n\nUse the formula for creating a confidence interval using the standard normal distribution to calculate the upper and lower limits of a confidence interval for the true mean of PGA professional scoring at Augusta using the PGA pros in the first round as our sample. Use a 95% confidence interval (\\(\\alpha = .05\\)).\n\nWhy can we use the standard normal distribution to calculate this confidence interval?\nWhat is the confidence interval for the true mean of scoring for PGA professionals at Augusta National using round 1 as our sample?\nWhat is the interpretation of this confidence interval?",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#test-statistics",
+    "href": "golf/pga_masters_nor/index.html#test-statistics",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "Test Statistics",
+    "text": "Test Statistics\nLike confidence intervals, we have two different tests for hypothesis testing for the population mean. Remember that if the population standard deviation is unknown and the sample size is less than 30, we use the t-distribution. If the population standard deviation is known or the sample size is greater than 30, we use the standard normal distribution.\nEach of these distributions have their own tests, the t-test and the z-test. This means that we have different test statistics to calculate depending on the situation.\n\nt-test\nThe t-test statistic is calculated using the formula:\n\\[t = \\frac{\\bar{x} - \\mu_0}{\\frac{s}{\\sqrt{n}}}\\]\nwhere \\(\\bar{x}\\) is the sample mean, \\(\\mu_0\\) is the hypothesized population mean, \\(s\\) is the sample standard deviation, and \\(n\\) is the sample size.\n\n\nz-test\nThe z-test statistic is calculated using the formula:\n\\[z = \\frac{\\bar{x} - \\mu_0}{\\frac{\\sigma}{\\sqrt{n}}}\\]\nwhere \\(\\bar{x}\\) is the sample mean, \\(\\mu_0\\) is the hypothesized population mean, \\(\\sigma\\) is the population standard deviation, and \\(n\\) is the sample size.\nOnce again, if the sample size is over 30 and the population standard deviation is unknown, we use the sample standard deviation to approximate the population standard deviation.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#to-reject-or-fail-to-reject",
+    "href": "golf/pga_masters_nor/index.html#to-reject-or-fail-to-reject",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "To Reject or Fail to Reject",
+    "text": "To Reject or Fail to Reject\nThere are two ways to make a decision about the null hypothesis.\nMethod 1: Critical values, along with test statistics, can be used to determine if the hypothesized population mean is within the confidence interval for the true mean.\nA critical value is a value that separates the rejection region from the non-rejection region. The rejection region is the area where the null hypothesis is rejected. The non-rejection region is the area where the null hypothesis is not rejected. The critical value is determined by the significance level (\\(\\alpha\\)) and the degrees of freedom (if it is a t-test). The critical value is compared to the test statistic to determine if the null hypothesis should be rejected. If the test statistic is within the non-rejection region, the null hypothesis is not rejected. If the test statistic is within the rejection region, the null hypothesis is rejected and the alternative hypothesis is accepted.\nBelow is an example of using critical values and a test-statistic for a z-test with a 95% confidence level (two-sided). The critical value is 1.96. This means that if the test statistic is greater than 1.96 or less than -1.96, the null hypothesis is rejected. The blue represents the non-rejection region and the red the rejection region. Since the test statistic for this example is 1.1 (less than 1.96 and greater than -1.96), we fail to reject the null hypothesis.\n\n\n\n\n\n\n\n\n\nThis method corresponds directly to the related confidence intervals produced for the sample data.\nIf the hypothesized population mean is within the confidence interval, we fail to reject the null hypothesis. If the hypothesized population mean is not within the confidence interval, the null hypothesis is rejected and the alternative hypothesis is accepted.\n\n\nNote: We can say that there is significant evidence to accept the alternative hypothesis if the null hypothesis is rejected. However, it should never be said that we accept the null hypothesis. We can only fail to reject it.\nMethod 2: The second method is to use a p-value. The p-value is the probability of observing a test statistic as extreme as the one calculated from the sample data given that the null hypothesis is true. The p-value is compared to the significance level (\\(\\alpha\\)) to determine if the null hypothesis should be rejected. If the p-value is less than \\(\\alpha\\), the null hypothesis is rejected. If the p-value is greater than \\(\\alpha\\), the null hypothesis is not rejected.\n\n\nNOTE: Our alternative hypothesis determines whether we are looking for the probability that the test statistic is greater than or less than the observed value.\n\nFor a two-sided test, the p-value is the probability that the test statistic is greater than the observed value or less than the negative of the observed value. Find the area in one of the tails and double it.\nFor a left-tailed test (\\(H_a: \\mu &lt; \\mu_0\\)), the p-value is the probability that the test statistic is less than the observed value.\nFor a right-tailed test (\\(H_a: \\mu &gt; \\mu_0\\)), the p-value is the probability that the test statistic is greater than the observed value.\n\nFirst let’s visualize what a p-value is telling us.\n\n\n\n\n\n\n\n\n\nNow let’s see how we can calculate p-value for our example using a z-table.\nWe have a hypothetical z-test statistic of 1.1 and alpha of .05 for a two-tailed test. We start by finding the area under the curve to the left of a z-score of 1.1. However, we know that we want the area under the curve greater than 1.1 or less than -1.1. We can find the area under the curve to the right of 1.1 by subtracting our area value from 1. Additionally, we know that the z-distribution is symmetrical, implying that the area under the curve less than -1.1 is equal to that which is greater than 1.1. This means that we multiply our area value by 2 to get the p-value.\n\nThis means we can calculate p-value with the math below.\n\\[\n\\begin{align*}\np\\text{-}value &= 2 * (1 - .8643)\\\\\n               &= .2714\n\\end{align*}\n\\]\nSince the p-value is greater than our alpha value of .05 we fail to reject the null hypothesis.\n\n\n\n\n\n\nExample 3: Hypothesis testing example\n\n\n\n\n\nSuppose we have a sample of data with the following values: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. We want to test if the true mean of the population is not equal to 50. Alpha is 0.05. Our hypotheses are as follows:\n\nNull Hypothesis (\\(H_0\\)): \\(\\mu = 50\\)\nAlternative Hypothesis (\\(H_1\\)): \\(\\mu \\neq 50\\)\n\nWe should use the t-test to test this hypothesis because the sample size is small and the population standard deviation is unknown.\nWe start by finding the sample mean, sample standard deviation, and degrees of freedom. Using a calculator we can find \\(\\bar{x} = 55\\), \\(s = 30.2765\\), and logically \\(df = 9\\).\nNow we need to find the critical value for a 95% two sided confidence t-interval with 9 degrees of freedom (\\(t_{\\alpha/2, df}\\)). Once again we will use the t-table from earlier.\n\nThe critical value is \\(\\pm 2.262\\).\nNext the test statistic can be calculated as follows:\n\\[t = \\frac{\\bar{x} - \\mu_0}{\\frac{s}{\\sqrt{n}}}\\] \\[t = \\frac{55 - 50}{\\frac{30.2765}{\\sqrt{10}}}\\] \\[t = 0.522\\]\nThis is visualized in the plot below.\n\n\n\n\n\n\n\n\n\nSince the test statistic is between the two critical values, there is not enough evidence to reject the null hypothesis and conclude that the true mean is not equal to 50.\nThe p-value for this example could be calculated by finding the area under the curve to the left of -0.522 and to the right of 0.522. The p-value would be the sum of these two areas.\nThis value can be estimated by looking at the t-table. Obviously .522 is not on the table, but is between 0 and .703. If we follow this up to the top of the table we can look at the two-tails column and see that the p-value would be between .5 and 1. This is significantly larger than .05. Therefore we fail to reject the null hypothesis.\n\n\n\n\n\n\nNOTE: Since this is a two-sided test you could simply find the probability that the test statistic is greater than 0.522 and multiply by 2. This would give you the p-value.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
+    ]
+  },
+  {
+    "objectID": "golf/pga_masters_nor/index.html#hypothesizing-par-as-the-population-mean",
+    "href": "golf/pga_masters_nor/index.html#hypothesizing-par-as-the-population-mean",
+    "title": "PGA - Scoring Average Confidence Intervals (No R)",
+    "section": "Hypothesizing Par as the Population Mean",
+    "text": "Hypothesizing Par as the Population Mean\n\n\nAugusta National is breathtakingly beautiful, but if golfers get distracted by the scenic views, tall pines, bunkers, water, and azaleas may catch their balls.\n\n\n\nAugusta Hole 13\n\n\nImage Source: Your Golf Travel, CC 4.0\nIn golf par is considered to be the number of strokes a good golfer is expected to take. The par for the course at Augusta National is 72. It is known that Augusta National is a tougher than usual course, but we would like to test if that is the case for different groups of golfers.\nOur null hypothesis will generally be that the true mean of the group is equal to 72.\n\n\n\n\n\n\nExercise 3: t-test for single mean hypothesis testing\n\n\n\n\nAmateurs, who are not yet professional golfers, are generally expected to score higher than professionals. We would like to test if the mean of amateur scoring is above par at Augusta National\n\nWhat is the null hypothesis for this test?\nWhat is the alternative hypothesis for this test?\n\nPerform a single mean hypothesis test to see if the mean of amateur scoring is greater than 72 using the amateur round 1 score sample from earlier in the lesson. The summary of the sample is as follows:\n\n\n\n\n\nSample\nSample Mean\nSample Standard Deviation\nSample Size\n\n\n\n\nAmateurs Round 1\n75\n3.21455\n7\n\n\n\n\n\n\nWhat is the critical value for this test?\nWhat is the test statistic?\nWhat is the p-value?\nBased on the p-value and the test statistic to critical value comparison, is there statistically significant evidence that the mean of amateur scoring at Augusta National is greater than 72?\n\n\n\n\nAmateurs generally struggle in the Masters, but in 2023 Sam Bennett, a Texas A&M student, made the cut and finished 16th. However, due to his amateur status, he was not eligible to win money and missed out on $261,000.\n\n\n\n\n\n\nExercise 4: z-test for single mean hypothesis testing\n\n\n\nPGA professionals would generally average somewhere around par. We would like to test if the mean of PGA professional scoring is not equal to 72 at Augusta National.\n\nWhat is the null hypothesis for this test?\nWhat is the alternative hypothesis for this test?\n\nPerform a single mean hypothesis test using the PGA Round 1 sample from earlier. The summary of that sample is displayed below.\n\n\n\n\n\nSample\nSample Mean\nSample Standard Deviation\nSample Size\n\n\n\n\nPGA Round 1\n71.54545\n3.023477\n55\n\n\n\n\n\n\nWhat is the critical value for this test?\nWhat is the test statistic?\nWhat is the p-value?\nWhat is your conclusion?\nExplain your answer to part d.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "PGA - Scoring Average Confidence Intervals (No R)"
     ]
   },
   {
