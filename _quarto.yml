@@ -2,21 +2,32 @@ project:
   type: website
   render: 
     - "index.qmd"
-    - "*/*/index.qmd"
-    - "preprints.qmd"
+    - "*/index.qmd" # new sport pages
+    - "*/*/index.qmd" # module pages
     - "by-statsds-topic.qmd"
+    
+metadata-files:
+  - sidebar-sports.yml
 
 website:
   title: "SCORE Module Repository"
-  page-footer: "Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)"
-  cookie-consent: true
   google-analytics: "G-D8W3NNYGGP"
+  cookie-consent:
+    type: implied
+    prefs-text: "Manage cookies"
+  page-footer: 
+    center:
+      Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)
+      
+      We use cookies to track usage statistics 
+      to help measure impact of the materials
+      for authors. Please consider allowing 
+      tracking cookies.
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - by-statsds-topic.qmd
-      - preprints.qmd
+ #     - by-statsds-topic.qmd
       - href: https://data.scorenetwork.org/
         text: Data Repository
       - href: https://scorenetwork.org/index.html
@@ -25,20 +36,20 @@ website:
         text: Preprint Modules
         
     right:
-      - icon: twitter
-        href: https://twitter.com/scorenetworkorg
+#      - icon: twitter
+#        href: https://twitter.com/scorenetworkorg
       - icon: linkedin
         href: https://www.linkedin.com/company/scorenetworkorg/
   sidebar:
     contents: auto
     collapse-level: 1
   repo-url: https://github.com/SCOREnetworkorg/module-repository
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
 
 format:
   html:
     theme:
-      - cosmo
+      - flatly
       - score.scss
     toc: true
 

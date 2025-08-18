@@ -1,0 +1,11 @@
+---
+title: "Tennis"
+listing:
+  contents:
+    - "./*/index.qmd"
+  sort: date desc
+  image-placeholder: "../_img/default_thumbnail.png"
+  fields: [image, title, author, date, categories, description]
+---
+
+These modules use **tennis** data to teach topics in statistics and data science.
