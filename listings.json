@@ -6,6 +6,7 @@
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
+      "/obstacle_competitions/american_ninja_warrior/index.html",
       "/soccer/expected_goals/index.html",
       "/soccer/mls_decision_errors/index.html",
       "/golf/pga_masters/index.html",
@@ -40,37 +41,34 @@
     ]
   },
   {
-    "listing": "/lacrosse/index.html",
+    "listing": "/motor_sports/index.html",
     "items": [
-      "/lacrosse/college_lacrosse_faceoffs/index.html",
-      "/lacrosse/lacrosse_pll_vs_nll/index.html"
+      "/motor_sports/nascar_regression_transformation/index.html"
     ]
   },
   {
-    "listing": "/golf/index.html",
+    "listing": "/mixed_martial_arts/index.html",
     "items": [
-      "/golf/pga_masters/index.html",
-      "/golf/pga_masters_nor/index.html"
+      "/mixed_martial_arts/mma_interrater_reliability/index.html"
     ]
   },
   {
-    "listing": "/football/index.html",
+    "listing": "/marathons/index.html",
     "items": [
-      "/football/nfl-elo-ratings/index.html"
+      "/marathons/boston-marathon-finish_times-2023/index.html",
+      "/marathons/marathon-records/index.html"
     ]
   },
   {
-    "listing": "/esports/index.html",
+    "listing": "/hockey/index.html",
     "items": [
-      "/esports/league-of-legends-buffing-nerfing/index.html"
+      "/hockey/nhl-shooting-percentage-ventura/index.html"
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/games/index.html",
     "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/games/BlackJack/index.html"
     ]
   },
   {
@@ -80,6 +78,7 @@
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
+      "/obstacle_competitions/american_ninja_warrior/index.html",
       "/soccer/expected_goals/index.html",
       "/soccer/mls_decision_errors/index.html",
       "/golf/pga_masters/index.html",
@@ -102,34 +101,37 @@
     ]
   },
   {
-    "listing": "/games/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/games/BlackJack/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
-    "listing": "/hockey/index.html",
+    "listing": "/esports/index.html",
     "items": [
-      "/hockey/nhl-shooting-percentage-ventura/index.html"
+      "/esports/league-of-legends-buffing-nerfing/index.html"
     ]
   },
   {
-    "listing": "/marathons/index.html",
+    "listing": "/football/index.html",
     "items": [
-      "/marathons/boston-marathon-finish_times-2023/index.html",
-      "/marathons/marathon-records/index.html"
+      "/football/nfl-elo-ratings/index.html"
     ]
   },
   {
-    "listing": "/mixed_martial_arts/index.html",
+    "listing": "/golf/index.html",
     "items": [
-      "/mixed_martial_arts/mma_interrater_reliability/index.html"
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html"
     ]
   },
   {
-    "listing": "/motor_sports/index.html",
+    "listing": "/lacrosse/index.html",
     "items": [
-      "/motor_sports/nascar_regression_transformation/index.html"
+      "/lacrosse/college_lacrosse_faceoffs/index.html",
+      "/lacrosse/lacrosse_pll_vs_nll/index.html"
     ]
   },
   {
