@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9aee3e94ba62606df97a6e4fbb292587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4dd799ee9186b926beb3eff337e696b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -139,6 +140,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
@@ -150,7 +153,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -193,6 +196,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -604,12 +611,12 @@ window.Quarto = {
 
 
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Facilitation notes">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Facilitation notes
+<span class="screen-reader-only">Note</span>Facilitation notes
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -655,7 +662,7 @@ Facilitation notes
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Learning Objectives
+<span class="screen-reader-only">Note</span>Learning Objectives
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -667,12 +674,12 @@ Learning Objectives
 </div>
 </div>
 <div class="callout callout-style-default callout-caution no-icon callout-titled" title="Research Questions">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Caution</span>Research Questions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -693,12 +700,12 @@ Research Questions
 <h1>Getting started: 2023 Masters Data</h1>
 <p>The data for this lab comes from the 2023 Masters tournament. The data includes the name of golfer, the round of the tournament, the score the round, and the tour that they usually play on.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Data Description">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Data Description
+<span class="screen-reader-only">Note</span>Data Description
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -755,7 +762,7 @@ Data Description
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Types of Golf Tours
+<span class="screen-reader-only">Important</span>Types of Golf Tours
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -812,12 +819,12 @@ Types of Golf Tours
 <p><img src="t-table.png" class="img-fluid"></p>
 <p>For a 95% confidence interval, our Type I error rate is <span class="math inline">\(\alpha = 0.05\)</span>. Since confidence intervals are two-tailed, we split this <span class="math inline">\(\alpha\)</span> in half, half in the left tail and half in the right tail. This means that we are looking for <span class="math inline">\(t_{.025, df}\)</span> or <span class="math inline">\(t_{.975, df}\)</span>.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Example 1: t-distribution confidence intervals">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example 1: t-distribution confidence intervals
+<span class="screen-reader-only">Note</span>Example 1: t-distribution confidence intervals
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -893,7 +900,7 @@ CI &amp;= (67.07878, 70.92122)
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 1: t-distribution confidence intervals
+<span class="screen-reader-only">Note</span>Exercise 1: t-distribution confidence intervals
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -966,12 +973,12 @@ Exercise 1: t-distribution confidence intervals
 <p>The critical values for the z-distribution can be found using a z-table such as the one below. All values in the table are the area under the standard normal curve to the left of the associated z-score. The column on the left shows the associated ones and tenths value for the z-score. The row at the top shows the associated hundredths value for the z-score.</p>
 <p><img src="z-table.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Example 2: z-distribution confidence intervals">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example 2: z-distribution confidence intervals
+<span class="screen-reader-only">Note</span>Example 2: z-distribution confidence intervals
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1005,7 +1012,7 @@ CI &amp;= (72.12, 73.94)
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 2: z-distribution confidence intervals
+<span class="screen-reader-only">Note</span>Exercise 2: z-distribution confidence intervals
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1128,12 +1135,12 @@ p\text{-}value &amp;= 2 * (1 - .8643)\\
 \]</span></p>
 <p>Since the p-value is greater than our alpha value of .05 we fail to reject the null hypothesis.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Example 3: Hypothesis testing example">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example 3: Hypothesis testing example
+<span class="screen-reader-only">Note</span>Example 3: Hypothesis testing example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1192,7 +1199,7 @@ Example 3: Hypothesis testing example
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 3: t-test for single mean hypothesis testing
+<span class="screen-reader-only">Note</span>Exercise 3: t-test for single mean hypothesis testing
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1241,7 +1248,7 @@ Exercise 3: t-test for single mean hypothesis testing
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 4: z-test for single mean hypothesis testing
+<span class="screen-reader-only">Note</span>Exercise 4: z-test for single mean hypothesis testing
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1293,7 +1300,7 @@ Exercise 4: z-test for single mean hypothesis testing
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 1: Critical Values Knowledge Check
+<span class="screen-reader-only">Note</span>Challenge 1: Critical Values Knowledge Check
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1344,7 +1351,7 @@ Challenge 1: Critical Values Knowledge Check
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 2: P-Value Knowledge check
+<span class="screen-reader-only">Note</span>Challenge 2: P-Value Knowledge check
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1387,7 +1394,7 @@ Challenge 2: P-Value Knowledge check
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 3: Confidence Intervals Knowledge Check
+<span class="screen-reader-only">Note</span>Challenge 3: Confidence Intervals Knowledge Check
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1440,7 +1447,7 @@ Challenge 3: Confidence Intervals Knowledge Check
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 4: z vs t (large sample size)
+<span class="screen-reader-only">Note</span>Challenge 4: z vs t (large sample size)
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1540,13 +1547,14 @@ Challenge 4: z vs t (large sample size)
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

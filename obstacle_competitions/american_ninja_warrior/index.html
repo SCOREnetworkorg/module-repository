@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,14 +73,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9aee3e94ba62606df97a6e4fbb292587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4dd799ee9186b926beb3eff337e696b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -152,7 +153,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -177,6 +178,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
@@ -188,7 +191,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -231,6 +234,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -655,12 +662,12 @@ window.Quarto = {
 
 
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Facilitation notes">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Facilitation notes
+<span class="screen-reader-only">Note</span>Facilitation notes
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -701,7 +708,7 @@ Facilitation notes
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Learning Objectives
+<span class="screen-reader-only">Note</span>Learning Objectives
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -726,12 +733,12 @@ Learning Objectives
 </p>
 <p><strong>NOTE</strong>: <strong>R</strong> is the name of the programming language itself and <strong>RStudio</strong> is a convenient interface. To throw even more lingo in, you may be accessing RStudio through a web-based version called <strong>Posit Cloud</strong>. But R is the programming language you are learning :)</p>
 </div></div><div class="callout callout-style-default callout-caution no-icon callout-titled" title="Research Question">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Question
+<span class="screen-reader-only">Caution</span>Research Question
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -758,17 +765,17 @@ Research Question
 <p><strong>TIP</strong>: If you get an error while attempting to load the library or data, you may need to install the package or check the file path. You can install packages using the <code>install.packages()</code> function in R. Once you have installed a package, you can load it into your R environment using the <code>library()</code> function. If that is not the issue, you may need to check the file path to ensure the data is in the correct location.</p>
 </div></div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(survival)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(survminer)</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Load Data</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>ninja <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"anw_2021_stage1.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>ninja <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"anw_2021_stage1.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>We can use the <code>glimpse()</code> function to get a quick look at our <code>ninja</code> data. The dimensions of the dataset, the variable names, and the first few observations are displayed.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(ninja)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(ninja)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 69
 Columns: 5
@@ -781,7 +788,7 @@ $ cause           &lt;chr&gt; "Fall", "Fall", "Fall", "Fall", "Fall", "Fall", "F
 </div>
 <p>Use the <code>head()</code> function to view the first few rows of the dataset better.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(ninja)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(ninja)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 5
   name               sex   obstacle        obstacle_number cause
@@ -800,7 +807,7 @@ $ cause           &lt;chr&gt; "Fall", "Fall", "Fall", "Fall", "Fall", "Fall", "F
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 1: Data Structure
+<span class="screen-reader-only">Note</span>Exercise 1: Data Structure
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -843,7 +850,7 @@ Exercise 1: Data Structure
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Key Terms
+<span class="screen-reader-only">Important</span>Key Terms
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -902,8 +909,8 @@ Key Terms
 <h2 class="anchored" data-anchor-id="points-of-confusion">Points of Confusion</h2>
 <p>Use the following code to create a table of the obstacle names and their corresponding obstacle numbers. This will help you understand the order of the obstacles in the course.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ninja <span class="sc">|&gt;</span> </span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(obstacle, obstacle_number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ninja <span class="sc">|&gt;</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(obstacle, obstacle_number)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 10 × 2
    obstacle        obstacle_number
@@ -935,8 +942,8 @@ Key Terms
 <p>In most survival analysis situations, an individual would not be capable of participating twice from the beginning (after all if death were truly the event of interest, it would be safe to say there is no second chance). Therefore, we will only include the first run in the analysis.</p>
 <p>Run the code below to remove the second run from the data.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>ninja <span class="ot">&lt;-</span> ninja <span class="sc">|&gt;</span> </span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(name <span class="sc">!=</span> <span class="st">"Joe Moravsky (Safety Pass)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>ninja <span class="ot">&lt;-</span> ninja <span class="sc">|&gt;</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(name <span class="sc">!=</span> <span class="st">"Joe Moravsky (Safety Pass)"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Now that we’ve cleared some of the muddiness, let’s move on to the fun stuff!</p>
 </section>
@@ -959,7 +966,7 @@ Key Terms
 <p>Our data for two subjects might look like:</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="tabwid"><style>.cl-ba836eae{}.cl-ba7a6552{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-ba7d06fe{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-ba7d2530{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-ba7d253a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-ba7d253b{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-ba836eae"><thead><tr style="overflow-wrap:break-word;"><th class="cl-ba7d2530"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">Subject</span></p></th><th class="cl-ba7d2530"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">Time</span></p></th><th class="cl-ba7d2530"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">Censor</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-ba7d253a"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">1</span></p></td><td class="cl-ba7d253a"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">8</span></p></td><td class="cl-ba7d253a"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ba7d253b"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">2</span></p></td><td class="cl-ba7d253b"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">10</span></p></td><td class="cl-ba7d253b"><p class="cl-ba7d06fe"><span class="cl-ba7a6552">0</span></p></td></tr></tbody></table></div>
+<div class="tabwid"><style>.cl-b238d120{}.cl-b2314c84{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-b2358a38{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-b235a3ec{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b235a3ed{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b235a3f6{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-b238d120"><thead><tr style="overflow-wrap:break-word;"><th class="cl-b235a3ec"><p class="cl-b2358a38"><span class="cl-b2314c84">Subject</span></p></th><th class="cl-b235a3ec"><p class="cl-b2358a38"><span class="cl-b2314c84">Time</span></p></th><th class="cl-b235a3ec"><p class="cl-b2358a38"><span class="cl-b2314c84">Censor</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-b235a3ed"><p class="cl-b2358a38"><span class="cl-b2314c84">1</span></p></td><td class="cl-b235a3ed"><p class="cl-b2358a38"><span class="cl-b2314c84">8</span></p></td><td class="cl-b235a3ed"><p class="cl-b2358a38"><span class="cl-b2314c84">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b235a3f6"><p class="cl-b2358a38"><span class="cl-b2314c84">2</span></p></td><td class="cl-b235a3f6"><p class="cl-b2358a38"><span class="cl-b2314c84">10</span></p></td><td class="cl-b235a3f6"><p class="cl-b2358a38"><span class="cl-b2314c84">0</span></p></td></tr></tbody></table></div>
 </div>
 </div>
 <p>We see that subject 1 was observed for 8 years and had a heart attack at year 8. Subject 2, on the other hand, was observed for the full 10 years and did not have a heart attack.</p>
@@ -972,14 +979,14 @@ Key Terms
 <p><strong>Note</strong>: Another advanced survival model involves analyzing “competing risks” if interest is in multiple different outcomes such as death from a heart attack or death from some other cause. In the ANW case, failing an obstacle or running out of time would be competing risks. We will not explore this topic here.</p>
 </div></div><p>Use the code below to create a new column called <code>censor</code> in the <code>ninja</code> data that is a binary indicator of whether or not the observation should be censored. This column will be used to indicate whether the data is censored or not.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Makes a column called censor that is 1 if the competitor failed and 0 if they completed the course or ran out of time</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Makes a column called censor that is 1 if the competitor failed and 0 if they completed the course or ran out of time</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>ninja <span class="ot">&lt;-</span> ninja <span class="sc">|&gt;</span> </span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">censor =</span> <span class="fu">if_else</span>(cause <span class="sc">%in%</span>  <span class="fu">c</span>(<span class="st">"Complete"</span>, <span class="st">"Time"</span>), <span class="dv">0</span>, <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">censor =</span> <span class="fu">if_else</span>(cause <span class="sc">%in%</span>  <span class="fu">c</span>(<span class="st">"Complete"</span>, <span class="st">"Time"</span>), <span class="dv">0</span>, <span class="dv">1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Three competitors in the resulting data are:</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="tabwid"><style>.cl-baab06f8{}.cl-baa5c06c{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-baa7f2e2{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-baa7f2ec{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-baa80b56{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-baa80b60{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-baa80b6a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-baa80b6b{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-baa80b74{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-baa80b75{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-baab06f8"><thead><tr style="overflow-wrap:break-word;"><th class="cl-baa80b56"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">name</span></p></th><th class="cl-baa80b56"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">sex</span></p></th><th class="cl-baa80b56"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">obstacle</span></p></th><th class="cl-baa80b60"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">obstacle_number</span></p></th><th class="cl-baa80b56"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">cause</span></p></th><th class="cl-baa80b60"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">censor</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Meagan Martin</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">F</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Slide Surfer</span></p></td><td class="cl-baa80b6b"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">1</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Fall</span></p></td><td class="cl-baa80b6b"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Sean Bryan</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">M</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Cargo Net</span></p></td><td class="cl-baa80b6b"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">9</span></p></td><td class="cl-baa80b6a"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Complete</span></p></td><td class="cl-baa80b6b"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-baa80b74"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Brett Sims</span></p></td><td class="cl-baa80b74"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">M</span></p></td><td class="cl-baa80b74"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Fly Hooks</span></p></td><td class="cl-baa80b75"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">8</span></p></td><td class="cl-baa80b74"><p class="cl-baa7f2e2"><span class="cl-baa5c06c">Time</span></p></td><td class="cl-baa80b75"><p class="cl-baa7f2ec"><span class="cl-baa5c06c">0</span></p></td></tr></tbody></table></div>
+<div class="tabwid"><style>.cl-b249ef64{}.cl-b2449faa{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-b246e0b2{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-b246e0bc{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-b246fa02{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b246fa0c{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b246fa0d{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b246fa16{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b246fa17{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b246fa18{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-b249ef64"><thead><tr style="overflow-wrap:break-word;"><th class="cl-b246fa02"><p class="cl-b246e0b2"><span class="cl-b2449faa">name</span></p></th><th class="cl-b246fa02"><p class="cl-b246e0b2"><span class="cl-b2449faa">sex</span></p></th><th class="cl-b246fa02"><p class="cl-b246e0b2"><span class="cl-b2449faa">obstacle</span></p></th><th class="cl-b246fa0c"><p class="cl-b246e0bc"><span class="cl-b2449faa">obstacle_number</span></p></th><th class="cl-b246fa02"><p class="cl-b246e0b2"><span class="cl-b2449faa">cause</span></p></th><th class="cl-b246fa0c"><p class="cl-b246e0bc"><span class="cl-b2449faa">censor</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Meagan Martin</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">F</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Slide Surfer</span></p></td><td class="cl-b246fa16"><p class="cl-b246e0bc"><span class="cl-b2449faa">1</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Fall</span></p></td><td class="cl-b246fa16"><p class="cl-b246e0bc"><span class="cl-b2449faa">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Sean Bryan</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">M</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Cargo Net</span></p></td><td class="cl-b246fa16"><p class="cl-b246e0bc"><span class="cl-b2449faa">9</span></p></td><td class="cl-b246fa0d"><p class="cl-b246e0b2"><span class="cl-b2449faa">Complete</span></p></td><td class="cl-b246fa16"><p class="cl-b246e0bc"><span class="cl-b2449faa">0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b246fa17"><p class="cl-b246e0b2"><span class="cl-b2449faa">Brett Sims</span></p></td><td class="cl-b246fa17"><p class="cl-b246e0b2"><span class="cl-b2449faa">M</span></p></td><td class="cl-b246fa17"><p class="cl-b246e0b2"><span class="cl-b2449faa">Fly Hooks</span></p></td><td class="cl-b246fa18"><p class="cl-b246e0bc"><span class="cl-b2449faa">8</span></p></td><td class="cl-b246fa17"><p class="cl-b246e0b2"><span class="cl-b2449faa">Time</span></p></td><td class="cl-b246fa18"><p class="cl-b246e0bc"><span class="cl-b2449faa">0</span></p></td></tr></tbody></table></div>
 </div>
 </div>
 <p>We can interpret this data:</p>
@@ -1015,14 +1022,14 @@ Key Terms
 </ul>
 <p>For example, we create a data set with 25 competitors and 5 obstacles:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting a seed for reproducibility</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting a seed for reproducibility</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating fake data</span></span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>fake_data <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">obstacle_number =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">2</span>,<span class="dv">5</span>), <span class="at">censor =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">2</span>))) <span class="sc">|&gt;</span> </span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sample_n</span>(<span class="dv">25</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fake_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fake_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 2
   obstacle_number censor
@@ -1038,13 +1045,13 @@ Key Terms
 <p>Each row of the data is a competitor (<span class="math inline">\(i = 1,...,25\)</span>) and the first column (“obstacle_number”) is the last obstacle for which each was observed. The “censor” variable is the indicator of whether the obstacle was failed (1 = failed).</p>
 <p>We will step through a few calculations to illustrate the Kaplan-Meier (KM) estimator. The calculation is easiest if the data is put in a format by the obstacle number (time) when things occurred. The code below produces this format:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data <span class="sc">|&gt;</span> </span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(obstacle_number) <span class="sc">|&gt;</span> </span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">fails =</span> <span class="fu">sum</span>(censor <span class="sc">==</span> <span class="dv">1</span>),</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">censored =</span> <span class="fu">sum</span>(censor <span class="sc">==</span> <span class="dv">0</span>)) <span class="sc">|&gt;</span></span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() </span>
 <span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 3
   obstacle_number fails censored
@@ -1062,12 +1069,12 @@ Key Terms
 <p><span class="math inline">\(P(T &gt; 2 | T &gt; 1) = 1 - \frac{\text{number of competitors that failed at obstacle 2}}{\text{number of competitors that attempted obstacle 2}}\)</span></p>
 <p>Below we calculate the first probability:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data_summary <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data_summary <span class="sc">|&gt;</span> </span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">at_risk =</span> <span class="fu">c</span>(<span class="dv">25</span>,<span class="fu">rep</span>(<span class="cn">NA</span>,<span class="dv">4</span>)),</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">p_surv_cond =</span> (at_risk <span class="sc">-</span> fails)<span class="sc">/</span>at_risk,</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">p_surv_km =</span> p_surv_cond<span class="sc">*</span><span class="dv">1</span>)</span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 6
   obstacle_number fails censored at_risk p_surv_cond p_surv_km
@@ -1084,11 +1091,11 @@ Key Terms
 <p>We create a column for the number at risk (<span class="math inline">\(n_1\)</span>) which is 25 for the first obstacle. <span class="math inline">\(d_i\)</span> is found already in the “fails” column.</p>
 <p>In order to compute the second probability, we need to compute the next at risk value, <span class="math inline">\(n_2\)</span>. This value is 25 minus the 4 failures or 21. Since 0 were censored, we do not lose any other competitors. From there, we can again compute the conditional probability using the formula:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data_summary <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary <span class="ot">&lt;-</span> fake_data_summary <span class="sc">|&gt;</span> </span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">at_risk =</span> <span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">21</span>, <span class="fu">rep</span>(<span class="cn">NA</span>,<span class="dv">3</span>)),</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">p_surv_cond =</span> (at_risk <span class="sc">-</span> fails)<span class="sc">/</span>at_risk)</span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 6
   obstacle_number fails censored at_risk p_surv_cond p_surv_km
@@ -1104,9 +1111,9 @@ Key Terms
 <p><span class="math inline">\(P(T &gt; 2) = P(T &gt; 1) * P(T &gt; 2 | T &gt; 1)\)</span></p>
 <p>The following code calculates the Kaplan-Meier estimate of surviving past obstacle 2:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary<span class="sc">$</span>p_surv_km[<span class="dv">2</span>] <span class="ot">&lt;-</span> fake_data_summary<span class="sc">$</span>p_surv_cond[<span class="dv">1</span>]<span class="sc">*</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>fake_data_summary<span class="sc">$</span>p_surv_km[<span class="dv">2</span>] <span class="ot">&lt;-</span> fake_data_summary<span class="sc">$</span>p_surv_cond[<span class="dv">1</span>]<span class="sc">*</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  fake_data_summary<span class="sc">$</span>p_surv_cond[<span class="dv">2</span>]</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>fake_data_summary</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 6
   obstacle_number fails censored at_risk p_surv_cond p_surv_km
@@ -1125,7 +1132,7 @@ Key Terms
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 2: Fake Data Kaplan-Meier Estimates
+<span class="screen-reader-only">Note</span>Exercise 2: Fake Data Kaplan-Meier Estimates
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1142,7 +1149,7 @@ Exercise 2: Fake Data Kaplan-Meier Estimates
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 3: Manual Calculation of Kaplan-Meier Estimator
+<span class="screen-reader-only">Note</span>Exercise 3: Manual Calculation of Kaplan-Meier Estimator
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1153,7 +1160,7 @@ Exercise 3: Manual Calculation of Kaplan-Meier Estimator
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Part 1: Number of Events
+<span class="screen-reader-only">Note</span>Part 1: Number of Events
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1161,10 +1168,10 @@ Part 1: Number of Events
 <p>Use the following code to sum the number of competitors that failed and the number of competitors that were censored at each obstacle.</p>
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja <span class="sc">|&gt;</span> </span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(<span class="at">obstacle =</span> obstacle_number) <span class="sc">|&gt;</span></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">fails =</span> <span class="fu">sum</span>(cause <span class="sc">==</span> <span class="st">"Fall"</span>),</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">censored =</span> <span class="fu">sum</span>(cause <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Complete"</span>, <span class="st">"Time"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">censored =</span> <span class="fu">sum</span>(cause <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Complete"</span>, <span class="st">"Time"</span>)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ol type="a">
 <li><p>At which <strong>obstacle</strong> did the most competitors fail?</p></li>
@@ -1178,7 +1185,7 @@ Part 1: Number of Events
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Part 2: At Risk Competitors
+<span class="screen-reader-only">Note</span>Part 2: At Risk Competitors
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1186,9 +1193,9 @@ Part 2: At Risk Competitors
 <p>Use the following code to calculate the number of competitors at risk at each point in time from the <code>ninja_summary</code> data frame.</p>
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja_summary <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja_summary <span class="sc">|&gt;</span> </span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">attempts =</span> <span class="dv">68</span> <span class="sc">-</span> <span class="fu">lag</span>(<span class="fu">cumsum</span>(fails), <span class="at">default =</span> <span class="dv">0</span>) <span class="sc">-</span> </span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>           <span class="fu">lag</span>(<span class="fu">cumsum</span>(censored), <span class="at">default =</span> <span class="dv">0</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>           <span class="fu">lag</span>(<span class="fu">cumsum</span>(censored), <span class="at">default =</span> <span class="dv">0</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ol type="a">
 <li><p>Which <strong>obstacle</strong> had the most competitors at risk?</p></li>
@@ -1202,7 +1209,7 @@ Part 2: At Risk Competitors
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Part 3: Conditional Survival Probability
+<span class="screen-reader-only">Note</span>Part 3: Conditional Survival Probability
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1225,7 +1232,7 @@ Part 3: Conditional Survival Probability
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Part 4: Kaplan-Meier
+<span class="screen-reader-only">Note</span>Part 4: Kaplan-Meier
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1233,8 +1240,8 @@ Part 4: Kaplan-Meier
 <p>Use the following code to calculate the Kaplan-Meier estimator manually by multiplying the conditional probabilities of surviving past each point in time up through the desired point in time.</p>
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja_summary <span class="sc">|&gt;</span> </span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">km =</span> <span class="fu">cumprod</span>(surv_prob))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>ninja_summary <span class="ot">&lt;-</span> ninja_summary <span class="sc">|&gt;</span> </span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">km =</span> <span class="fu">cumprod</span>(surv_prob))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ol type="a">
 <li><p>What is the Kaplan-Meier estimate for surviving past the <strong>first obstacle</strong>?</p></li>
@@ -1253,7 +1260,7 @@ Part 4: Kaplan-Meier
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Part 5: Plotting the Kaplan-Meier Estimator
+<span class="screen-reader-only">Note</span>Part 5: Plotting the Kaplan-Meier Estimator
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1282,18 +1289,18 @@ Part 5: Plotting the Kaplan-Meier Estimator
 </div><div class="callout-margin-content">
 <p><strong>TIP</strong>: Remember that you can add the <code>+</code> operator to continue adding layers to the plot like seen below</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(your_data, <span class="fu">aes</span>(<span class="at">x =</span> time_var, <span class="at">y =</span> kaplan_meier_var)) <span class="sc">+</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(your_data, <span class="fu">aes</span>(<span class="at">x =</span> time_var, <span class="at">y =</span> kaplan_meier_var)) <span class="sc">+</span></span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_step</span>() <span class="sc">+</span></span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><strong>TIP</strong>: You can also add labels to the plot using the <code>labs</code> function like seen below</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(your_data, <span class="fu">aes</span>(<span class="at">x =</span> time_var, <span class="at">y =</span> kaplan_meier_var)) <span class="sc">+</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(your_data, <span class="fu">aes</span>(<span class="at">x =</span> time_var, <span class="at">y =</span> kaplan_meier_var)) <span class="sc">+</span></span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_step</span>() <span class="sc">+</span></span>
 <span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
 <span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Your Title"</span>,</span>
 <span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"X Axis Label"</span>,</span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Y Axis Label"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Y Axis Label"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -1307,7 +1314,7 @@ Part 5: Plotting the Kaplan-Meier Estimator
 </ol>
 <p>Below a survfit model is created for the <code>ninja</code> dataset and the results are stored in the <code>ninja_km</code> object.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>ninja_km <span class="ot">&lt;-</span> <span class="fu">survfit</span>(<span class="fu">Surv</span>(obstacle_number, censor) <span class="sc">~</span> <span class="dv">1</span>, <span class="at">data =</span> ninja)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>ninja_km <span class="ot">&lt;-</span> <span class="fu">survfit</span>(<span class="fu">Surv</span>(obstacle_number, censor) <span class="sc">~</span> <span class="dv">1</span>, <span class="at">data =</span> ninja)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Exercise 4: Kaplan-Meier Estimates and Interpretation">
 <div class="callout-header d-flex align-content-center">
@@ -1315,7 +1322,7 @@ Part 5: Plotting the Kaplan-Meier Estimator
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 4: Kaplan-Meier Estimates and Interpretation
+<span class="screen-reader-only">Note</span>Exercise 4: Kaplan-Meier Estimates and Interpretation
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1354,7 +1361,7 @@ Exercise 4: Kaplan-Meier Estimates and Interpretation
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 5: Interpreting Quartiles
+<span class="screen-reader-only">Note</span>Exercise 5: Interpreting Quartiles
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1372,8 +1379,20 @@ Exercise 5: Interpreting Quartiles
 <p>After fitting a Kaplan-Meier model, we can use the <code>ggsurvplot</code> function from the <code>survminer</code> package to plot the Kaplan-Meier estimator. The <code>ggsurvplot</code> function requires the Kaplan-Meier model as input.</p>
 <p>Below is an example of how easy it is to plot the Kaplan-Meier estimator using R.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsurvplot</span>(ninja_km,</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsurvplot</span>(ninja_km,</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the ggpubr package.
+  Please report the issue at &lt;https://github.com/kassambara/ggpubr/issues&gt;.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Ignoring unknown labels:
+• fill : "Strata"
+Ignoring unknown labels:
+• fill : "Strata"</code></pre>
+</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1391,8 +1410,8 @@ Exercise 5: Interpreting Quartiles
 <p>In our data set, we have a variable called <code>sex</code> that indicates the gender of the competitor. We can use this variable to compare the survival probabilities for males and females.</p>
 <p>The Kaplan-Meier estimator can be calculated for different groups of individuals quite easily in <strong>R</strong>. We simply have to add the variable <code>sex</code> to our function in the model to do this.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>ninja_km_gender <span class="ot">&lt;-</span> <span class="fu">survfit</span>(<span class="fu">Surv</span>(obstacle_number, </span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>                                censor)<span class="sc">~</span> sex, <span class="at">data =</span> ninja)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>ninja_km_gender <span class="ot">&lt;-</span> <span class="fu">survfit</span>(<span class="fu">Surv</span>(obstacle_number, </span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>                                censor)<span class="sc">~</span> sex, <span class="at">data =</span> ninja)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>A plot can be created to help us compare these groups.</p>
 
@@ -1400,8 +1419,8 @@ Exercise 5: Interpreting Quartiles
 <p><strong>Fun Fact</strong>: Jesse Labreck was the only woman to complete the 2021 American Ninja Warrior Stage 1 Finals Course.</p>
 <p>You can watch her incredible run below </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/8KIED3eCNUs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
 </div></div><div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsurvplot</span>(ninja_km_gender,</span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsurvplot</span>(ninja_km_gender,</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1416,7 +1435,7 @@ Exercise 5: Interpreting Quartiles
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 6: Kaplan-Meier Estimates by Group
+<span class="screen-reader-only">Note</span>Exercise 6: Kaplan-Meier Estimates by Group
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1458,8 +1477,8 @@ Exercise 6: Kaplan-Meier Estimates by Group
 <p><strong>NOTE</strong>: The <strong>log-rank test</strong> is a non-parametric test. This means that it does not assume that the data is normally distributed.</p>
 </div></div><p>The code below runs the log-rank test on the <code>ninja</code> data set to compare the survival of male and female competitors.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>ninja_km_diff <span class="ot">&lt;-</span> <span class="fu">survdiff</span>(<span class="fu">Surv</span>(obstacle_number,</span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>                               censor) <span class="sc">~</span> sex, <span class="at">data =</span> ninja)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>ninja_km_diff <span class="ot">&lt;-</span> <span class="fu">survdiff</span>(<span class="fu">Surv</span>(obstacle_number,</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>                               censor) <span class="sc">~</span> sex, <span class="at">data =</span> ninja)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="Exercise 7: Comparing Survival vs. Expected">
 <div class="callout-header d-flex align-content-center">
@@ -1467,13 +1486,13 @@ Exercise 6: Kaplan-Meier Estimates by Group
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 7: Comparing Survival vs.&nbsp;Expected
+<span class="screen-reader-only">Note</span>Exercise 7: Comparing Survival vs.&nbsp;Expected
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Use the code below to see the results of the <code>survdiff</code> function</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>ninja_km_diff</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>ninja_km_diff</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Call:
 survdiff(formula = Surv(obstacle_number, censor) ~ sex, data = ninja)
@@ -1546,17 +1565,17 @@ sex=M 56       27    32.95      1.07      11.1
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 8: Log-Rank Tests
+<span class="screen-reader-only">Note</span>Exercise 8: Log-Rank Tests
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Run the code below to see the p-values for the different methods.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender) <span class="co">#log rank</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"n"</span>) <span class="co">#Gehan Breslow (generalized Wilcoxon)</span></span>
-<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"TW"</span>) <span class="co">#tarone-ware</span></span>
-<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"PP"</span>) <span class="co">#Peto-Prentice</span></span>
-<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"FH"</span>) <span class="co">#Fleming-Harrington</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender) <span class="co">#log rank</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"n"</span>) <span class="co">#Gehan Breslow (generalized Wilcoxon)</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"TW"</span>) <span class="co">#tarone-ware</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"PP"</span>) <span class="co">#Peto-Prentice</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="fu">surv_pvalue</span>(ninja_km_gender, <span class="at">method =</span> <span class="st">"FH"</span>) <span class="co">#Fleming-Harrington</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ol type="a">
 <li><p>Using <span class="math inline">\(\alpha = 0.05\)</span>, do all of the tests lead to the same conclusion? If so what is the conclusion? If not which ones agree and which ones do not?</p></li>
@@ -1577,7 +1596,7 @@ Exercise 8: Log-Rank Tests
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Do It Yourself
+<span class="screen-reader-only">Note</span>Do It Yourself
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1588,7 +1607,7 @@ Do It Yourself
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 1: Cleaning Data
+<span class="screen-reader-only">Note</span>Challenge 1: Cleaning Data
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1606,7 +1625,7 @@ Challenge 1: Cleaning Data
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 2: Fitting KM
+<span class="screen-reader-only">Note</span>Challenge 2: Fitting KM
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1625,7 +1644,7 @@ Challenge 2: Fitting KM
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Challenge 3: Comparing Groups
+<span class="screen-reader-only">Note</span>Challenge 3: Comparing Groups
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1708,13 +1727,14 @@ Challenge 3: Comparing Groups
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

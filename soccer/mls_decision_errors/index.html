@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9aee3e94ba62606df97a6e4fbb292587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4dd799ee9186b926beb3eff337e696b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,6 +141,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
@@ -151,7 +154,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -194,6 +197,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -598,12 +605,12 @@ window.Quarto = {
 
 
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Facilitation notes">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Facilitation notes
+<span class="screen-reader-only">Note</span>Facilitation notes
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -647,7 +654,7 @@ Facilitation notes
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Learning Objectives
+<span class="screen-reader-only">Note</span>Learning Objectives
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -661,12 +668,12 @@ Learning Objectives
 </div>
 </div>
 <div class="callout callout-style-default callout-important no-icon callout-titled" title="Research Questions">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Important</span>Research Questions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -700,7 +707,7 @@ Research Questions
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Soccer Vocabulary
+<span class="screen-reader-only">Important</span>Soccer Vocabulary
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -727,7 +734,7 @@ Soccer Vocabulary
 <pre><code>1.5, 2.03, 1.18, 1, 1.53, 1.21, 1.62, 1.21, 1.85, 1.62, 1.47, 1.29, 1.41, 1.44, 1.15, 1.26, 1.65</code></pre>
 </div>
 </div>
-<p>What is the mean of the points per match played for teams with new training facilities in 2023? <select class="webex-select"><option value="blank"></option><option value="">2.04</option><option value="">24.42</option><option value="">1.5</option><option value="answer">1.44</option><option value="">1.36</option></select></p>
+<p>What is the mean of the points per match played for teams with new training facilities in 2023? <select class="webex-select"><option value="blank"></option><option value="">24.42</option><option value="">2.04</option><option value="">1.36</option><option value="answer">1.44</option><option value="">1.5</option></select></p>
 <p>The points per match played for teams with old training facilities in 2023 are shown below.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
@@ -735,7 +742,7 @@ Soccer Vocabulary
 </div>
 </div>
 <p>What is the mean of the points per match played for teams with old training facilities in 2023?</p>
-<p><select class="webex-select"><option value="blank"></option><option value="answer">1.23</option><option value="">.87</option><option value="">1.44</option><option value="">1.35</option><option value="">1</option></select></p>
+<p><select class="webex-select"><option value="blank"></option><option value="">1</option><option value="">.87</option><option value="">1.35</option><option value="answer">1.23</option><option value="">1.44</option></select></p>
 <p>The graph below show the points per match played in 2023 for teams with new training facilities and teams without new training facilities.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -767,8 +774,8 @@ Soccer Vocabulary
 <h4 class="anchored" data-anchor-id="setting-up-a-hypothesis-test">Setting up a Hypothesis Test</h4>
 <p>Let’s set up a hypothesis test to determine if a new training facility leads to better performance on the field. We will use points per match played as our measure of performance. The null hypothesis is that there is no difference in points per match played between teams with new training facilities and teams without new training facilities. The alternative hypothesis is that the teams with new training facilities have a higher points per match played than teams without new training facilities. Let <span class="math inline">\(\mu_{new}\)</span> be the population mean points per match played for teams with new training facilities and <span class="math inline">\(\mu_{old}\)</span> be the population mean points per match played for teams without new training facilities.</p>
 <p>Which of the following shows the correct null and alternative hypotheses for this test?</p>
-<div id="radio_BSPDENPYHI" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_BSPDENPYHI" value=""> <span><span class="math inline">\(H_0: \mu_{new} &gt; \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} = \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_BSPDENPYHI" value="answer"> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} &gt; \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_BSPDENPYHI" value=""> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} &lt; \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_BSPDENPYHI" value=""> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} \neq \mu_{old}\)</span></span></label>
+<div id="radio_TNMZYDCHOH" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_TNMZYDCHOH" value="answer"> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} &gt; \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_TNMZYDCHOH" value=""> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} \neq \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_TNMZYDCHOH" value=""> <span><span class="math inline">\(H_0: \mu_{new} = \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} &lt; \mu_{old}\)</span></span></label><label><input type="radio" autocomplete="off" name="radio_TNMZYDCHOH" value=""> <span><span class="math inline">\(H_0: \mu_{new} &gt; \mu_{old}\)</span>, <span class="math inline">\(H_a: \mu_{new} = \mu_{old}\)</span></span></label>
 </div>
 </section>
 <section id="significance-level-and-decisions-in-hypothesis-testing" class="level4 page-columns page-full">
@@ -817,15 +824,15 @@ Soccer Vocabulary
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 1: Type I Errors
+<span class="screen-reader-only">Note</span>Exercise 1: Type I Errors
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ol type="a">
 <li>Which of the following could be a potential consequences of making a Type I error in the context of the new training facilities?</li>
 </ol>
-<div id="radio_TOVXXTASWL" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_TOVXXTASWL" value="answer"> <span>Teams may invest millions in new training facilities that don't actually help them win more games</span></label><label><input type="radio" autocomplete="off" name="radio_TOVXXTASWL" value=""> <span>Teams may not invest in new training facilities that could help them win more games</span></label>
+<div id="radio_YIBSIVYGXK" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_YIBSIVYGXK" value=""> <span>Teams may not invest in new training facilities that could help them win more games</span></label><label><input type="radio" autocomplete="off" name="radio_YIBSIVYGXK" value="answer"> <span>Teams may invest millions in new training facilities that don't actually help them win more games</span></label>
 </div>
 <ol start="2" type="a">
 <li>Would a Type I error in this context most likely have greater consequences for the team’s finances or the team’s performance?</li>
@@ -863,15 +870,15 @@ Exercise 1: Type I Errors
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 2: Type II Errors
+<span class="screen-reader-only">Note</span>Exercise 2: Type II Errors
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ol type="a">
 <li>Which of the following could be a potential consequences of making a Type II error in the context of the new training facilities?</li>
 </ol>
-<div id="radio_ZEEQZCAQVO" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_ZEEQZCAQVO" value=""> <span>Teams may invest millions in new training facilities that don't actually help them win more games</span></label><label><input type="radio" autocomplete="off" name="radio_ZEEQZCAQVO" value="answer"> <span>Teams may not invest in new training facilities that could help them win more games</span></label>
+<div id="radio_UBPROMJCSH" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_UBPROMJCSH" value="answer"> <span>Teams may not invest in new training facilities that could help them win more games</span></label><label><input type="radio" autocomplete="off" name="radio_UBPROMJCSH" value=""> <span>Teams may invest millions in new training facilities that don't actually help them win more games</span></label>
 </div>
 <ol start="2" type="a">
 <li>Would a Type II error in this context most likely have greater consequences for the team’s finances or the team’s performance?</li>
@@ -914,7 +921,7 @@ Exercise 2: Type II Errors
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 3: Relationship between Type I and Type II Errors
+<span class="screen-reader-only">Note</span>Exercise 3: Relationship between Type I and Type II Errors
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -951,7 +958,7 @@ Exercise 3: Relationship between Type I and Type II Errors
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 4: Consequences of Errors
+<span class="screen-reader-only">Note</span>Exercise 4: Consequences of Errors
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1031,7 +1038,7 @@ Exercise 4: Consequences of Errors
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 5: Results of the Hypothesis Test
+<span class="screen-reader-only">Note</span>Exercise 5: Results of the Hypothesis Test
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1333,13 +1340,14 @@ window.onload = function() {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
