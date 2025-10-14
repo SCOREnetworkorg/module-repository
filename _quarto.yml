@@ -5,7 +5,9 @@ project:
     - "*/index.qmd" # new sport pages
     - "*/*/index.qmd" # module pages
     - "by-statsds-topic.qmd"
-    
+  resources:
+    - "_img/default_thumbnail.png" # provide default thumbnail
+  
 metadata-files:
   - sidebar-sports.yml
 
