@@ -103,3 +103,14 @@ In conclusion, the Triathlon Multiple Linear Regression worksheet has provided v
 
 However, when both Swim Times and Bike Times were included as predictors in the multiple linear regression model, we observed a change in significance. Swim Times were no longer a significant predictor. This finding suggests that when considering both predictors simultaneously, the predictive power of Swim Times in estimating run times diminishes. These findings emphasize the importance of evaluating multiple predictors in regression analysis and understanding how their inclusion can impact the significance and interpretation of individual predictors.
 :::
+
+
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Dykstra, A. J. & Ramler, I   (2024, August 14). Ironman Triathlon (Canadian Females) Multiple Regression. "The SCORE Network." https://doi.org/10.17605/OSF.IO/4MRBT.
+
+You can include this citation directly in your references or bibliography.
+

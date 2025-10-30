@@ -19,13 +19,17 @@ author:
     - ref: slu   
 editor: 
   canonical: true
+image: pll_vs_nll.png
 categories:
   - Difference in two means
 ---
 
-## Module
+<!--
+image source
 
-Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.
+https://www.insidelacrosse.com/article/breaking-pll-and-mll-to-merge-unifying-pro-outdoor-lacrosse-leagues/57087
+-->
+
 
 ### Introduction
 

@@ -15,7 +15,8 @@ author:
     affiliation:
     - ref: slu
 editor: 
-  canonical: true      
+  canonical: true  
+image: mens_lacrosse_faceoffs.avif    
 categories:
   - Hypothesis testing
   - Single proportion
