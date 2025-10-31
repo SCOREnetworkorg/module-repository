@@ -17,7 +17,7 @@ date: February 21 2024
 description: Investigating game play statistics for League of Legends champions in two different patches.
 editor: 
   canonical: true
-image: League_of_Legends_2019_vector.svg
+image: League_of_Legends_2019_vector.svg.png
 categories:
   - outliers
   - summary statistics

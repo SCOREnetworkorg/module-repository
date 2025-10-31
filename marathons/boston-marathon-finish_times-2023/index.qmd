@@ -11,11 +11,20 @@ author:
       - ref: slu
 date: May 13, 2024
 description: Describing finish time for runners in the 2023 Boston Marathon
+image: FinishArea-Boston.jpg
 categories:
   - histograms
   - summary statistics
   - bimodal data
 ---
+
+<!--
+Thumbnail from
+
+https://therunningchannel.com/whats-it-really-like-to-run-the-boston-marathon/
+
+-->
+
 
 ### Welcome video
 

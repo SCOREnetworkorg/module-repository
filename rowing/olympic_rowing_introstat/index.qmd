@@ -15,6 +15,7 @@ author:
 
 date: June 5, 2025
 description: The total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022. 
+image: rowing2.jpg
 categories:
   - distribution and skewness
   - outlier detection
