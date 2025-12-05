@@ -70,3 +70,11 @@ However, students do not need access to the data to complete the module as it is
 Students should gain an increased understanding of constructing and interpreting single-proportion confidence intervals.
 :::
 
+
+### How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Rhinehart, F., Ramler, I., & Chapman, J. (2025, December 4). Pickleball: Estimating the proportion of dependable DUPR ratings. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/H7ZPC>
+
+You can include this citation directly in your references or bibliography.

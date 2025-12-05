@@ -117,6 +117,6 @@ In conclusion, the Transforming NASCAR Driver Data worksheet offers valuable ins
 
 If you use this module in your work, please cite it as follows:
 
-Bigness, A., Ramler, I & Fay, J.  (2024, August 14). Transforming NASCAR Driver Data. "The SCORE Network." https://doi.org/10.17605/OSF.IO/UQA2D
+Bigness, A., Ramler, I & Fay, J.  (2024, August 14). Transforming NASCAR Driver Data. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/UQA2D>
 
 You can include this citation directly in your references or bibliography.
