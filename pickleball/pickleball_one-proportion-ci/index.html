@@ -6,12 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Zachary O. Binney">
-<meta name="author" content="Heyi Yang">
-<meta name="dcterms.date" content="2025-01-22">
-<meta name="description" content="Using tennis to teach ANOVA and linear regression with categorical variables">
+<meta name="author" content="Faith Rhinehart">
+<meta name="author" content="Ivan Ramler">
+<meta name="author" content="Jessica Chapman">
+<meta name="dcterms.date" content="2025-12-04">
+<meta name="description" content="Estimate the proportion of collegiate pickleball players who have a dependable overall DUPR reliability score (of 60% or higher).">
 
-<title>Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface – SCORE Module Repository</title>
+<title>Pickleball: Estimating the proportion of dependable DUPR ratings – SCORE Module Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,13 +102,6 @@ cookieconsent.run({
 });
 </script> 
   
-<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
-<link href="../../site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="../../site_libs/bootbox-5.5.2/bootbox.min.js"></script>
-<script src="../../site_libs/idb-keyvalue-3.2.0/idb-keyval-iife-compat.min.js"></script>
-<link href="../../site_libs/tutorial-0.11.5/tutorial.css" rel="stylesheet">
-<script src="../../site_libs/tutorial-0.11.5/tutorial.js"></script>
 
 
 </head>
@@ -163,7 +157,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tennis/index.html">Tennis</a></li><li class="breadcrumb-item"><a href="../../tennis/Teaching_ANOVA_Through_Aces/index.html">Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pickleball/pickleball_one-proportion-ci/index.html">Pickleball</a></li><li class="breadcrumb-item"><a href="../../pickleball/pickleball_one-proportion-ci/index.html">Pickleball: Estimating the proportion of dependable DUPR ratings</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -448,14 +442,14 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../tennis/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tennis</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../tennis/Teaching_ANOVA_Through_Aces/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../tennis/Teaching_ANOVA_Through_Aces/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface</span></a>
   </div>
 </li>
@@ -503,16 +497,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
  <span class="menu-text">Pickleball</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pickleball/pickleball_one-proportion-ci/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pickleball/pickleball_one-proportion-ci/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Pickleball: Estimating the proportion of dependable DUPR ratings</span></a>
   </div>
 </li>
@@ -528,27 +522,28 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors">Authors</a></li>
-  <li><a href="#how-to-cite" id="toc-how-to-cite" class="nav-link" data-scroll-target="#how-to-cite">How to Cite</a></li>
+  <li><a href="#background-to-pickleball-video" id="toc-background-to-pickleball-video" class="nav-link active" data-scroll-target="#background-to-pickleball-video">Background to Pickleball Video</a></li>
+  <li><a href="#introduction-to-module" id="toc-introduction-to-module" class="nav-link" data-scroll-target="#introduction-to-module">Introduction to Module</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tennis/index.html">Tennis</a></li><li class="breadcrumb-item"><a href="../../tennis/Teaching_ANOVA_Through_Aces/index.html">Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pickleball/pickleball_one-proportion-ci/index.html">Pickleball</a></li><li class="breadcrumb-item"><a href="../../pickleball/pickleball_one-proportion-ci/index.html">Pickleball: Estimating the proportion of dependable DUPR ratings</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface</h1>
+<h1 class="title">Pickleball: Estimating the proportion of dependable DUPR ratings</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">ANOVA</div>
-    <div class="quarto-category">Tennis</div>
+    <div class="quarto-category">Confidence Intervals</div>
+    <div class="quarto-category">Proportions</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Using tennis to teach ANOVA and linear regression with categorical variables
+    Estimate the proportion of collegiate pickleball players who have a dependable overall DUPR reliability score (of 60% or higher).
   </div>
 </div>
 
@@ -557,19 +552,27 @@ cookieconsent.run({
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Zachary O. Binney </p>
+    <p class="author">Faith Rhinehart </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            Oxford College of Emory University
+            St.&nbsp;Lawrence University
           </p>
       </div>
     <div class="quarto-title-meta-contents">
-    <p class="author">Heyi Yang </p>
+    <p class="author">Ivan Ramler <a href="mailto:iramler@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            Oxford College of Emory University
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Jessica Chapman </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
           </p>
       </div>
   </div>
@@ -580,7 +583,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 22, 2025</p>
+      <p class="date">December 4, 2025</p>
     </div>
   </div>
   
@@ -592,22 +595,92 @@ cookieconsent.run({
 </header>
 
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>An accompanying worksheet for instructors is available <a href="https://github.com/nick3703/WP_SCORE/raw/main/external_submissions/Tennis/Tennis_Ace_Rate_Worksheet_Version_forInstructors.docx">here</a></p>
-<p>A worksheet for students to follow is available <a href="https://github.com/nick3703/WP_SCORE/raw/main/external_submissions/Tennis/Tennis_Ace_Rate_Worksheet_Version_forStudents.docx">here</a></p>
-<p>This module is interactive and can be accessed <a href="https://github.com/zbinney/SCORE_Tennis_Linear_Regression_ANOVA">here</a></p>
+<section id="background-to-pickleball-video" class="level2">
+<h2 class="anchored" data-anchor-id="background-to-pickleball-video">Background to Pickleball Video</h2>
+<p>If you are unfamiliar with Pickleball, please watch this video:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fTvPYdKZqO0?si=1UuCNuORNX791EU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 </section>
-<section id="authors" class="level2">
-<h2 class="anchored" data-anchor-id="authors">Authors</h2>
-<p>Zachary O. Binney, PhD MPH and Heyi Yang</p>
-<p>Oxford College of Emory University</p>
+<section id="introduction-to-module" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-module">Introduction to Module</h2>
+<p>Pickleball is a fast-paced sport blending tennis, badminton, and ping-pong, played with paddles and a plastic ball on a small court. College tournaments feature singles, doubles, and mixed doubles in a best-of-three format, emphasizing strategy, teamwork, and precision. Player performance is often tracked using the DUPR (Dynamic Universal Pickleball Rating) system, which rates skill from 2.000 to 8.000 based on match results, opponent strength, and recent play. A Reliability Score (1–100%) reflects how accurate a rating is, with 60%+ considered dependable.</p>
+<p>The pickleBall dataset features data from the NCPA (National Collegiate Pickleball Association) of male and female players in 2024. Variables include characteristics such as name and sex. Other variables included the overrall, singles, doubles, and mixed rating and the overall, singles, doubles, and mixed reliability score. The relevant variables for this specific module are doubles reliability and singles reliability.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Activity Length">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Activity Length
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This could serve as an in class activity and should take roughly a half an hour to complete.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Learning Objectives
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Students will gain experience performing single proportion confidence intervals.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Methods
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Students are expected to have been exposed to the concept confidence intervals for a single proportion. (Although this is intended to be used as an earlier example for the topic.)</p>
+</div>
+</div>
+</div>
 </section>
-<section id="how-to-cite" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-cite">How to Cite</h2>
-<p>If you use this module in your work, please cite it as follows:</p>
-<p>Binney, Z., &amp; Yang, H. (2025, January 22). Linear Regression with Categorical Variables and ANOVA: Ace Rates in Tennis by Surface. “The SCORE Network.” <a href="https://doi.org/10.17605/OSF.IO/UA9XP" class="uri">https://doi.org/10.17605/OSF.IO/UA9XP</a></p>
-<p>You can include this citation directly in your references or bibliography.</p>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>This module used the <code>pickleBall</code> data from the <a href="https://data.scorenetwork.org/pickleball/pickleball_ncpa_player_ratings-2024.html" target="_blank">SCORE Data Repository</a></p>
+<p>However, students do not need access to the data to complete the module as it is summarized in the provided worksheet.</p>
+</section>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<ul>
+<li><p><a href="Pickleball_ConfidenceIntervalsProportions_Worksheet.docx">Class handout (MS Word)</a></p></li>
+<li><p><a href="Pickleball_ConfidenceIntervalProportion_Worksheet_Solutions.docx">Class handout - with solutions</a></p></li>
+</ul>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Conclusion
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Students should gain an increased understanding of constructing and interpreting single-proportion confidence intervals.</p>
+</div>
+</div>
+</div>
 
 
 </section>
