@@ -14,6 +14,7 @@
       "/golf/pga_masters_nor/index.html",
       "/tennis/Teaching_ANOVA_Through_Aces/index.html",
       "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
       "/football/nfl-elo-ratings/index.html",
       "/marathons/boston-marathon-finish_times-2023/index.html",
       "/robotics/FIRST_Robotics_Competition/index.html",
@@ -68,14 +69,6 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
-    "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
@@ -90,6 +83,7 @@
       "/golf/pga_masters_nor/index.html",
       "/tennis/Teaching_ANOVA_Through_Aces/index.html",
       "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
       "/football/nfl-elo-ratings/index.html",
       "/marathons/boston-marathon-finish_times-2023/index.html",
       "/robotics/FIRST_Robotics_Competition/index.html",
@@ -103,6 +97,15 @@
       "/hockey/nhl-shooting-percentage-ventura/index.html",
       "/marathons/marathon-records/index.html",
       "/triathlons/ironman-triathlete-performance/index.html"
+    ]
+  },
+  {
+    "listing": "/baseball/index.html",
+    "items": [
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
