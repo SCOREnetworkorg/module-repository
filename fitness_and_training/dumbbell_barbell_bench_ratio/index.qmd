@@ -120,3 +120,11 @@ This learning module offers valuable insight into the process of data collection
 ## References
 
 -   Thumbnail image taken from <https://adventurefitness.club/barbell-vs-dumbbell-bench-press/>
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Johnson, V. & Ramler, I. (2026, February 24). Strength Ratios - Flat Dumbbell Press to Barbell Bench Press. "The SCORE Network." https://doi.org/10.17605/OSF.IO/SQ43F
+
+You can include this citation directly in your references or bibliography.
