@@ -3,6 +3,7 @@
     "listing": "/by-statsds-topic.html",
     "items": [
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
@@ -63,15 +64,19 @@
     ]
   },
   {
-    "listing": "/esports/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/esports/league-of-legends-buffing-nerfing/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
@@ -100,12 +105,9 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/esports/index.html",
     "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/mlb_prime_age/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/esports/league-of-legends-buffing-nerfing/index.html"
     ]
   },
   {
