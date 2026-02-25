@@ -5,6 +5,7 @@
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/golf/Drive_for_show_putt_for_dough/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
@@ -52,15 +53,18 @@
     ]
   },
   {
-    "listing": "/games/index.html",
+    "listing": "/football/index.html",
     "items": [
-      "/games/BlackJack/index.html"
+      "/football/nfl-elo-ratings/index.html"
     ]
   },
   {
-    "listing": "/esports/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/esports/league-of-legends-buffing-nerfing/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
@@ -69,6 +73,7 @@
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/golf/Drive_for_show_putt_for_dough/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
@@ -97,23 +102,21 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/esports/index.html",
     "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/mlb_prime_age/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/esports/league-of-legends-buffing-nerfing/index.html"
     ]
   },
   {
-    "listing": "/football/index.html",
+    "listing": "/games/index.html",
     "items": [
-      "/football/nfl-elo-ratings/index.html"
+      "/games/BlackJack/index.html"
     ]
   },
   {
     "listing": "/golf/index.html",
     "items": [
+      "/golf/Drive_for_show_putt_for_dough/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/golf/pga_masters/index.html",
       "/golf/pga_masters_nor/index.html"
