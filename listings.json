@@ -5,6 +5,8 @@
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/golf/Drive_for_show_putt_for_dough/index.html",
+      "/golf/pga_drive_show_putt_dough/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
@@ -51,13 +53,6 @@
     ]
   },
   {
-    "listing": "/golf/index.html",
-    "items": [
-      "/golf/pga_masters/index.html",
-      "/golf/pga_masters_nor/index.html"
-    ]
-  },
-  {
     "listing": "/football/index.html",
     "items": [
       "/football/nfl-elo-ratings/index.html"
@@ -78,6 +73,8 @@
       "/mixed_martial_arts/mma_interrater_reliability/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
       "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/golf/Drive_for_show_putt_for_dough/index.html",
+      "/golf/pga_drive_show_putt_dough/index.html",
       "/games/BlackJack/index.html",
       "/rowing/olympic_rowing_datawrangling/index.html",
       "/rowing/olympic_rowing_introstat/index.html",
@@ -114,6 +111,15 @@
     "listing": "/games/index.html",
     "items": [
       "/games/BlackJack/index.html"
+    ]
+  },
+  {
+    "listing": "/golf/index.html",
+    "items": [
+      "/golf/Drive_for_show_putt_for_dough/index.html",
+      "/golf/pga_drive_show_putt_dough/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html"
     ]
   },
   {
