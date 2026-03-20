@@ -10,6 +10,9 @@ author:
     affiliation:
       - id: baylor
         name: Baylor University
+  - name: Connor Bryson
+    affiliation:
+      - ref: baylor
   - name: Rodney X. Sturdivant, PhD
     affiliation:
       - ref: baylor
@@ -2421,4 +2424,14 @@ Analysis such as this for all judges could help inform the MMA about where, perh
 Judges decisions can appear arbitrary and, in some cases, are controversial when there is disagreement.  Fans and athletes alike benefit when the subjective nature of scoring is lessened.
 
 
+## How to Cite
 
+If you use this module in your work, please cite it as follows:
+
+Skinner, C, Patrick, J, Bryson, C. &amp; Sturdivant, R. (2025, June 16). Mixed Martial Arts - Interrater Reliability. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/F8VBQ>.
+
+
+<!--
+Thumbnail image from:
+
+https://www.nicepng.com/ourpic/u2y3q8a9t4a9e6o0_mixed-martial-arts-clipart-matial-mixed-martial-arts/
