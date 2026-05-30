@@ -26,8 +26,6 @@ image: WNBA_Barnstar.png
 
 ## Module
 
-Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.
-
 ### Introduction
 
 The WNBA worksheet introduces the idea of using team records from earlier in the season to predict which teams will make the playoffs. Most of the time, we would expect teams with better records halfway through the season to have a higher chance of making the playoffs, but is this always the case? Just as importantly, how do we know whether the data we are using are complete and reliable enough for this analysis? By completing this worksheet, you will work through several data cleaning steps involving WNBA team-game data and then use the cleaned data to investigate the relationship between midseason performance and playoff outcomes.
@@ -159,3 +157,10 @@ After choosing a data-cleaning strategy, we used the cleaned data to create a tw
 
 Thumbnail image: “WNBA Barnstar.png” by Mungo Kitsch, licensed under CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WNBA_Barnstar.png){target="_blank"}. The image incorporates a WNBA logo element; use does not imply endorsement by the WNBA. 
 
+## How to Cite
+
+To cite this  cited as:If you use this module in your work, please cite it as follows:
+
+Varin, K., & Ramler, I. (2026, May 29). Can Midseason Records Predict WNBA Playoff Teams?. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/F4BXG>
+
+You can include this citation directly in your references or bibliography.
