@@ -2,6 +2,7 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/basketball/wnba_data_quality/index.html",
       "/swimming/olympic_swimming_100m/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
@@ -82,6 +83,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/basketball/wnba_data_quality/index.html",
       "/swimming/olympic_swimming_100m/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
@@ -111,6 +113,12 @@
       "/hockey/nhl-shooting-percentage-ventura/index.html",
       "/marathons/marathon-records/index.html",
       "/triathlons/ironman-triathlete-performance/index.html"
+    ]
+  },
+  {
+    "listing": "/basketball/index.html",
+    "items": [
+      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
