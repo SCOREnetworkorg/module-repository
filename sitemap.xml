@@ -2,210 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://modules.scorenetwork.org/by-statsds-topic.html</loc>
-    <lastmod>2026-05-30T18:38:18.594Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.548Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/triathlons/ironman-lakeplacid-mlr/index.html</loc>
-    <lastmod>2026-05-30T18:38:19.002Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.927Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/tennis/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.732Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.796Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/swimming/olympic_swimming_100m/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.996Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.922Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/soccer/mls_decision_errors/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.994Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.920Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/soccer/expected_goals/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.991Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.917Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/rowing/olympic_rowing_datawrangling/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.987Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.914Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/robotics/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.727Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.792Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/pickleball/pickleball_one-proportion-ci/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.681Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.631Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/obstacle_competitions/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.725Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.790Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/motor_sports/nascar_regression_transformation/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.657Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.609Z</lastmod>
   </url>
   <url>
-    <loc>https://modules.scorenetwork.org/mixed_martial_arts/mma_interrater_reliability/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.655Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/marathons/marathon-records/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/marathons/boston-marathon-finish_times-2023/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.630Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/lacrosse/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.723Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/hockey/nhl-shooting-percentage-ventura/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/golf/pga_masters_nor/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/golf/pga_drive_show_putt_dough/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/games/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/football/nfl-elo-ratings/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/fitness_and_training/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.719Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/esports/league-of-legends-buffing-nerfing/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/basketball/wnba_data_quality/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/baseball/unbreakable-records/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/baseball/mlb_prime_age/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.586Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/baseball/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.712Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/baseball/mlb_injuries/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.576Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/baseball/stolen-bases/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/basketball/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/esports/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.719Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/fitness_and_training/dumbbell_barbell_bench_ratio/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/football/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.720Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/games/BlackJack/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/golf/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/golf/pga_masters/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/hockey/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/lacrosse/college_lacrosse_faceoffs/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/lacrosse/lacrosse_pll_vs_nll/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.612Z</lastmod>
-  </url>
-  <url>
-    <loc>https://modules.scorenetwork.org/marathons/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.723Z</lastmod>
+    <loc>https://modules.scorenetwork.org/motor_sports/formula1_laps/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.608Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/mixed_martial_arts/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.724Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/marathons/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.788Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/lacrosse/lacrosse_pll_vs_nll/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/lacrosse/college_lacrosse_faceoffs/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/hockey/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/golf/pga_masters/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/golf/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/games/BlackJack/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/football/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/fitness_and_training/dumbbell_barbell_bench_ratio/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/esports/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/basketball/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/baseball/stolen-bases/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/baseball/mlb_injuries/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/baseball/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/baseball/mlb_prime_age/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/baseball/unbreakable-records/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/basketball/wnba_data_quality/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/esports/league-of-legends-buffing-nerfing/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/fitness_and_training/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/football/nfl-elo-ratings/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/games/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.785Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/golf/pga_drive_show_putt_dough/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/golf/pga_masters_nor/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/hockey/nhl-shooting-percentage-ventura/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/lacrosse/index.html</loc>
+    <lastmod>2026-06-08T13:12:59.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/marathons/boston-marathon-finish_times-2023/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/marathons/marathon-records/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://modules.scorenetwork.org/mixed_martial_arts/mma_interrater_reliability/index.html</loc>
+    <lastmod>2026-06-08T13:11:26.606Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/motor_sports/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.725Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.790Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/obstacle_competitions/american_ninja_warrior/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.675Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.625Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/pickleball/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.726Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.791Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/robotics/FIRST_Robotics_Competition/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.682Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.632Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/rowing/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.727Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.792Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/rowing/olympic_rowing_introstat/index.html</loc>
-    <lastmod>2026-05-30T18:38:18.988Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.914Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/soccer/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.728Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.793Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/swimming/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.731Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.796Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/tennis/Teaching_ANOVA_Through_Aces/index.html</loc>
-    <lastmod>2026-05-30T18:38:19.000Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.926Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/triathlons/index.html</loc>
-    <lastmod>2026-05-30T18:39:36.732Z</lastmod>
+    <lastmod>2026-06-08T13:12:59.797Z</lastmod>
   </url>
   <url>
     <loc>https://modules.scorenetwork.org/triathlons/ironman-triathlete-performance/index.html</loc>
-    <lastmod>2026-05-30T18:38:19.002Z</lastmod>
+    <lastmod>2026-06-08T13:11:26.927Z</lastmod>
   </url>
 </urlset>
