@@ -22,12 +22,16 @@ image: 07F1-miami-final-tfpl-superJumbo.webp
 
 ## Module
 
+```{=html}
 <!--
 Please note that these materials have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.
 -->
+```
 
 ::: {.callout-note collapse="true" title="New to F1 Racing? Check out this video" appearance="minimal"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSdsncLXLYs?si=ajv4Ire3M9mlmbtN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSdsncLXLYs?si=ajv4Ire3M9mlmbtN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 :::
 
 ### Introduction
@@ -47,33 +51,33 @@ This activity can serve as an in-class activity and should take roughly 30-45 mi
 ::: {.callout-note collapse="true" title="Learning Objectives" appearance="minimal"}
 By the end of this activity, students should be able to:
 
-1. Identify the observational units in a lap-level racing dataset.
+1.  Identify the observational units in a lap-level racing dataset.
 
-2. Describe the shape, center, spread, and unusual observations in a distribution using a histogram.
+2.  Describe the shape, center, spread, and unusual observations in a distribution using a histogram.
 
-3. Use summary statistics and the 1.5 × IQR rule to identify potential outliers in a quantitative variable.
+3.  Use summary statistics and the 1.5 × IQR rule to identify potential outliers in a quantitative variable.
 
-4. Explain how adding a time-order variable, such as lap number, can provide context that is not visible in a histogram.
+4.  Explain how adding a time-order variable, such as lap number, can provide context that is not visible in a histogram.
 
-5. Use subject-matter context to interpret unusual observations in real data.
+5.  Use subject-matter context to interpret unusual observations in real data.
 :::
 
 ::: {.callout-note collapse="true" title="Methods" appearance="minimal"}
 This activity is a reinforcement module that assumes students have already been introduced to the following topics:
 
-1. Histograms as graphical displays of quantitative variables.
+1.  Histograms as graphical displays of quantitative variables.
 
-2. Describing distributions using shape, center, spread, and unusual observations.
+2.  Describing distributions using shape, center, spread, and unusual observations.
 
-3. Numerical summaries, such as the mean, median, quartiles, interquartile range, standard deviation, minimum, and maximum.
+3.  Numerical summaries, such as the mean, median, quartiles, interquartile range, standard deviation, minimum, and maximum.
 
-4. Outliers and the 1.5 × IQR rule for identifying potential outliers. (Note that the activity can be modified to use z-scores for outlier detection.)
+4.  Outliers and the 1.5 × IQR rule for identifying potential outliers. (Note that the activity can be modified to use z-scores for outlier detection.)
 
-5. Scatterplots or time-order plots for displaying the relationship between two quantitative variables.
+5.  Scatterplots or time-order plots for displaying the relationship between two quantitative variables.
 
-**Technology requirement:** 
+**Technology requirement:**
 
-- One version of the activity handout provides the histogram, summary statistics, lap-time plot, and race-track map, so no statistical software is required. 
+- One version of the activity handout provides the histogram, summary statistics, lap-time plot, and race-track map, so no statistical software is required.
 
 - A second set of handouts is also made available where students need to produce the plots and summary statistics from the raw dataset.
 :::
@@ -118,8 +122,6 @@ Download data used: [verstappen_2023_miami.csv](verstappen_2023_miami.csv)
 
 [Class handout with sample solutions - Tech Required](Miami2023WorksheetKey-Tech_Needed.docx)
 
-
-
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 This activity illustrates how different statistical displays can answer different questions about the same variable. The histogram helps students describe the overall distribution of Verstappen's lap times and identify unusually slow laps. However, the histogram does not show when those laps occurred. By adding lap number, students can connect the unusual lap times to meaningful moments in the race, such as the first lap and Verstappen's pit stop. This reinforces the idea that identifying outliers is only the first step; interpreting them often requires additional variables and subject-matter context.
 :::
@@ -129,3 +131,11 @@ This activity illustrates how different statistical displays can answer differen
 - Thumbnail photo: Segar, Mike. *Verstappen Wins Miami in Formula 1's Latest Red Bull Runaway*. Reuters. *The New York Times*, 7 May 2023. <https://www.nytimes.com/2023/05/07/sports/autoracing/miami-grand-prix-results.html>
 
 - Track Map: By GabrielStella - [Own work]{.int-own-work lang="en"}, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=103863916">Link</a>
+
+## How to Cite
+
+If you use this module in your work, please cite it as follows:
+
+Kuduk, N., & Ramler, I. (2026, June 8). Analyzing Lap Times for the 2023 F1 Miami Grand Prix. "The SCORE Network." <https://doi.org/10.17605/OSF.IO/7T34F>.
+
+You can include this citation directly in your references or bibliography.
