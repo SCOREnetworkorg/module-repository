@@ -545,7 +545,10 @@ mosaicplot(~ decision + wtClass, data = data2,
            main = "",
            xlab = "Decision",
            ylab = "Weight Class",
-           color = c("tomato", "steelblue", "seagreen", "goldenrod"))
+           color = c("tomato", "steelblue", "seagreen", "goldenrod"), 
+           las = 1, # rotate labels horizontal
+          # cex.axis = 0.8 # resize labels
+           )
 ```
 
 
