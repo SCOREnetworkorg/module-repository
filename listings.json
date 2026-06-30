@@ -21,6 +21,7 @@
       "/baseball/mlb_injuries/index.html",
       "/baseball/mlb_prime_age/index.html",
       "/football/nfl-elo-ratings/index.html",
+      "/mixed_martial_arts/mma_chisquared/index.html",
       "/marathons/boston-marathon-finish_times-2023/index.html",
       "/robotics/FIRST_Robotics_Competition/index.html",
       "/esports/league-of-legends-buffing-nerfing/index.html",
@@ -54,48 +55,31 @@
     ]
   },
   {
-    "listing": "/mixed_martial_arts/index.html",
+    "listing": "/lacrosse/index.html",
     "items": [
-      "/mixed_martial_arts/mma_interrater_reliability/index.html"
+      "/lacrosse/college_lacrosse_faceoffs/index.html",
+      "/lacrosse/lacrosse_pll_vs_nll/index.html"
     ]
   },
   {
-    "listing": "/marathons/index.html",
+    "listing": "/games/index.html",
     "items": [
-      "/marathons/boston-marathon-finish_times-2023/index.html",
-      "/marathons/marathon-records/index.html"
+      "/games/BlackJack/index.html"
     ]
   },
   {
-    "listing": "/hockey/index.html",
+    "listing": "/fitness_and_training/index.html",
     "items": [
-      "/hockey/nhl-shooting-percentage-ventura/index.html"
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html"
     ]
   },
   {
-    "listing": "/golf/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/golf/pga_drive_show_putt_dough/index.html",
-      "/golf/pga_masters/index.html",
-      "/golf/pga_masters_nor/index.html"
-    ]
-  },
-  {
-    "listing": "/football/index.html",
-    "items": [
-      "/football/nfl-elo-ratings/index.html"
-    ]
-  },
-  {
-    "listing": "/esports/index.html",
-    "items": [
-      "/esports/league-of-legends-buffing-nerfing/index.html"
-    ]
-  },
-  {
-    "listing": "/basketball/index.html",
-    "items": [
-      "/basketball/wnba_data_quality/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
@@ -120,6 +104,7 @@
       "/baseball/mlb_injuries/index.html",
       "/baseball/mlb_prime_age/index.html",
       "/football/nfl-elo-ratings/index.html",
+      "/mixed_martial_arts/mma_chisquared/index.html",
       "/marathons/boston-marathon-finish_times-2023/index.html",
       "/robotics/FIRST_Robotics_Competition/index.html",
       "/esports/league-of-legends-buffing-nerfing/index.html",
@@ -135,31 +120,49 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/basketball/index.html",
     "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/mlb_prime_age/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
-    "listing": "/fitness_and_training/index.html",
+    "listing": "/esports/index.html",
     "items": [
-      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html"
+      "/esports/league-of-legends-buffing-nerfing/index.html"
     ]
   },
   {
-    "listing": "/games/index.html",
+    "listing": "/football/index.html",
     "items": [
-      "/games/BlackJack/index.html"
+      "/football/nfl-elo-ratings/index.html"
     ]
   },
   {
-    "listing": "/lacrosse/index.html",
+    "listing": "/golf/index.html",
     "items": [
-      "/lacrosse/college_lacrosse_faceoffs/index.html",
-      "/lacrosse/lacrosse_pll_vs_nll/index.html"
+      "/golf/pga_drive_show_putt_dough/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html"
+    ]
+  },
+  {
+    "listing": "/hockey/index.html",
+    "items": [
+      "/hockey/nhl-shooting-percentage-ventura/index.html"
+    ]
+  },
+  {
+    "listing": "/marathons/index.html",
+    "items": [
+      "/marathons/boston-marathon-finish_times-2023/index.html",
+      "/marathons/marathon-records/index.html"
+    ]
+  },
+  {
+    "listing": "/mixed_martial_arts/index.html",
+    "items": [
+      "/mixed_martial_arts/mma_interrater_reliability/index.html",
+      "/mixed_martial_arts/mma_chisquared/index.html"
     ]
   },
   {
