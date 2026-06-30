@@ -383,10 +383,38 @@ d. Based on the contingency table, does there appear to be a meaningful associat
 A Mosaic plot visualizes the contingency table using rectangles with widths proportional to the counts for each category or combination of categories. 
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data1) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+# library(ggmosaic)
+# data1 = data1 %>% as.data.frame()
+# ggplot(data1) + 
+#   geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) #+
+#   xlab('Decision')
+
+mosaicplot(table(data1$decision, data1$wtClass), 
+           color = TRUE, 
+           xlab = "Decision", 
+           ylab = "Weight Class",
+           main = "")
+
+# this works two but with label of decision and KO/TKO/Submission in the label
+# data1 |>
+#   count(wtClass, decision) |>
+#   group_by(wtClass) |>
+#   mutate(
+#     ymax = cumsum(n) / sum(n),
+#     ymin = lag(ymax, default = 0)
+#   ) |>
+#   ungroup() |>
+#   left_join(x_pos, by = "wtClass") |>
+#   ggplot(aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = decision)) +
+#   geom_rect(color = "white", linewidth = 1) +
+#   scale_x_continuous(
+#     breaks = x_pos$xmin + (x_pos$xmax - x_pos$xmin) / 2,
+#     labels = x_pos$wtClass
+#   ) +
+#   scale_y_continuous(labels = scales::percent) +
+#   labs(x = "Weight Class", y = "Proportion", fill = "Decision") +
+#   theme_minimal()
+
 ```
 
 ::: {.callout-note  title="Exercise 4"}
@@ -540,10 +568,15 @@ data2 <- mma |>
 We again visualize the data.  We quickly observe that there is not a lot of data for the two lightest weight classes, atomweight and strawweight.  In fact, neither category had a fight which did not end in decision.
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data2) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+# library(ggmosaic)
+# ggplot(data2) + 
+#   geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
+#   xlab('Decision')
+mosaicplot(table(data2$decision, data2$wtClass),
+           color = TRUE,
+           xlab = "Decision",
+           ylab = "Weight Class",
+           main = "")
 ```
 
 
@@ -620,10 +653,15 @@ table(data3$wtClass, data3$decision)
 ```
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data3) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+# library(ggmosaic)
+# ggplot(data3) + 
+#   geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
+#   xlab('Decision')
+mosaicplot(table(data3$decision, data3$wtClass),
+           color = TRUE,
+           xlab = "Decision",
+           ylab = "Weight Class",
+           main = "")
 ```
 
 ::: {.callout-note  title="Exercise 7"}
