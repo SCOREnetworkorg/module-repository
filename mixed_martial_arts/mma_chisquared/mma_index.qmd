@@ -383,10 +383,11 @@ d. Based on the contingency table, does there appear to be a meaningful associat
 A Mosaic plot visualizes the contingency table using rectangles with widths proportional to the counts for each category or combination of categories. 
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data1) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+mosaicplot(~ wtClass + decision , data = data1,
+           main = "",
+           ylab = "Decision",
+           xlab = "Weight Class",
+           color = c("tomato", "steelblue"))
 ```
 
 ::: {.callout-note  title="Exercise 4"}
@@ -540,10 +541,14 @@ data2 <- mma |>
 We again visualize the data.  We quickly observe that there is not a lot of data for the two lightest weight classes, atomweight and strawweight.  In fact, neither category had a fight which did not end in decision.
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data2) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+mosaicplot(~ decision + wtClass, data = data2,
+           main = "",
+           xlab = "Decision",
+           ylab = "Weight Class",
+           color = c("tomato", "steelblue", "seagreen", "goldenrod"), 
+           las = 1, # rotate labels horizontal
+          # cex.axis = 0.8 # resize labels
+           )
 ```
 
 
@@ -620,10 +625,14 @@ table(data3$wtClass, data3$decision)
 ```
 
 ```{r, warning=FALSE}
-library(ggmosaic)
-ggplot(data3) + 
-  geom_mosaic(aes(x = product(wtClass, decision), fill = wtClass)) +
-  xlab('Decision')
+mosaicplot(~ decision + wtClass, data = data3,
+           main = "",
+           xlab = "Decision",
+           ylab = "Weight Class",
+           color = c("tomato", "steelblue", "seagreen", "goldenrod", "orchid", "sienna"),
+           las = 1, # rotate labels horizontal
+           cex.axis = 0.8 # resize labels
+           )
 ```
 
 ::: {.callout-note  title="Exercise 7"}
