@@ -6,11 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Michael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock">
-<meta name="dcterms.date" content="2023-07-23">
-<meta name="description" content="Gaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.">
+<meta name="author" content="Vivian Johnson">
+<meta name="author" content="Robin Lock">
+<meta name="author" content="Ivan Ramler">
+<meta name="dcterms.date" content="2026-05-19">
+<meta name="description" content="This module uses NBA draft data to test for differences in average minutes played across early, mid, and late first-round picks using ANOVA and visualizations.">
 
-<title>Ironman Triathlete Performance – SCORE Module Repository</title>
+<title>Do NBA Draft Picks Matter? Exploring Player Minutes with ANOVA – SCORE Module Repository</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -157,7 +159,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../triathlons/index.html">Triathlons</a></li><li class="breadcrumb-item"><a href="../../triathlons/ironman-triathlete-performance/index.html">Ironman Triathlete Performance</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../basketball/index.html">Basketball</a></li><li class="breadcrumb-item"><a href="../../basketball/nba_draft_anova_intro/index.html">Do NBA Draft Picks Matter? Exploring Player Minutes with ANOVA</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -214,14 +216,14 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../basketball/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Basketball</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../basketball/nba_draft_anova_intro/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../basketball/nba_draft_anova_intro/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Do NBA Draft Picks Matter? Exploring Player Minutes with ANOVA</span></a>
   </div>
 </li>
@@ -574,11 +576,11 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../triathlons/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Triathlons</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../triathlons/ironman-lakeplacid-mlr/index.html" class="sidebar-item-text sidebar-link">
@@ -587,7 +589,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../triathlons/ironman-triathlete-performance/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../triathlons/ironman-triathlete-performance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ironman Triathlete Performance</span></a>
   </div>
 </li>
@@ -603,44 +605,72 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#module" id="toc-module" class="nav-link" data-scroll-target="#module">Module</a></li>
-  <li><a href="#how-to-cite" id="toc-how-to-cite" class="nav-link" data-scroll-target="#how-to-cite">How to Cite</a></li>
+  <li><a href="#module" id="toc-module" class="nav-link active" data-scroll-target="#module">Module</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#sec-data" id="toc-sec-data" class="nav-link" data-scroll-target="#sec-data">Data</a></li>
+  <li><a href="#sec-materials" id="toc-sec-materials" class="nav-link" data-scroll-target="#sec-materials">Materials</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/module-repository/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../triathlons/index.html">Triathlons</a></li><li class="breadcrumb-item"><a href="../../triathlons/ironman-triathlete-performance/index.html">Ironman Triathlete Performance</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../basketball/index.html">Basketball</a></li><li class="breadcrumb-item"><a href="../../basketball/nba_draft_anova_intro/index.html">Do NBA Draft Picks Matter? Exploring Player Minutes with ANOVA</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ironman Triathlete Performance</h1>
+<h1 class="title">Do NBA Draft Picks Matter? Exploring Player Minutes with ANOVA</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Scatterplots</div>
-    <div class="quarto-category">Correlation</div>
+    <div class="quarto-category">ANOVA</div>
+    <div class="quarto-category">Hypothesis Testing</div>
+    <div class="quarto-category">Python</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Gaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.
+    This module uses NBA draft data to test for differences in average minutes played across early, mid, and late first-round picks using ANOVA and visualizations.
   </div>
 </div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Vivian Johnson </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Robin Lock <a href="mailto:rlock@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ivan Ramler <a href="mailto:iramler@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Michael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 23, 2023</p>
+      <p class="date">May 19, 2026</p>
     </div>
   </div>
   
@@ -652,21 +682,351 @@ cookieconsent.run({
 </header>
 
 
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes. For this activity, we will specifically focus on times from finishers in the years 2018 and 2019.</p>
-</section>
 <section id="module" class="level2">
 <h2 class="anchored" data-anchor-id="module">Module</h2>
-<p><a href="https://isle.stat.cmu.edu/SCORE/ironman_triathlon/">https://isle.stat.cmu.edu/SCORE/ironman_triathlon/</a></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Facilitation notes">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Facilitation notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>This module is suitable for an introductory or intermediate statistics course that covers one-way ANOVA.</p></li>
+<li><p>As a reinforcement module, students should have prior knowledge of conducting one-way analysis of variance tests and the implications.</p>
+<ul>
+<li>Students should be able to explain the different components of an ANOVA table as well as familiarity with the formulas necessary to complete the table or with using software to obtain the needed output.</li>
+</ul></li>
+<li><p>This could serve as an in class activity and should take roughly 30-45 minutes to complete (depending on the use of software).</p></li>
+<li><p>There are three versions of the handout available in <a href="#sec-materials" class="quarto-xref">Section&nbsp;1.3</a>:</p>
+<ul>
+<li><p>In one version, no explicit technology is necessary other than a calculator.</p></li>
+<li><p>The other two use either R or Python to visualize the data and produce the ANOVA output.</p></li>
+</ul></li>
+<li><p>Students should be provided with the data file (.csv) provided in <a href="#sec-data" class="quarto-xref">Section&nbsp;1.2</a> and one of the handouts (software choice determines which handout to use).</p></li>
+</ul>
+</div>
+</div>
+</div>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Each year, the National Basketball Association (NBA) holds a draft, where prospective basketball players are able to be chosen to join one of the 30 professional teams across the United States and Canada.</p>
+<p>The draft is comprised of 60 players and takes place over two rounds of 30 selections. Teams pick players in an order based on performance from the previous season, with teams that performed poorly getting earlier picks in order to create a seemingly more level playing field. It is important to note that there were not always 30 players selected in each round; the number made its way up to 30 as more teams were added into the NBA.</p>
+<p>This activity focuses on players selected in the first round of the NBA Draft between 1990 and 2021. Students compare three groups of first-round picks: picks 1–10, picks 11–20, and picks 21–30. The response variable is average career minutes played per game.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Optional: Additional NBA Draft Background">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Optional: Additional NBA Draft Background
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="4 Minute Videofrom 2018 explaining the draft">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>4 Minute Videofrom 2018 explaining the draft
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dWMedbrGDYU?si=oPlUYpwebx5tiIBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+</div>
+</div>
+<p>The NBA Draft is designed to help distribute new talent across the league. Teams that miss the playoffs or finish with weaker records generally have access to earlier picks, although the first several picks are determined through the NBA Draft Lottery. Teams can also trade draft picks, so the team making a selection may not be the team that originally earned that pick.</p>
+<p>Draft position matters because earlier picks are often viewed as higher-value prospects. Teams invest substantial resources in scouting, selecting, signing, and developing these players. As a result, high draft picks may receive more opportunities to play, especially early in their careers.</p>
+<p>In order to be eligible for the draft, a player must be at least 19 years old and out of high school for at least one year. Prior to 2006, this rule was not in effect, and players could be drafted during or right out of high school.</p>
+</div>
+</div>
+</div>
+<p>The main research question is:</p>
+<blockquote class="blockquote">
+<p>Is there evidence that average career minutes per game differs among NBA players selected with picks 1–10, picks 11–20, and picks 21–30 in the first round of the draft?</p>
+</blockquote>
+<p>Students use graphical summaries and one-way ANOVA to compare average career minutes per game across the three draft-pick groups. They also consider whether the ANOVA conditions are reasonable and how choices such as the response variable and draft-pick grouping affect the conclusions that can be drawn.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Optional: Why focus on first-round picks?">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Optional: Why focus on first-round picks?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This activity focuses on first-round picks because they are more directly comparable than all drafted players. First-round picks are typically expected to have a stronger chance of making an NBA roster and receiving playing time. Later picks, especially second-round picks, may have less guaranteed opportunity and more varied career paths.</p>
+<p>Even within the first round, however, draft position can matter. A player selected near the top of the first round is often treated very differently from a player selected near the end of the first round.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled" title="Optional: Minutes per game is not the same as player quality">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Optional: Minutes per game is not the same as player quality
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Minutes per game is useful because it measures how much playing time a player earned during their NBA career. Players who receive more minutes are generally players coaches trust to contribute.</p>
+<p>However, minutes per game is not a perfect measure of player quality. Playing time can also be influenced by injuries, roster depth, team strategy, coaching decisions, and team expectations. High draft picks may receive more opportunities because teams invested more in them or want to give them time to develop.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Activity Length">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Activity Length
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This could serve as an in class activity and should take roughly 30-45 minutes to complete (depending on the use of software).</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Learning Objectives
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>By the end of this activity, students should be able to:</p>
+<ol type="1">
+<li><p>Use graphical summaries to compare the distribution of a quantitative variable across multiple groups.</p></li>
+<li><p>Assess whether the conditions for a one-way ANOVA are reasonable in context.</p></li>
+<li><p>Conduct and interpret ANOVA results in context while recognizing the limitations of the response variable and grouping choices.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Methods
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>As a reinforcement module, students should have prior knowledge of conducting one-way analysis of variance tests and the implications. Students should be able to explain the different components of an ANOVA table as well as familiarity with the formulas necessary to complete the table or with using software to obtain the needed output.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Technology Requirements">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Technology Requirements
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>There are three version of the handout:</p>
+<ul>
+<li><p>In one version, no explicit technology is necessary other than a calculator.</p></li>
+<li><p>The other two use R and Python respectively to visualize the data and produce the ANOVA output.</p></li>
+</ul>
+</div>
+</div>
+</div>
 </section>
-<section id="how-to-cite" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-cite">How to Cite</h2>
-<p>If you use this module in your work, please cite it as follows:</p>
-<p>Schuckers, M., Abell, M., Dykstra, A., Weaver, S., Ramler, I., &amp; Lock, R. (2024, December 3). Ironman Triathalon. “The SCORE Network.” <a href="https://doi.org/10.17605/OSF.IO/VN4FA" class="uri">https://doi.org/10.17605/OSF.IO/VN4FA</a></p>
-<p>You can include this citation directly in your references or bibliography.</p>
+<section id="sec-data" class="level3">
+<h3 class="anchored" data-anchor-id="sec-data">Data</h3>
+<p>The <code>nba_draft</code> data set includes players selected in the NBA Draft between 1990 and 2021. Each row represents one drafted player and includes information about the player’s draft position, team, and NBA career statistics. Some players’ careers were still ongoing when the data were collected.</p>
+<details>
+<summary>
+<b>Variable Descriptions</b>
+</summary>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>draft_pick</td>
+<td>Overall pick number at which the player was selected in the NBA Draft</td>
+</tr>
+<tr class="even">
+<td>team</td>
+<td>NBA team that drafted the player</td>
+</tr>
+<tr class="odd">
+<td>player_name</td>
+<td>Name of the player selected</td>
+</tr>
+<tr class="even">
+<td>college</td>
+<td>College the player attended; may be <code>NA</code> for players drafted from high school, international leagues, or other paths</td>
+</tr>
+<tr class="odd">
+<td>years_played</td>
+<td>Number of years the player spent in the NBA</td>
+</tr>
+<tr class="even">
+<td>games_played</td>
+<td>Number of games the player played in the NBA</td>
+</tr>
+<tr class="odd">
+<td>total_mins_played</td>
+<td>Total minutes the player played in the NBA</td>
+</tr>
+<tr class="even">
+<td>total_pts</td>
+<td>Total points the player scored in the NBA</td>
+</tr>
+<tr class="odd">
+<td>total_rebounds</td>
+<td>Total rebounds the player recorded in the NBA</td>
+</tr>
+<tr class="even">
+<td>total_assists</td>
+<td>Total assists the player recorded in the NBA</td>
+</tr>
+<tr class="odd">
+<td>fg_percent</td>
+<td>Field goal percentage during the player’s NBA career</td>
+</tr>
+<tr class="even">
+<td>three_pt_percent</td>
+<td>Three-point field goal percentage during the player’s NBA career</td>
+</tr>
+<tr class="odd">
+<td>ft_percent</td>
+<td>Free throw percentage during the player’s NBA career</td>
+</tr>
+<tr class="even">
+<td>draft_year</td>
+<td>Year the player was drafted</td>
+</tr>
+<tr class="odd">
+<td>mins_per_game</td>
+<td>Average number of minutes played per game during the player’s NBA career</td>
+</tr>
+<tr class="even">
+<td>pts_per_game</td>
+<td>Average number of points scored per game during the player’s NBA career</td>
+</tr>
+<tr class="odd">
+<td>rebounds_per_game</td>
+<td>Average number of rebounds per game during the player’s NBA career</td>
+</tr>
+<tr class="even">
+<td>assists_per_game</td>
+<td>Average number of assists per game during the player’s NBA career</td>
+</tr>
+<tr class="odd">
+<td>round_picked</td>
+<td>Round in which the player was selected; this module focuses on first-round picks</td>
+</tr>
+<tr class="even">
+<td>pick_in_round</td>
+<td>Pick number within the round in which the player was selected</td>
+</tr>
+<tr class="odd">
+<td>draft_pick_group</td>
+<td>First-round draft-pick group used in this activity: picks 1–10, picks 11–20, or picks 21–30</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>Download <a href="nba_draft.csv" target="_blank">nba_draft.csv</a></p>
+<section id="data-source" class="level4">
+<h4 class="anchored" data-anchor-id="data-source">Data Source</h4>
+<p>The data are sourced from <a href="https://www.kaggle.com/datasets/benwieland/nba-draft-data" target="_blank">Kaggle</a> and include draft information and NBA career statistics for drafted players.</p>
+</section>
+</section>
+<section id="sec-materials" class="level3">
+<h3 class="anchored" data-anchor-id="sec-materials">Materials</h3>
+<section id="by-hand-worksheet" class="level4">
+<h4 class="anchored" data-anchor-id="by-hand-worksheet">“By-hand” worksheet</h4>
+<ul>
+<li><a href="nba_draft_worksheet_word.docx">Class handout</a></li>
+<li><a href="nba_draft_worksheet_word_SOLUTIONS.docx">Class handout with solutions</a></li>
+</ul>
+</section>
+<section id="rquarto-worksheet" class="level4">
+<h4 class="anchored" data-anchor-id="rquarto-worksheet">R/Quarto worksheet</h4>
+<ul>
+<li><a href="nba_draft_anova_tech_R.qmd">R/Quarto handout</a></li>
+<li><a href="nba_draft_anova_tech_SOLUTIONS_R.html">HTML rendered R/Quarto handout with expandable solutions</a></li>
+</ul>
+</section>
+<section id="python-notebook-worksheet" class="level4">
+<h4 class="anchored" data-anchor-id="python-notebook-worksheet">Python notebook worksheet</h4>
+<ul>
+<li><a href="nba_draft_anova_tech_python.ipynb">Python notebook handout</a></li>
+<li><a href="nba_draft_anova_tech_SOLUTIONS_python.ipynb">Python notebook - solutions</a></li>
+</ul>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Conclusion
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Upon conclusion of this module, students will discover that there is strong evidence of a difference in average minutes per game based on which group a player was selected in the first round of the NBA draft. This learning module offers a valuable opportunity to explore the components of a one-way ANOVA test and interpret the results in context. Students will also consider why minutes per game is a useful but imperfect measure of player success, and choices, such as grouping picks into 1–10, 11–20, and 21–30, can affect the interpretation of the analysis.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="acknowledgements" class="level3">
+<h3 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h3>
+<p>Thumbnail Image credits:</p>
+<ul>
+<li>Bitar, E. (2022, May 19). <em>The last 40 No.&nbsp;1 overall picks in the NBA Draft: LeBron James, Shaquille O’Neal and Tim Duncan represent this list</em>. Fadeaway World. <a href="https://fadeawayworld.net/the-last-40-no-1-overall-picks-in-the-nba-draft-lebron-james-shaquille-oneal-and-tim-duncan-represent-this-list" class="uri">https://fadeawayworld.net/the-last-40-no-1-overall-picks-in-the-nba-draft-lebron-james-shaquille-oneal-and-tim-duncan-represent-this-list</a></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

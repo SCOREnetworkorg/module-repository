@@ -4,6 +4,7 @@
     "items": [
       "/motor_sports/formula1_laps/index.html",
       "/basketball/wnba_data_quality/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
       "/swimming/olympic_swimming_100m/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
@@ -74,12 +75,10 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/basketball/index.html",
     "items": [
-      "/baseball/mlb_injuries/index.html",
-      "/baseball/mlb_prime_age/index.html",
-      "/baseball/stolen-bases/index.html",
-      "/baseball/unbreakable-records/index.html"
+      "/basketball/wnba_data_quality/index.html",
+      "/basketball/nba_draft_anova_intro/index.html"
     ]
   },
   {
@@ -87,6 +86,7 @@
     "items": [
       "/motor_sports/formula1_laps/index.html",
       "/basketball/wnba_data_quality/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
       "/swimming/olympic_swimming_100m/index.html",
       "/golf/pga_drive_show_putt_dough/index.html",
       "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
@@ -120,9 +120,12 @@
     ]
   },
   {
-    "listing": "/basketball/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/basketball/wnba_data_quality/index.html"
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
     ]
   },
   {
